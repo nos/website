@@ -1943,7 +1943,7 @@ body {
   color: #149dcc;
 }
 .cid-qNSiPzDFV0 {
-  padding-top: 90px;
+  // padding-top: 90px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1981,7 +1981,7 @@ body {
 }
 .cid-qOwUareAAj {
   padding-top: 0px;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
   background-color: #ffffff;
 }
 .cid-qOwUareAAj .mbr-section-subtitle {
@@ -2227,5 +2227,12 @@ body {
   .cid-qNTGN0XAoX .footer-lower .social-list {
     justify-content: center;
     -webkit-justify-content: center;
+  }
+}
+
+@media (max-height: 754px) {
+  .mbr-arrow {
+    display: none;
+    visibility: hidden;
   }
 }
