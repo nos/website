@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nOS Whitepaper</title>
+    <link rel="stylesheet" href="whitepaper.css">
+    <script type="text/javascript">
+
+        CountDownTimer(1537178400000, 'countdown');
+
+        function CountDownTimer(date, id) {
+            var end = date;
+            var _second = 1000;
+            var _minute = _second * 60;
+            var _hour = _minute * 60;
+            var _day = _hour * 24;
+            var timer;
+
+            function showRemaining() {
+                var now = new Date();
+                var distance = end - now;
+                if (distance < 0) {
+                    clearInterval(timer);
+                    window.location = "https://nos.io/whitepaper.pdf";
+                    return;
+                }
+                var days = Math.floor(distance / _day);
+                var hours = Math.floor((distance % _day) / _hour);
+                var minutes = Math.floor((distance % _hour) / _minute);
+                var seconds = Math.floor((distance % _minute) / _second);
+                document.getElementById(id).innerHTML = days + 'd ';
+                document.getElementById(id).innerHTML += hours + 'h ';
+                document.getElementById(id).innerHTML += minutes + 'm ';
+                document.getElementById(id).innerHTML += seconds + 's';
+            }
+
+            timer = setInterval(showRemaining, 1000);
+        }
+    </script>
+</head>
+
+<body>
+<div id="countdown" align="center"></div>
+<div class="yt-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/jxMA3XvKzxo" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+</div>
+</body>
+</html>
