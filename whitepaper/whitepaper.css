@@ -16,6 +16,11 @@
   font-style: normal;
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 body {
   padding: 40px;
   font-family: "Open Sans", sans-serif;
@@ -41,6 +46,13 @@ body {
   text-align: center;
   color: var(--color);
   white-space: nowrap;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+#countdown.loading {
+  opacity: 0;
+  transition: all 0.5s ease-in;
 }
 
 #yt-container {

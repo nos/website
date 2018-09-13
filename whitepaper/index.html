@@ -84,6 +84,7 @@
             CountDownTimer(end, function(value) {
                 // update description
                 countdown.innerHTML = value;
+                countdown.className = "";
 
                 // update chart progress
                 var now = new Date().getTime();
@@ -101,7 +102,7 @@
     <canvas id="chart" width="450" height="450" style="margin:0 auto;"></canvas>
     <img id="icon" src="whitepaper.svg" alt="Whitepaper" />
 </div>
-<div id="countdown">&nbsp;</div>
+<div id="countdown" class="loading">&nbsp;</div>
 <div class="yt-container">
     <iframe src="https://www.youtube-nocookie.com/embed/jxMA3XvKzxo" frameborder="0" allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
