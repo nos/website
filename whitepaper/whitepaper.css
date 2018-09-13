@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 :root {
-  --bg: #001823;
-  --color: #2bb561;
+  --bg: #f7f8fa;
+  --color: #353445;
 }
 
 * {
@@ -15,18 +15,44 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 body {
+  padding: 40px;
   font-family: "Open Sans", sans-serif;
   font-size: 100px;
   background: var(--bg) radial-gradient(closest-corner, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 }
 
+#chart-container {
+  position:relative;
+  margin-bottom: 60px;
+}
+
+#icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 #countdown {
-  font-size: 1em;
+  margin-bottom: 60px;
+  font-size: 96px;
+  text-align: center;
   color: var(--color);
-  width: 100%;
-  height: 100%;
-  margin-top: 150px;
+  white-space: nowrap;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+#countdown.loading {
+  opacity: 0;
+  transition: all 0.5s ease-in;
 }
 
 #yt-container {
