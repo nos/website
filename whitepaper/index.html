@@ -48,27 +48,35 @@
             }
         }
 
+        function calculateData(now, start, end) {
+          var secondsProgress = now.getSeconds() / 60;
+          var remaining = Math.min(end - now, end - start);
+
+          return [
+              Math.max(now - start, 0),
+              secondsProgress * remaining,
+              (1 - secondsProgress) * remaining
+          ]
+        }
+
         ready(function() {
             var countdown = document.getElementById('countdown');
             var context = document.getElementById('chart').getContext('2d');
 
             var start = 1536772260000;  // Discord announcement timestamp
             var end = 1537178400000;    // Whitepaper release timestamp
-            var now = new Date().getTime();
+            var now = new Date();
 
             var chart = new Chart(context, {
                 type: 'doughnut',
                 data: {
                     datasets: [
                         {
-                            label: 'Progress',
-                            backgroundColor: ['#5BBA47', '#EDEEF2'],
-                            hoverBackgroundColor: ['#5BBA47', '#EDEEF2'],
+                            label: 'Release',
+                            backgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
+                            hoverBackgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
                             borderWidth: 0,
-                            data: [
-                                Math.max(now - start, 0),
-                                Math.min(end - now, end - start)
-                            ]
+                            get: calculateData(now, start, end)
                         }
                     ]
                 },
@@ -87,10 +95,9 @@
                 countdown.className = "";
 
                 // update chart progress
-                var now = new Date().getTime();
-                var data = chart.data.datasets[0].data;
-                data[0] = Math.max(now - start, 0);
-                data[1] = Math.min(end - now, end - start);
+                var now = new Date();
+                chart.data.datasets[0].data = calculateData(now, start, end);
+
                 chart.update();
             });
         });
