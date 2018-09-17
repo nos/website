@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <title>nOS Whitepaper</title>
     <link rel="stylesheet" href="whitepaper.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script type="text/javascript">
-
-        CountDownTimer(1537178400000, 'countdown');
-
-        function CountDownTimer(date, id) {
+        function CountDownTimer(date, callback) {
             var end = date;
             var _second = 1000;
             var _minute = _second * 60;
@@ -18,29 +16,100 @@
 
             function showRemaining() {
                 var now = new Date();
-                var distance = end - now;
-                if (distance < 0) {
+                var remaining = end - now;
+                if (remaining < 0) {
                     clearInterval(timer);
                     window.location = "https://nos.io/whitepaper.pdf";
                     return;
                 }
-                var days = Math.floor(distance / _day);
-                var hours = Math.floor((distance % _day) / _hour);
-                var minutes = Math.floor((distance % _hour) / _minute);
-                var seconds = Math.floor((distance % _minute) / _second);
-                document.getElementById(id).innerHTML = days + 'd ';
-                document.getElementById(id).innerHTML += hours + 'h ';
-                document.getElementById(id).innerHTML += minutes + 'm ';
-                document.getElementById(id).innerHTML += seconds + 's';
+                var days = Math.floor(remaining / _day);
+                var hours = Math.floor((remaining % _day) / _hour);
+                var minutes = Math.floor((remaining % _hour) / _minute);
+                var seconds = Math.floor((remaining % _minute) / _second);
+                var value = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
+                callback(value);
             }
 
             timer = setInterval(showRemaining, 1000);
         }
     </script>
+    <script type="text/javascript">
+        function ready(callback) {
+            if (document.readyState !== 'loading') {
+                callback();
+            } else if (document.addEventListener) {
+                document.addEventListener('DOMContentLoaded', callback);
+            } else {
+                document.attachEvent('onreadystatechange', function() {
+                    if (document.readyState === 'complete') {
+                        callback();
+                    }
+                });
+            }
+        }
+
+        function calculateData(now, start, end) {
+          var secondsProgress = now.getSeconds() / 60;
+          var remaining = Math.min(end - now, end - start);
+
+          return [
+              Math.max(now - start, 0),
+              secondsProgress * remaining,
+              (1 - secondsProgress) * remaining
+          ]
+        }
+
+        ready(function() {
+            var countdown = document.getElementById('countdown');
+            var context = document.getElementById('chart').getContext('2d');
+
+            var start = 1536772260000;  // Discord announcement timestamp
+            var end = 1537178400000;    // Whitepaper release timestamp
+            var now = new Date();
+
+            var chart = new Chart(context, {
+                type: 'doughnut',
+                data: {
+                    datasets: [
+                        {
+                            label: 'Release',
+                            backgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
+                            hoverBackgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
+                            borderWidth: 0,
+                            get: calculateData(now, start, end)
+                        }
+                    ]
+                },
+                options: {
+                    responsive: false,
+                    tooltips: {
+                        enabled: false
+                    },
+                    cutoutPercentage: 75
+                }
+            });
+
+            CountDownTimer(end, function(value) {
+                // update description
+                countdown.innerHTML = value;
+                countdown.className = "";
+
+                // update chart progress
+                var now = new Date();
+                chart.data.datasets[0].data = calculateData(now, start, end);
+
+                chart.update();
+            });
+        });
+    </script>
 </head>
 
 <body>
-<div id="countdown" align="center"></div>
+<div id="chart-container">
+    <canvas id="chart" width="450" height="450" style="margin:0 auto;"></canvas>
+    <img id="icon" src="whitepaper.svg" alt="Whitepaper" />
+</div>
+<div id="countdown" class="loading">&nbsp;</div>
 <div class="yt-container">
     <iframe src="https://www.youtube-nocookie.com/embed/jxMA3XvKzxo" frameborder="0" allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
