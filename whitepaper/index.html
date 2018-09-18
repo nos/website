@@ -16,12 +16,8 @@
 
             function showRemaining() {
                 var now = new Date();
-                var remaining = end - now;
-                if (remaining < 0) {
-                    clearInterval(timer);
-                    window.location = "https://nos.io/whitepaper.pdf";
-                    return;
-                }
+                var remaining = 0;
+
                 var days = Math.floor(remaining / _day);
                 var hours = Math.floor((remaining % _day) / _hour);
                 var minutes = Math.floor((remaining % _hour) / _minute);
@@ -63,8 +59,8 @@
             var countdown = document.getElementById('countdown');
             var context = document.getElementById('chart').getContext('2d');
 
-            var start = 1536772260000;  // Discord announcement timestamp
-            var end = 1537178400000;    // Whitepaper release timestamp
+            var start = 1537205892;  // Discord announcement timestamp
+            var end = 1537305910;    // Whitepaper release timestamp
             var now = new Date();
 
             var chart = new Chart(context, {
@@ -76,7 +72,7 @@
                             backgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
                             hoverBackgroundColor: ['#5BBA47', '#9ED295', '#EDEEF2'],
                             borderWidth: 0,
-                            get: calculateData(now, start, end)
+                            data: [100,0,0]
                         }
                     ]
                 },
@@ -96,9 +92,9 @@
 
                 // update chart progress
                 var now = new Date();
-                chart.data.datasets[0].data = calculateData(now, start, end);
+                //chart.data.datasets[0].data = calculateData(now, start, end);
 
-                chart.update();
+               // chart.update();
             });
         });
     </script>
