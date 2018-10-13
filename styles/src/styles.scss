@@ -1,9 +1,7 @@
 @import "vendor/bourbon/bourbon";
-@import "vendor/neat/neat";
 @import "base/base";
 
 %container {
-  @include grid-container;
   max-width: $max-width;
   margin: 0 auto;
   padding-left: 24px;
