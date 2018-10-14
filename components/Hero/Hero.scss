@@ -1,0 +1,48 @@
+.hero {
+  text-align: center;
+  background: linear-gradient(173deg, $pale-gray 31.73%, $light-gray 90.33%);
+  padding: 124px 12px 0 12px;
+  position: relative;
+
+  @media screen and (max-width: $break-medium) {
+    padding-top: 48px;
+  }
+
+  .large {
+    @extend %large-text;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 24px auto;
+  }
+
+  .download {
+    position: relative;
+
+    .meta {
+      color: $green;
+      margin-top: 8px;
+
+      a { text-decoration: none; font-weight: 500;}
+    }
+  }
+
+  .productShot {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -96px;
+    width: 100%;
+    max-width: $max-width;
+    min-width: $break-small;
+    pointer-events: none;
+
+    @media screen and (max-width: $break-medium) {
+      margin-top: -48px;
+      text-align: center;
+    }
+
+    img {
+      vertical-align: bottom;
+      position: relative;
+    }
+  }
+}

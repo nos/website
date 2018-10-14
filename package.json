@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "nOS Marketing Site",
+  "main": "index.js",
+  "repository": "git@github.com:nos/website.git",
+  "author": "nOS Limited",
+  "license": "Proprietary",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.0.0"
+  }
+}

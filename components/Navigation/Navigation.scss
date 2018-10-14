@@ -1,0 +1,45 @@
+.navMain {
+  width: 100%;
+  padding: 24px 24px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+
+  @media screen and (max-width: $break-medium) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+
+    @media screen and (max-width: $break-medium) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .navItems {
+    align-items: center;
+    display: flex;
+
+    @media screen and (max-width: $break-medium) {
+      justify-content: center;
+      display: flex;
+    }
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+
+    a {
+      margin-left: 32px;
+      text-decoration: none;
+      color: $dark-gray;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
