@@ -14,7 +14,7 @@ export default class Newsletter extends React.Component {
     return (
       <Section className={styles.newsletter}>
         <Container>
-          <h3>Sign up to thes newsletter to get our latest news & updates</h3>
+          <h3>Sign up to the newsletter to get our latest news & updates</h3>
           <form
             className={styles.fields}
             action="https://email.macrowish.com/subscribe"
