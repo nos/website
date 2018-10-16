@@ -63,6 +63,18 @@
     "dribbble": "https://dribbble.com/fabric8"
   },
   {
+    "name": "Nikolaj Kuntner",
+    "role": "Researcher",
+    "image": "static/team-nikolaj.png",
+    "experience": [
+      "Developer at City of Zion",
+      "Laboratory Technician at Institute of Science and Technology Austria",
+      "Software Engineer at DAQRI"
+    ],
+    "linkedin": "https://www.linkedin.com/in/nikolaj-kuntner-0138aa104/",
+    "github": "https://github.com/Nikolaj-K"
+  },
+  {
     "name": "Roger Lim",
     "role": "Advisor",
     "image": "static/team-roger.png",
