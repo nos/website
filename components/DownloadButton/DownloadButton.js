@@ -4,6 +4,7 @@ const DownloadButton = (props) => (
   <a
     className={`button ${styles.downloadButton}`}
     href="https://github.com/nos/client/releases"
+    target="_blank"
   >
     Download Now
   </a>
