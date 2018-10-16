@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Voteo",
+    "image": "static/dapp-voteo.png",
+    "color": "blue",
+    "url": "nos://voteo.neo",
+    "code": "#",
+    "description": "Voteo is a poll and quiz dApp. Users can create public and private polls."
+  },
+  {
+    "name": "Posts",
+    "image": "static/dapp-posts.png",
+    "color": "red",
+    "url": "nos://posts.neo",
+    "code": "#",
+    "description": "Posts.neo is a decentralized forum application. Users can create topics, write replies, and more."
+  },
+  {
+    "name": "nOS Tracker",
+    "image": "static/dapp-nostracker.png",
+    "color": "red",
+    "url": "nos://tracker.neo",
+    "code": "#",
+    "description": "nOS Tracker utilizes a Telegram bot to send you notifications about your nOS wallet activities."
+  },
+  {
+    "name": "NeoChat",
+    "image": "static/dapp-neochat.png",
+    "color": "green",
+    "url": "nos://neochat.neo",
+    "code": "#",
+    "description": "A decentralized messenger that support message encryption."
+  },
+  {
+    "name": "Bet Manager",
+    "image": "static/dapp-betmanager.png",
+    "color": "blue",
+    "url": "nos://betmanager.neo",
+    "code": "#",
+    "description": "A decentralized messenger that support message encryption."
+  }
+]
