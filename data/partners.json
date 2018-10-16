@@ -1,0 +1,17 @@
+[
+  {
+    "name": "NEO Global Capital",
+    "image": "static/logo-ngc.png",
+    "width": "97"
+  },
+  {
+    "name": "Moonlight",
+    "image": "static/logo-moonlight.png",
+    "width": "198"
+  },
+  {
+    "name": "NEX",
+    "image": "static/logo-nex.png",
+    "width": "62"
+  }
+]
