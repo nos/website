@@ -89,19 +89,12 @@
     justify-content: center;
   }
 
-  .progressItemOne {
-    color: red;
-
-    &:not(:first-child):not(:last-child):after {
-      display: none;
-    }
-  }
   .progressItem {
     flex: 1;
     position: relative;
     height: 44px;
     margin: 8px 0;
-    
+
     &:after {
       content: '';
       position: absolute;
@@ -206,7 +199,7 @@
     }
 
     .socialTelegramMain, .socialTelegramAnn {
-      
+
       background-image: url('/static/ic-tge-telegram.svg');
 
       &:after {
