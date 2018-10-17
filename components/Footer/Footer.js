@@ -12,7 +12,7 @@ const Footer = () => (
       <DownloadButton />
     </div>
     <div className={styles.right}>
-      <p>Follow or <a href="mailto:contact@nos.io">write us</a></p>
+      <p>Follow or <a className={styles.email} href="mailto:contact@nos.io">write us</a></p>
       <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
       <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
       <SocialIcon name="discord" href="https://discord.nos.io/" />
