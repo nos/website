@@ -9,3 +9,7 @@
 	75% { transform: translatey(16px); }
 	100% { transform: translatey(0px); }
 }
+
+@keyframes barberpole {
+	100% { background-position: 100% 100% }
+}

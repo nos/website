@@ -1,0 +1,232 @@
+.icoBanner {
+  text-align: center;
+  background: url('/static/tge-bg.svg') center center no-repeat, linear-gradient(296.6deg, #CF5BD9 0%, #6D48B8 46.9%, #443562 100%);
+  padding: 192px 12px 132px 12px;
+  position: relative;
+  color: white;
+
+  @media screen and (max-width: $break-small) {
+    padding-top: 128px;
+  }
+
+  .buttonWrap {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: $break-medium) {
+      flex-direction: column;
+    }
+  }
+
+  .button {
+    padding: 13px 32px;
+    border-radius: 999px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin: 0 12px 42px;
+    max-width: 320px;
+    width: 100%;
+
+    @media screen and (max-width: $break-medium) {
+      margin: 0 auto 24px;
+    }
+  }
+  .buttonPrimary {
+    background: $green-gradient-vertical;
+    box-shadow: 0px 16px 16px rgba(68, 53, 98, 0.05),
+    0px 8px 8px rgba(68, 53, 98, 0.05),
+    0px 4px 4px rgba(68, 53, 98, 0.05),
+    0px 2px 2px rgba(68, 53, 98, 0.05);
+    transition: box-shadow 200ms ease;
+
+    &:hover {
+      color: white;
+      background: $green-gradient-vertical-hover;
+      box-shadow: 0px 0px 0px rgba(68, 53, 98, 0.05), 0px 0px 0px rgba(68, 53, 98, 0.05), 0px 4px 4px rgba(68, 53, 98, 0.1), 0px 2px 2px rgba(68, 53, 98, 0.1);
+    }
+  }
+  .buttonSecondary {
+    border: 1px solid white;
+    padding-left: 48px;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 24px;
+      background: url('/static/icon-play.svg') center center no-repeat;
+    }
+  }
+
+  .progressContainer {
+    max-width: $max-width;
+    margin: 0 auto;
+    border-radius: $base-border-radius;
+    padding: 48px;
+    background: white;
+    box-shadow: 10px 10px 16px rgba(48, 40, 65, 0.1),
+    20px 20px 32px rgba(48, 40, 65, 0.1),
+    30px 30px 48px rgba(48, 40, 65, 0.1);
+  }
+
+  .progressIndicatorWrap {
+    border-radius: 999px;
+    height: 60px;
+    background: linear-gradient(360deg, rgba(236, 229, 251, 0.65) 0%, rgba(194, 185, 212, 0.75) 100%),
+    #FFFFFF;
+  }
+
+  .progressIndicatorItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .progressItemOne {
+    color: red;
+
+    &:not(:first-child):not(:last-child):after {
+      display: none;
+    }
+  }
+  .progressItem {
+    flex: 1;
+    position: relative;
+    height: 44px;
+    margin: 8px 0;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top:-8px;
+      height: 60px;
+      width: 4px;
+      display: block;
+      background: white;
+    }
+
+    &:first-child {
+      border-radius: 999px 0 0 999px;
+      margin-left: 8px;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    &:last-child {
+      border-radius: 0 999px 999px 0;
+      margin-right: 8px;
+      flex: 3;
+    }
+
+    &.active {
+      background-image: repeating-linear-gradient(-45deg,
+        transparent,
+        transparent 12px,
+        rgba(255, 255, 255, 0.25) 12px,
+        rgba(255, 255, 255, 0.25) 20px);
+      background-color: #87C646;
+      background-size: 200% 200%;
+      animation: barberpole 10s linear infinite;
+
+      & .progressLabel {
+        color: $green;
+        font-weight: bold;
+        background: url('/static/icon-progress-pending.svg') left center no-repeat;
+        padding-left: 20px;
+
+        @media screen and (max-width: $break-medium) {
+          display: block;
+        }
+      }
+    }
+
+    &.finished {
+      background: $green-gradient-vertical;
+
+      & .progressLabel {
+        color: #C2B9D4;
+        font-weight: bold;
+        background: url('/static/icon-progress-done.svg') left center no-repeat;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .progressLabel {
+    position: absolute;
+    top: -38px;
+    left: 4px;
+    color: $base-font-color;
+
+    @media screen and (max-width: $break-large) {
+      font-size: 13px;
+      padding-left: 0 !important;
+      background: none !important;
+    }
+
+    @media screen and (max-width: $break-medium) {
+      display: none;
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+
+    & > * {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin:0 24px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      @media screen and (max-width: $break-medium) {
+        margin:0 8px;
+      }
+    }
+
+    .socialTwitter {
+      background-image:url('/static/ic-tge-twitter.svg');
+    }
+    .socialMedium {
+      background-image:url('/static/ic-tge-medium.svg');
+    }
+
+    .socialTelegramMain, .socialTelegramAnn {
+      
+      background-image: url('/static/ic-tge-telegram.svg');
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: -12px;
+        top: -12px;
+        width: 32px;
+        height: 32px;
+        display: block;
+        z-index: 2;
+      }
+    }
+
+    .socialTelegramMain:after {
+        background: url('/static/ic-tge-telegram-main.svg') center center no-repeat;
+    }
+
+    .socialTelegramAnn:after {
+      background: url('/static/ic-tge-telegram-ann.svg') center center no-repeat;
+    }
+  }
+}
