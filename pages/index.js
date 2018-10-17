@@ -1,4 +1,5 @@
 import Layout from '../components/Layout';
+import IcoBanner from '../components/IcoBanner';
 import Hero from '../components/Hero';
 import Partners from '../components/Partners';
 import Features from '../components/Features';
@@ -11,6 +12,7 @@ import Footer from '../components/Footer';
 
 const Index = () => (
   <Layout>
+    <IcoBanner />
     <Hero />
     <Partners />
     <Features />
