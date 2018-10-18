@@ -12,20 +12,46 @@ const Hero = () => (
     </p>
 
     <Decorator
-      version={1}
-      animation={2}
-      style={{ left: '-17%', top: '112px', width: '320px', height: '320px' }}
+      version={3}
+      animation={1}
+      outline
+      style={{ left: '-90px', top: '112px', width: '260px', height: '260px' }}
     />
     <Decorator
-      version={2}
+      version={3}
       animation={2}
       style={{ right: '2%', top: '570px', width: '80px', height: '80px' }}
     />
     <Decorator
       version={2}
+      animation={3}
+      outline
+      style={{ left: '18%', width: '200px', height: '200px' }}
+    />
+
+    <Decorator
+      version={1}
       animation={1}
       outline
-      style={{ left: '18%', top: '360px', width: '200px', height: '200px' }}
+      style={{ right: '18%', width: '200px', height: '200px' }}
+    />
+
+    <Decorator
+      version={2}
+      animation={2}
+      style={{ right: '30%', width: '90px', height: '90px' }}
+    />
+
+    <Decorator
+      version={1}
+      animation={2}
+      style={{ left: '8%', bottom: '8%', width: '160px', height: '160px' }}
+    />
+
+    <Decorator
+      version={1}
+      animation={4}
+      style={{ right: '18%', width: '120px', height: '120px' }}
     />
 
     <div className={styles.download}>
