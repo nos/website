@@ -27,6 +27,10 @@
 
   &.version-3 {
     background-image: url('/static/circle-c.svg');
+
+    &.outline {
+      background-image: url('/static/circle-outline-c.svg');
+    }
   }
 
   &.animation-1 {
@@ -35,5 +39,13 @@
 
   &.animation-2 {
     animation: float2 6s ease-in-out infinite;
+  }
+
+  &.animation-3 {
+    animation: moveBottomTop 10s ease-in-out infinite;
+  }
+
+  &.animation-4 {
+    animation: moveBottomTop 15s ease-in-out 1s infinite;
   }
 }

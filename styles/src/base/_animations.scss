@@ -10,6 +10,12 @@
 	100% { transform: translatey(0px); }
 }
 
+@keyframes moveBottomTop {
+	0% { bottom: 0%; opacity: 0; }
+	50% { opacity: 1; }
+	100% { bottom: 110%; opacity: 0; }
+}
+
 @keyframes barberpole {
 	100% { background-position: 100% 100% }
 }
