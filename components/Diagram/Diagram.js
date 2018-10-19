@@ -28,6 +28,7 @@ const Diagram = () => (
           <p>
             Applications displayed in the dApp Gateway are ranked in a democratic and decentralized manner via decentralized Authority
           </p>
+          <div className={styles.authority}><h3>Decentralized Authority</h3></div>
         </div>
       </div>
 

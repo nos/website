@@ -138,6 +138,37 @@
   z-index: 2;
   overflow: visible;
 
+  .authority {
+    margin-bottom: -82px;
+    height: 112px;
+    color: white;
+    border-radius: $base-border-radius;
+    background: url("/static/authority-people.svg") bottom center no-repeat, $green-gradient-vertical;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (max-width: $break-medium) {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      display: block;
+      text-align: center;
+      margin-left: 0;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 48px;
+      background: url("/static/authority-thumbs.svg") center center no-repeat;
+      margin: 8px 0;
+    }
+  }
+
   @media screen and (max-width: $break-medium) {
     margin-bottom: 0;
     margin-top: 0;
