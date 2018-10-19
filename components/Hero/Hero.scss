@@ -1,6 +1,7 @@
 .hero {
   text-align: center;
-  background: linear-gradient(173deg, $pale-gray 31.73%, $light-gray 90.33%);
+  background: url('/static/hero-fancy-bg.svg') bottom center no-repeat, linear-gradient(173deg, $pale-gray 0%, $light-gray 45%);
+  background-size: 100% auto, auto;
   padding: 124px 12px 0 12px;
   position: relative;
 
