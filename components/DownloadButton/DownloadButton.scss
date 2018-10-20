@@ -13,7 +13,7 @@
     padding: 13px 40px 13px 64px;
     background: url('/static/nos-circle-flat.svg') 10px center no-repeat,
     linear-gradient(180deg, #FFFFFF 22.5%, #F6F4FA 100%);
-    color: #443562;
+    color: $dark-gray;
   }
 
   &:hover {
