@@ -48,13 +48,13 @@ export default class Features extends React.Component {
           <img src="static/feature-dapps.svg" />
           <Decorator
             version={1}
-            animation={1}
+            animation={5}
             outline
             style={{ right: '77%', top: '-38px', width: '190px', height: '190px' }}
           />
           <Decorator
             version={2}
-            animation={2}
+            animation={1}
             style={{ right: '-7%', top: '172px', width: '220px', height: '220px' }}
           />
         </React.Fragment>
@@ -73,13 +73,13 @@ export default class Features extends React.Component {
           <img src="static/feature-wallet.svg" />
           <Decorator
             version={2}
-            animation={1}
+            animation={2}
             outline
             style={{ right: '32%', top: '-38px', width: '340px', height: '340px' }}
           />
           <Decorator
             version={3}
-            animation={2}
+            animation={5}
             style={{ right: '13%', bottom: '-68px', width: '180px', height: '180px' }}
           />
         </React.Fragment>

@@ -41,6 +41,10 @@
     animation: float2 6s ease-in-out infinite;
   }
 
+  &.animation-5 {
+    animation: float2 7s ease-in-out 1.5s infinite;
+  }
+
   &.animation-3 {
     animation: moveBottomTop 16s ease-in-out infinite;
   }
