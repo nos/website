@@ -1,36 +1,69 @@
 import classNames from 'classnames';
 import { bool, string } from 'prop-types';
+import { isUndefined } from 'lodash';
 
+import DownloadModal from '../../DownloadModal';
 import styles from './Card.scss';
 
-const Card = (props) => (
-  <div className={classNames(styles.card, styles[props.color], { [styles.primary]: props.primary })}>
-    <div className={styles.main}>
-      <div className={styles.overlay}>
-        <h3>{props.name}</h3>
-        <p className={styles.large}>{props.children}</p>
+export default class Card extends React.Component {
+  static propTypes = {
+    primary: bool,
+    color: string,
+    name: string.isRequired,
+    image: string.isRequired,
+    url: string.isRequired,
+    code: string.isRequired
+  }
+
+  static defaultProps = {
+    primary: false,
+    color: null
+  }
+
+  state = {
+    target: null
+  }
+
+  render() {
+    return (
+      <div className={classNames(styles.card, styles[this.props.color], { [styles.primary]: this.props.primary })}>
+        <div className={styles.main}>
+          <div className={styles.overlay}>
+            <h3>{this.props.name}</h3>
+            <p className={styles.large}>{this.props.children}</p>
+          </div>
+          <img src={this.props.image} alt={this.props.name} />
+        </div>
+        <div className={styles.meta}>
+          <a href={this.props.url} target="_blank" onClick={this.handleOpen}>{this.props.url}</a>
+          <a href={this.props.code} target="_blank">Code</a>
+        </div>
+        {this.renderModal()}
       </div>
-      <img src={props.image} />
-    </div>
-    <div className={styles.meta}>
-      <a href={props.url} target="_blank">{props.url}</a>
-      <a href={props.code} target="_blank">Code</a>
-    </div>
-  </div>
-);
+    );
+  }
 
-Card.propTypes = {
-  primary: bool,
-  color: string,
-  name: string.isRequired,
-  image: string.isRequired,
-  url: string.isRequired,
-  code: string.isRequired
-};
+  renderModal = () => {
+    if (!this.state.target) {
+      return null;
+    }
 
-Card.defaultProps = {
-  primary: false,
-  color: null
-};
+    return (
+      <DownloadModal
+        target={this.state.target}
+        onClose={this.handleClose}
+      />
+    );
+  }
 
-export default Card;
+  handleOpen = (event) => {
+    if (isUndefined(window.NOS)) {
+      event.preventDefault();
+      this.setState({ target: event.target.href });
+    }
+  }
+
+  handleClose = () => {
+    this.setState({ target: null });
+  }
+}
