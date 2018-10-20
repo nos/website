@@ -12,7 +12,8 @@
 
 @keyframes moveBottomTop {
 	0% { bottom: 0%; opacity: 0; }
-	50% { opacity: 1; }
+	45% { opacity: 1; }
+	60% { opacity: 0; }
 	100% { bottom: 110%; opacity: 0; }
 }
 
