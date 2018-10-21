@@ -16,7 +16,7 @@ const Decorator = (props) => {
 
 Decorator.propTypes = {
   version: oneOf([1, 2, 3]),
-  animation: oneOf([1, 2, 3, 4]),
+  animation: oneOf([1, 2, 3, 4, 5]),
   outline: bool,
   style: object
 };
