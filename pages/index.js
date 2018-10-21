@@ -8,10 +8,9 @@ import Diagram from '../components/Diagram';
 import Team from '../components/Team';
 import Newsletter from '../components/Newsletter';
 import Demo from '../components/Demo';
-import Footer from '../components/Footer';
 
 const Index = () => (
-  <Layout>
+  <Layout ico>
     <IcoBanner />
     <Hero />
     <Partners />
@@ -21,7 +20,6 @@ const Index = () => (
     <Team />
     <Newsletter />
     <Demo />
-    <Footer />
   </Layout>
 );
 
