@@ -9,11 +9,7 @@ const Footer = () => (
     <div className={styles.left}>
       <img src="static/nos-logo-positive.svg" />
       <p>© Copyright 2018 nOS - All Rights Reserved</p>
-      <p>
-        <Link href="/terms"><a>Terms of service</a></Link>
-        {' • '}
-        <Link href="/privacy"><a>Privacy policy</a></Link>
-      </p>
+      <p><Link href="/privacy"><a>Privacy Policy</a></Link></p>
     </div>
     <div className={styles.center}>
       <DownloadButton />
