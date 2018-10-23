@@ -1,17 +1,28 @@
+import Link from 'next/link';
 import classNames from 'classnames';
+import { bool } from 'prop-types';
+
 import styles from './Navigation.scss';
 
-const Navigation = () => (
-  <div className={classNames(styles.navMain, styles.icoActive)}>
-    <a className={styles.logo} href="#"></a>
+const Navigation = (props) => (
+  <div className={classNames(styles.navigation, { [styles.icoActive]: props.ico })}>
+    <Link href="/"><a className={styles.logo} /></Link>
     <nav className={styles.navItems}>
-      <a href="#tge">Token Sale</a>
-      <a href="#features">Features</a>
-      <a href="#showcases">Showcases</a>
-      <a href="#demo">Create</a>
-      <a href="#team">Team & Advisors</a>
+      <Link href="/#tge"><a>Token Sale</a></Link>
+      <Link href="/#features"><a>Features</a></Link>
+      <Link href="/#showcases"><a>Showcases</a></Link>
+      <Link href="/#demo"><a>Create</a></Link>
+      <Link href="/#team"><a>Team & Advisors</a></Link>
     </nav>
   </div>
 );
+
+Navigation.propTypes = {
+  ico: bool
+};
+
+Navigation.defaultProps = {
+  ico: false
+};
 
 export default Navigation;

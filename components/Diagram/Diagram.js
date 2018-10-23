@@ -60,8 +60,8 @@ const Diagram = () => (
         <div className={classNames(styles.item, styles.backend)}>
           <img src="static/diagram-backend.svg" />
           <h3><span className={styles.connectorNode}></span>Back-end</h3>
-          <ul>
-            <li>HTTP Requests may be made from the client side</li>
+          <ul className={styles.list}>
+            <li>HTTP Requests may be made from  the client side</li>
             <li>The end-user can review and approve HTTP requests via the same method as transactions and invocations</li>
           </ul>
         </div>

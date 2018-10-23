@@ -291,4 +291,20 @@
       border-radius: 3px;
     }
   }
+
+  .list {
+    list-style-image: url('/static/list-item.svg');
+
+    li:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  p,
+  li {
+    color: #6D6381;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+  }
 }

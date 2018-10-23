@@ -15,6 +15,8 @@ module.exports = withSass({
 
   // static site export config
   exportPathMap: () => ({
-    '/': { page: '/' }
+    '/': { page: '/' },
+    '/privacy': { page: '/privacy' },
+    '/terms': { page: '/terms' }
   })
 });

@@ -35,24 +35,33 @@
   .social {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
   }
 
   .icon {
-      display: block;
-      width: 24px;
-      height: 24px;
-      margin: 0 4px;
-      background-size: contain;
-      background-position: center center;
-      background-repeat: no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 4px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 
-      &.linkedin { background-image: url('/static/icon-linkedin.svg') }
-      &.twitter {background-image: url('/static/icon-twitter.svg') }
-      &.github { background-image: url('/static/icon-github.svg') }
-      &.dribbble { background-image: url('/static/icon-dribbble.svg') }
+    &.linkedin { background-image: url('/static/icon-linkedin.svg') }
+    &.twitter {background-image: url('/static/icon-twitter.svg') }
+    &.github { background-image: url('/static/icon-github.svg') }
+    &.dribbble { background-image: url('/static/icon-dribbble.svg') }
   }
 
-  .experience li {
-    margin-bottom: 4px;
+  .experience {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 4px;
+    }
   }
 }
