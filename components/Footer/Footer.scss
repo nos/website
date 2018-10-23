@@ -1,6 +1,7 @@
 footer {
   display: flex;
   justify-content: space-around;
+  padding-top: 32px; // TODO: remove this once the <Demo /> component is reintroduced
   padding-bottom: 32px;
 
   @media screen and (max-width: $break-medium) {
