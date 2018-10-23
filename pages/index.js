@@ -7,7 +7,7 @@ import Showcase from '../components/Showcase';
 import Diagram from '../components/Diagram';
 import Team from '../components/Team';
 import Newsletter from '../components/Newsletter';
-import Demo from '../components/Demo';
+// import Demo from '../components/Demo';
 
 const Index = () => (
   <Layout ico>
@@ -19,7 +19,7 @@ const Index = () => (
     <Diagram />
     <Team />
     <Newsletter />
-    <Demo />
+    {/* <Demo /> */}
   </Layout>
 );
 
