@@ -11,7 +11,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: redeploy site\" && git push origin feat/next"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -21,8 +22,8 @@
     "next": "^7.0.2",
     "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.0.0"
