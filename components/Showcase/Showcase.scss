@@ -1,0 +1,30 @@
+.showcase {
+  background-color: $pale-gray;
+
+  .intro {
+    .large {
+      @extend %large-text;
+    }
+
+    a {
+      display: inline-block;
+      cursor: pointer;
+      background-image: $green-gradient-vertical;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 999px;
+      padding: 2px 16px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media screen and (max-width: $break-medium) {
+      flex-direction: column;
+    }
+  }
+}

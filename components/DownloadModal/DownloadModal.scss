@@ -1,0 +1,57 @@
+.downloadModal {
+  width: 460px;
+  border-radius: 8px;
+  background: #FFF;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 20px;
+    border-radius: 8px 8px 0 0;
+    background: #EEEBF3;
+
+    .title {
+      flex: 1 1 auto;
+    }
+
+    .close {
+      flex: 0 0 auto;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: url('/static/modal-close.svg');
+      cursor: pointer;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin: 40px 20px;
+
+    .appIcon {
+      flex: 0 0 auto;
+      width: 112px;
+      height: 112px;
+      margin-right: 20px;
+      background: url('/static/nos-app-icon.svg');
+    }
+
+    .message {
+      flex: 1 1 auto;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 29px;
+      color: $dark-gray;
+    }
+  }
+
+  .download {
+    display: block;
+    margin: 0 20px 20px;
+    text-align: center;
+  }
+}
