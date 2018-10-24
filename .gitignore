@@ -1,1 +1,6 @@
-.idea
+/.idea/
+/.next/
+/node_modules/
+/out/
+/components/**/*.css
+/components/**/*.css.map

@@ -1,0 +1,98 @@
+.demo {
+  text-align: center;
+
+  .intro {
+    margin: 0 auto;
+  }
+
+  .large {
+    @extend %large-text;
+  }
+
+  .slider {
+    display: inline-flex;
+    background: $pale-gray;
+    border-radius: 999px;
+    align-items: center;
+    padding: 2px;
+    margin: 80px 0 0;
+    list-style-type: none;
+
+    @media screen and (max-width: $break-medium) {
+      flex-direction: column;
+      border-radius: $base-border-radius;
+      padding: 24px;
+      width: 100%;
+    }
+
+    li {
+      align-content: center;
+      height: 50px;
+      padding: 13px 48px 0 48px;
+      cursor: pointer;
+
+      @media screen and (max-width: $break-medium) {
+        display: block;
+        width: 100%;
+      }
+
+      &.active {
+        background: $green-gradient-vertical;
+        border-radius: 999px;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+    @media screen and (max-width: $break-medium) {
+      flex-direction: column;
+    }
+
+    & > div {
+      width: 100%;
+      max-width: 480px;
+      min-height: 240px;
+      flex: 1;
+
+      @media screen and (max-width: $break-medium) {
+        max-width: 100%
+      }
+    }
+  }
+
+  .output {
+    min-height: 240px;
+    background: $pale-gray;
+    border-radius: $base-border-radius 0 0 $base-border-radius;
+
+    @media screen and (max-width: $break-medium) {
+      border-radius: $base-border-radius $base-border-radius 0 0;
+    }
+  }
+
+  .code {
+    text-align: left;
+    overflow: hidden;
+    background: $dark-gray;
+    padding: 16px;
+    overflow-x: scroll;
+    border-radius: 0 $base-border-radius $base-border-radius 0;
+
+    @media screen and (max-width: $break-medium) {
+      border-radius: 0 0 $base-border-radius $base-border-radius;
+    }
+
+    pre {
+      word-wrap: break-word;
+      color: white
+    }
+  }
+}

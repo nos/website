@@ -1,0 +1,55 @@
+.decorator {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  pointer-events: none;
+
+  @media screen and (max-width: $break-small) {
+    opacity: .5;
+  }
+
+  &.version-1 {
+    background-image: url('/static/circle-a.svg');
+
+    &.outline {
+      background-image: url('/static/circle-outline-a.svg');
+    }
+  }
+
+  &.version-2 {
+    background-image: url('/static/circle-b.svg');
+
+    &.outline {
+      background-image: url('/static/circle-outline-b.svg');
+    }
+  }
+
+  &.version-3 {
+    background-image: url('/static/circle-c.svg');
+
+    &.outline {
+      background-image: url('/static/circle-outline-c.svg');
+    }
+  }
+
+  &.animation-1 {
+    animation: float1 6s ease-in-out infinite;
+  }
+
+  &.animation-2 {
+    animation: float2 6s ease-in-out infinite;
+  }
+
+  &.animation-5 {
+    animation: float2 7s ease-in-out 1.5s infinite;
+  }
+
+  &.animation-3 {
+    animation: moveBottomTop 16s ease-in-out infinite;
+  }
+
+  &.animation-4 {
+    animation: moveBottomTop 16s ease-in-out 3s infinite;
+  }
+}
