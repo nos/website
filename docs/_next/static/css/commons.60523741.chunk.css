@@ -1384,7 +1384,8 @@ hr {
   padding: 40px;
   color: #FFF;
   background: rgba(68, 53, 98, 0.9);
-  text-align: center; }
+  text-align: center;
+  z-index: 99; }
   .gdprBanner___2lgpr p {
     margin: 0 auto 40px;
     max-width: 760px;
