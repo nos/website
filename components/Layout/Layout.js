@@ -14,7 +14,7 @@ export default class Layout extends React.Component {
   }
 
   static defaultProps = {
-    title: 'nOS',
+    title: 'nOS - Browse & Build Decentralized Internet',
     ico: false
   }
 
