@@ -34,7 +34,7 @@ export default class Layout extends React.Component {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="description" content="" />
+          <meta name="description" content="nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="shortcut icon" href="static/logo-nos.png" type="image/x-icon" />
           <title>{this.props.title}</title>
