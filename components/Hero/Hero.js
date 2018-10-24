@@ -5,6 +5,7 @@ import styles from './Hero.scss';
 
 const Hero = () => (
   <Section className={styles.hero}>
+      <a name="hero"></a>
     <h1>Browse &amp; Build the web of the future</h1>
 
     <p className={styles.large}>
