@@ -12,7 +12,7 @@ const CLASSES = {
 };
 
 const SocialIcon = (props) => (
-  <a href={props.href} className={classNames(styles.socialIcon, CLASSES[props.name])} />
+  <a target="_blank" href={props.href} className={classNames(styles.socialIcon, CLASSES[props.name])} />
 );
 
 SocialIcon.propTypes = {

@@ -1,0 +1,30 @@
+.socialIcon {
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.socialIcon:last-child {
+  margin-right: 0;
+}
+.socialIcon.twitter {
+  background-image: url("/static/twitter-green.svg");
+}
+.socialIcon.reddit {
+  background-image: url("/static/reddit-green.svg");
+}
+.socialIcon.discord {
+  background-image: url("/static/discord-green.svg");
+}
+.socialIcon.telegram {
+  background-image: url("/static/telegram-green.svg");
+}
+.socialIcon.medium {
+  background-image: url("/static/medium-green.svg");
+}
+
+/*# sourceMappingURL=SocialIcon.css.map */

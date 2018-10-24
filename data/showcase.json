@@ -5,7 +5,7 @@
     "color": "blue",
     "url": "nos://voteo.neo",
     "code": "https://github.com/SkyRoW/voteo-website",
-    "description": "Voteo is a poll and quiz dApp. Users can create public and private polls."
+    "description": "Voteo is a decentralized poll and quiz platform. Users can create public and private polls. The goal is to build a platform that can be used for political elections."
   },
   {
     "name": "Posts",
@@ -29,7 +29,7 @@
     "color": "green",
     "url": "nos://neochat.neo",
     "code": "https://github.com/kokahunter/wakeup.neo",
-    "description": "A decentralized messenger that support message encryption."
+    "description": "NeoChat is a decentralized messenger that support message encryption."
   },
   {
     "name": "Bet Manager",
@@ -37,6 +37,6 @@
     "color": "blue",
     "url": "nos://bet-manager.neo",
     "code": "https://github.com/MarcoBz/Frontend-Bet_Manager",
-    "description": "A decentralized messenger that support message encryption."
+    "description": "Bet Manager is a decentralized betting platform that allows users to bet on sports and anything else."
   }
 ]

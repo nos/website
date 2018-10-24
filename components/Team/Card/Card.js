@@ -10,16 +10,16 @@ const Card = (props) => (
     <span>{props.role}</span>
     <ul className={styles.social}>
       {props.linkedin && (
-        <li><a href={props.linkedin} className={classNames(styles.icon, styles.linkedin)}></a></li>
+        <li><a target="_blank" href={props.linkedin} className={classNames(styles.icon, styles.linkedin)}></a></li>
       )}
       {props.twitter && (
-        <li><a href={props.twitter} className={classNames(styles.icon, styles.twitter)}></a></li>
+        <li><a target="_blank" href={props.twitter} className={classNames(styles.icon, styles.twitter)}></a></li>
       )}
       {props.github && (
-        <li><a href={props.github} className={classNames(styles.icon, styles.github)}></a></li>
+        <li><a target="_blank" href={props.github} className={classNames(styles.icon, styles.github)}></a></li>
       )}
       {props.dribbble && (
-        <li><a href={props.dribbble} className={classNames(styles.icon, styles.dribbble)}></a></li>
+        <li><a target="_blank" href={props.dribbble} className={classNames(styles.icon, styles.dribbble)}></a></li>
       )}
     </ul>
     <ul className={styles.experience}>

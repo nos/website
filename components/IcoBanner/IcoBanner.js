@@ -4,14 +4,14 @@ import styles from './IcoBanner.scss';
 
 const STAGES = [
   { name: 'Private Sale', active: false, finished: true },
+  { name: 'Whitelist', active: false, finished: true },
   { name: 'KYC', active: true, finished: false },
-  { name: 'Pre-Sale', active: false, finished: false },
   { name: 'Public Sale', active: false, finished: false }
 ];
 
 const IcoBanner = () => (
   <Section className={styles.icoBanner}>
-    <h1>Our Token Sale is Live</h1>
+    <h1>Our Token Sale is Soon</h1>
 
     <div className={styles.buttonWrap}>
       <a
@@ -19,7 +19,7 @@ const IcoBanner = () => (
         target="_blank"
         className={classNames(styles.button, styles.buttonPrimary)}
       >
-        Token Sale Instructions
+        KYC Instructions
       </a>
       <a
         href="https://www.youtube.com/watch?v=CcwBNpAfRiU"

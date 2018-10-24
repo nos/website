@@ -5,13 +5,23 @@
     "width": "78"
   },
   {
-    "name": "Moonlight",
-    "image": "static/logo-moonlight.png",
+    "name": "Travala",
+    "image": "static/logo-travala.png",
+    "width": "175"
+  },
+  {
+    "name": "Data Access Worldwide",
+    "image": "static/logo-data-access.png",
     "width": "216"
   },
   {
     "name": "NEX",
     "image": "static/logo-nex.png",
     "width": "62"
+  },
+  {
+    "name": "Moonlight",
+    "image": "static/logo-moonlight.png",
+    "width": "216"
   }
 ]

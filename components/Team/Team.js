@@ -13,8 +13,9 @@ const Team = () => (
       <Intro>
         <h2>Team</h2>
         <p className={styles.large}>
-          2-liner about the team. Mention that it mainly consists of coz developers + clarify{' '}
-          that CoZ is related to neo projects as most people don’t get that.
+          The nOS team consists of experienced developers and researchers with a history in blockchain and smart contract development.
+          With roots in City of Zion, many members of the team have developed on (and for) the NEO Blockchain.
+            {/*{' '}*/}
         </p>
       </Intro>
 

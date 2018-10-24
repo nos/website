@@ -25,9 +25,7 @@ export default class Showcase extends React.Component {
           <Intro className={styles.intro}>
             <h2>Decentralized Apps Showcase</h2>
             <p className={styles.large}>
-              nOS is the world’s first platform with 65+ dApps running on its public testnet before{' '}
-              releasing a whitepaper and before holding its ICO. Please{' '}
-              <a href="https://github.com/nos/client/releases" target="_blank">download & install nOS</a>{' '}
+              <a href="https://github.com/nos/client/releases" target="_blank">Download nOS Client</a>{' '}
               to check out early nOSNet Community dApps.
             </p>
           </Intro>
