@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+:root {
+  --bg: #ffff;
+  --color: #353445;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:100");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100px;
+  background: var(--bg) radial-gradient(closest-corner, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+#chart-container {
+  position:relative;
+  margin-bottom: 60px;
+}
+
+#icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#countdown {
+  margin-bottom: 60px;
+  font-size: 96px;
+  text-align: center;
+  color: var(--color);
+  white-space: nowrap;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+#countdown.loading {
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+#yt-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+iframe {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  width: 50vw;
+  height: 50vh;
+  min-width: 456px;
+  min-height: 256px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=whitepaper.css.map */

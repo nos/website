@@ -1,5 +1,1 @@
-/.idea/
-/.next/
-/node_modules/
-/components/**/*.css
-/components/**/*.css.map
+.idea
