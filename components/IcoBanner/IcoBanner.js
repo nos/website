@@ -11,15 +11,15 @@ const STAGES = [
 
 const IcoBanner = () => (
   <Section className={styles.icoBanner}>
-    <h1>Our Token Sale is Soon</h1>
+    <h1>Our Token Sale starts Oct 29 18:00 UTC</h1>
 
     <div className={styles.buttonWrap}>
       <a
-        href="https://www.youtube.com/watch?v=2gT2RdsT6k8"
+        href="https://medium.com/nos-io/nos-token-sale-begins-monday-october-29th-20-00-cest-a426d1e8aba1"
         target="_blank"
         className={classNames(styles.button, styles.buttonPrimary)}
       >
-        KYC Instructions
+        Token Sale Details
       </a>
       <a
         href="https://www.youtube.com/watch?v=CcwBNpAfRiU"
