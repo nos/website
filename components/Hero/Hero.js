@@ -9,7 +9,7 @@ const Hero = () => (
     <h1>Browse &amp; Build the web of the future</h1>
 
     <p className={styles.large}>
-      Access the new, decentralized internet. nOS is a web browser, app store and virtual operating system.
+      Access the new, decentralized internet. nOS is a virtual operating system, web browser, and decentralized application gateway.
     </p>
 
     <Decorator
