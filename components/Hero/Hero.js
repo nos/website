@@ -58,7 +58,7 @@ const Hero = () => (
     <div className={styles.download}>
       <DownloadButton />
       <div className={styles.meta}>
-        <a href="whitepaper.pdf">Whitepaper</a>
+        <a href="static/whitepaper.pdf">Whitepaper</a>
         {' • '}
         <a href="https://github.com/nos" target="_blank">GitHub</a>
       </div>
