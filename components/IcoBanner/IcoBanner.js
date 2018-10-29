@@ -15,7 +15,7 @@ const IcoBanner = () => (
 
     <div className={styles.buttonWrap}>
       <a
-        href="https://medium.com/nos-io/nos-token-sale-begins-monday-october-29th-20-00-cest-a426d1e8aba1"
+        href="https://medium.com/nos-io/nos-token-sale-details-instructions-ecee9ccdae1c"
         target="_blank"
         className={classNames(styles.button, styles.buttonPrimary)}
       >
