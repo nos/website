@@ -11,7 +11,7 @@ const STAGES = [
 
 const IcoBanner = () => (
   <Section className={styles.icoBanner}>
-    <h1>Our Token Sale starts Oct 29 18:00 UTC</h1>
+    <h1>Our Token Sale has Started!</h1>
 
     <div className={styles.buttonWrap}>
       <a
