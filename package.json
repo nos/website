@@ -23,7 +23,8 @@
     "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "what-input": "^5.1.2"
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.0.0"

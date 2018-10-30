@@ -1,3 +1,4 @@
+import 'what-input';
 import Head from 'next/head';
 import cookie from 'js-cookie';
 import { string, bool } from 'prop-types';
