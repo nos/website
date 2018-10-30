@@ -5,8 +5,8 @@ import styles from './IcoBanner.scss';
 const STAGES = [
   { name: 'Private Sale', active: false, finished: true },
   { name: 'Whitelist', active: false, finished: true },
-  { name: 'KYC', active: true, finished: false },
-  { name: 'Public Sale', active: false, finished: false }
+  { name: 'KYC', active: false, finished: true },
+  { name: 'Public Sale', active: true, finished: false }
 ];
 
 const IcoBanner = () => (
