@@ -47,7 +47,6 @@ const IcoBanner = () => (
     <div className={styles.social}>
       <a href="https://twitter.com/nOSplatform" target="_blank" className={styles.socialTwitter}></a>
       <a href="https://medium.com/nos-io" target="_blank" className={styles.socialMedium}></a>
-      <a href="https://t.me/nOSplatform" target="_blank" className={styles.socialTelegramMain}></a>
       <a href="https://t.me/nOSAnnouncements" target="_blank" className={styles.socialTelegramAnn}></a>
     </div>
   </Section>
