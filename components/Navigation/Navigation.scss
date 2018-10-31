@@ -4,20 +4,8 @@
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-
-  &.icoActive {
-    position: absolute;
-    z-index: 2;
-    color: white;
-
-    .navItems a {
-      color: white;
-    }
-
-    .logo {
-      background: url('/static/nos-logo-negative.svg') center center no-repeat;
-    }
-  }
+  position: absolute;
+  z-index: 2;
 
   @media screen and (max-width: $break-medium) {
     flex-direction: column;

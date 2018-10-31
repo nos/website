@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-import IcoBanner from '../components/IcoBanner';
 import Hero from '../components/Hero';
 import Partners from '../components/Partners';
 import Features from '../components/Features';
