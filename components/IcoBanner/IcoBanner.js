@@ -49,6 +49,7 @@ const IcoBanner = () => (
       <a href="https://medium.com/nos-io" target="_blank" className={styles.socialMedium}></a>
       <a href="https://t.me/nOSAnnouncements" target="_blank" className={styles.socialTelegramAnn}></a>
       <a href="https://t.me/nOSchat" target="_blank" className={styles.socialTelegramMain}></a>
+      <a href="https://discord.nos.io" target="_blank" className={styles.socialDiscord}></a>
     </div>
   </Section>
 );

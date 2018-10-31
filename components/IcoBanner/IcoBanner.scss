@@ -183,27 +183,51 @@
       width: 50px;
       height: 50px;
       margin:0 24px;
-      background-position: center center;
-      background-repeat: no-repeat;
+      background: $blue-gradient;
       position: relative;
+      border-radius: 999px;
+      transition: box-shadow 200ms ease;
+      box-shadow: 2px 2px 8px rgba(48, 40, 65, 0.1),
+                  8px 8px 16px rgba(48, 40, 65, 0.1),
+                  16px 16px 24px rgba(48, 40, 65, 0.1);
+      
+      &:hover {
+        box-shadow: 0px 0px 2px rgba(48, 40, 65, 0.05),
+                    2px 2px 4px rgba(48, 40, 65, 0.1),
+                    6px 6px 8px rgba(48, 40, 65, 0.1);
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 26px;
+        width: 100%;
+        height: 100%;
+      }
 
       @media screen and (max-width: $break-medium) {
         margin:0 8px;
       }
     }
 
-    .socialTwitter {
-      background-image:url('/static/ic-tge-twitter.svg');
+    .socialTwitter:after {
+      background-image:url('/static/twitter-white.svg');
     }
-    .socialMedium {
-      background-image:url('/static/ic-tge-medium.svg');
+    .socialMedium:after {
+      background-image:url('/static/medium-white.svg');
+    }
+
+    .socialDiscord:after {
+      background-image: url('/static/discord-white.svg');
     }
 
     .socialTelegramMain, .socialTelegramAnn {
-
-      background-image: url('/static/ic-tge-telegram.svg');
-
       &:after {
+        background-image: url('/static/telegram-white.svg');
+      }
+      &:before {
         content: '';
         position: absolute;
         right: -12px;
@@ -215,11 +239,11 @@
       }
     }
 
-    .socialTelegramMain:after {
+    .socialTelegramMain:before {
         background: url('/static/ic-tge-telegram-main.svg') center center no-repeat;
     }
 
-    .socialTelegramAnn:after {
+    .socialTelegramAnn:before {
       background: url('/static/ic-tge-telegram-ann.svg') center center no-repeat;
     }
   }
