@@ -13,6 +13,7 @@ const Index = () => (
     <Hero />
     <Partners />
     <Features />
+    <Newsletter />
     <Showcase />
     <Diagram />
     <Team />

@@ -3,6 +3,7 @@ import fetch from 'isomorphic-unfetch';
 import Section from '../Section';
 import Container from '../Container';
 import styles from './Newsletter.scss';
+import SocialIcon from '../SocialIcon';
 
 export default class Newsletter extends React.Component {
   state = {
@@ -13,30 +14,42 @@ export default class Newsletter extends React.Component {
   render() {
     return (
       <Section className={styles.newsletter}>
-        <Container>
-          <h3>Sign up to the newsletter to get our latest news & updates</h3>
-          <form
-            className={styles.fields}
-            action="https://email.macrowish.com/subscribe"
-            method="post"
-            disabled={this.state.disabled}
-            onSubmit={this.handleSubmit}
-          >
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              aria-required="true"
-              value={this.state.email}
-              onChange={this.handleChange('email')}
-            />
-            <input
-              type="submit"
-              name="subscribe"
-              value="Sign up"
-            />
-          </form>
+        <Container className={styles.container}>
+          <div className={styles.newsletterForm}>
+            <h3>Sign up to the newsletter to get our latest news & updates</h3>
+            <form
+              className={styles.fields}
+              action="https://email.macrowish.com/subscribe"
+              method="post"
+              disabled={this.state.disabled}
+              onSubmit={this.handleSubmit}
+            >
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                aria-required="true"
+                value={this.state.email}
+                onChange={this.handleChange('email')}
+              />
+              <input
+                type="submit"
+                name="subscribe"
+                value="Sign up"
+              />
+            </form>
+          </div>
+          <div className={styles.social}>
+            <h3>Get in touch with the community</h3>
+            <div className={styles.socialIcons}>
+              <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
+              <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
+              <SocialIcon name="discord" href="https://discord.nos.io/" />
+              <SocialIcon name="telegram" href="https://t.me/nOSchat" />
+              <SocialIcon name="medium" href="https://medium.com/nos-io" />
+            </div>
+          </div>
         </Container>
       </Section>
     );
