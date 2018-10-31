@@ -219,6 +219,9 @@
       background-image:url('/static/medium-white.svg');
     }
 
+    .socialDiscord:after {
+      background-image: url('/static/discord-white.svg');
+    }
 
     .socialTelegramMain, .socialTelegramAnn {
       &:after {
