@@ -1,6 +1,7 @@
 import Section from '../Section';
 import Decorator from '../Decorator';
 import DownloadButton from '../DownloadButton';
+import SocialIcon from '../SocialIcon';
 import styles from './Hero.scss';
 
 const Hero = () => (
@@ -61,6 +62,13 @@ const Hero = () => (
         <a href="static/whitepaper.pdf">Whitepaper</a>
         {' • '}
         <a href="https://github.com/nos" target="_blank">GitHub</a>
+      </div>
+      <div className={styles.social}>
+        <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
+        <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
+        <SocialIcon name="discord" href="https://discord.nos.io/" />
+        <SocialIcon name="telegram" href="https://t.me/nOSchat" />
+        <SocialIcon name="medium" href="https://medium.com/nos-io" />
       </div>
     </div>
 

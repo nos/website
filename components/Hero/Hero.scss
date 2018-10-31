@@ -27,6 +27,17 @@
     }
   }
 
+  .social {
+    display: flex;
+    justify-content: center;
+
+    & > * {
+      width: 24px;
+      height: 24px;
+      margin: 16px 8px;
+    }
+  }
+
   .productShot {
     margin-left: auto;
     margin-right: auto;
