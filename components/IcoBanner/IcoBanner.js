@@ -6,12 +6,12 @@ const STAGES = [
   { name: 'Private Sale', active: false, finished: true },
   { name: 'Whitelist', active: false, finished: true },
   { name: 'KYC', active: false, finished: true },
-  { name: 'Public Sale', active: true, finished: false }
+  { name: 'Public Sale (Halted)', active: true, finished: false }
 ];
 
 const IcoBanner = () => (
   <Section className={styles.icoBanner}>
-    <h1>Our Token Sale has Started!</h1>
+    <h1>Our Token Sale has been halted due to NEO network congestion.</h1>
 
     <div className={styles.buttonWrap}>
       <a
