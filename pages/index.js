@@ -17,7 +17,6 @@ const Index = () => (
     <Showcase />
     <Diagram />
     <Team />
-    <Newsletter />
     {/* <Demo /> */}
   </Layout>
 );
