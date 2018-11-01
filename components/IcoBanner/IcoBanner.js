@@ -11,15 +11,15 @@ const STAGES = [
 
 const IcoBanner = () => (
   <Section className={styles.icoBanner}>
-    <h1>Our Token Sale has been halted due to NEO network congestion.</h1>
+    <h1>Our Token Sale has Started!</h1>
 
     <div className={styles.buttonWrap}>
       <a
-        href="https://medium.com/nos-io/nos-token-sale-details-instructions-ecee9ccdae1c"
+        href="https://my.nos.app"
         target="_blank"
         className={classNames(styles.button, styles.buttonPrimary)}
       >
-        Token Sale Details
+        Join Token Sale
       </a>
       <a
         href="https://www.youtube.com/watch?v=CcwBNpAfRiU"
