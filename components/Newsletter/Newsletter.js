@@ -15,39 +15,41 @@ export default class Newsletter extends React.Component {
     return (
       <Section className={styles.newsletter}>
         <Container className={styles.container}>
-          <div className={styles.newsletterForm}>
-            <h3>Sign up to the newsletter to get our latest news & updates</h3>
-            <form
-              className={styles.fields}
-              action="https://email.macrowish.com/subscribe"
-              method="post"
-              disabled={this.state.disabled}
-              onSubmit={this.handleSubmit}
-            >
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-                aria-required="true"
-                value={this.state.email}
-                onChange={this.handleChange('email')}
-              />
-              <input
-                type="submit"
-                name="subscribe"
-                value="Sign up"
-              />
-            </form>
+          <div className={styles.titleLeft}>
+            <h2>Stay in touch</h2>
+            <p className={styles.large}>Sign up to the newsletter to get our latest news & updates. Get enganged with our community.</p>
           </div>
-          <div className={styles.social}>
-            <h3>Get in touch with the community</h3>
-            <div className={styles.socialIcons}>
-              <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
-              <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
-              <SocialIcon name="discord" href="https://discord.nos.io/" />
-              <SocialIcon name="telegram" href="https://t.me/nOSchat" />
-              <SocialIcon name="medium" href="https://medium.com/nos-io" />
+          <div className={styles.socialItems}>
+            <div className={styles.newsletterForm}>
+              <form
+                className={styles.fields}
+                action="https://email.macrowish.com/subscribe"
+                method="post"
+                disabled={this.state.disabled}
+                onSubmit={this.handleSubmit}
+              >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  aria-required="true"
+                  value={this.state.email}
+                  onChange={this.handleChange('email')}
+                />
+                <input
+                  type="submit"
+                  name="subscribe"
+                  value="Sign up"
+                />
+              </form>
+              <div className={styles.socialIcons}>
+                <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
+                <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
+                <SocialIcon name="discord" href="https://discord.nos.io/" />
+                <SocialIcon name="telegram" href="https://t.me/nOSchat" />
+                <SocialIcon name="medium" href="https://medium.com/nos-io" />
+              </div>
             </div>
           </div>
         </Container>
