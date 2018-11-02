@@ -6,10 +6,10 @@ import styles from './Hero.scss';
 const Hero = () => (
   <Section className={styles.hero}>
       <a name="hero"></a>
-    <h1>Browse &amp; Build the web of the future</h1>
+    <h1>Discover &amp; Build the web of the future</h1>
 
     <p className={styles.large}>
-      Access the new, decentralized internet. nOS is a virtual operating system, web browser, and decentralized application gateway.
+      Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy.
     </p>
 
     <Decorator
