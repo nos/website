@@ -11,7 +11,6 @@ import Newsletter from '../components/Newsletter';
 
 const Index = () => (
   <Layout ico>
-    <IcoBanner />
     <Hero />
     <Partners />
     <Features />
