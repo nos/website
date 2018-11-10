@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Container_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Container.scss */ "./components/Container/Container.scss");
 /* harmony import */ var _Container_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Container_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Container/Container.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Container/Container.js";
 
 
 
@@ -74,7 +74,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Decorator_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Decorator.scss */ "./components/Decorator/Decorator.scss");
 /* harmony import */ var _Decorator_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Decorator_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Decorator/Decorator.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Decorator/Decorator.js";
 
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Intro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Intro */ "./components/Intro/index.js");
 /* harmony import */ var _Diagram_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Diagram.scss */ "./components/Diagram/Diagram.scss");
 /* harmony import */ var _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Diagram_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Diagram/Diagram.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Diagram/Diagram.js";
 
 
 
@@ -553,7 +553,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DownloadButton.scss */ "./components/DownloadButton/DownloadButton.scss");
 /* harmony import */ var _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_DownloadButton_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/DownloadButton/DownloadButton.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/DownloadButton/DownloadButton.js";
 
 
 
@@ -620,7 +620,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../DownloadButton */ "./components/DownloadButton/index.js");
 /* harmony import */ var _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./DownloadModal.scss */ "./components/DownloadModal/DownloadModal.scss");
 /* harmony import */ var _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/DownloadModal/DownloadModal.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/DownloadModal/DownloadModal.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -799,7 +799,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Container */ "./components/Container/index.js");
 /* harmony import */ var _Feature_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Feature.scss */ "./components/Features/Feature/Feature.scss");
 /* harmony import */ var _Feature_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Feature_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Features/Feature/Feature.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Features/Feature/Feature.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -962,7 +962,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Feature */ "./components/Features/Feature/index.js");
 /* harmony import */ var _Features_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Features.scss */ "./components/Features/Features.scss");
 /* harmony import */ var _Features_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Features_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Features/Features.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Features/Features.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1370,7 +1370,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.scss */ "./components/Footer/Footer.scss");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Footer/Footer.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Footer/Footer.js";
 
 
 
@@ -1541,7 +1541,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Portal */ "./components/Portal/index.js");
 /* harmony import */ var _GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./GDPRBanner.scss */ "./components/GDPRBanner/GDPRBanner.scss");
 /* harmony import */ var _GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/GDPRBanner/GDPRBanner.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/GDPRBanner/GDPRBanner.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1684,9 +1684,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Section */ "./components/Section/index.js");
 /* harmony import */ var _Decorator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Decorator */ "./components/Decorator/index.js");
 /* harmony import */ var _DownloadButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../DownloadButton */ "./components/DownloadButton/index.js");
-/* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Hero.scss */ "./components/Hero/Hero.scss");
-/* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Hero_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Hero/Hero.js";
+/* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
+/* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Hero.scss */ "./components/Hero/Hero.scss");
+/* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Hero_scss__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Hero/Hero.js";
+
 
 
 
@@ -1695,33 +1697,33 @@ var _jsxFileName = "/home/dean/Web/nos/website/components/Hero/Hero.js";
 
 var Hero = function Hero() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default.a.hero,
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.hero,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     name: "hero",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
-  }, "Browse & Build the web of the future"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default.a.large,
+  }, "Discover & Build the web of the future"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.large,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
-  }, "Access the new, decentralized internet. nOS is a virtual operating system, web browser, and decentralized application gateway."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
     version: 3,
     animation: 1,
     outline: true,
@@ -1733,7 +1735,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1747,7 +1749,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1761,7 +1763,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1775,7 +1777,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1788,7 +1790,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1802,7 +1804,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1815,34 +1817,34 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default.a.download,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.download,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default.a.meta,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.meta,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "static/whitepaper.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, "Whitepaper"), ' • ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1850,21 +1852,68 @@ var Hero = function Hero() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
-  }, "GitHub"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_4___default.a.productShot,
+  }, "GitHub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.social,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "twitter",
+    href: "https://twitter.com/nOSplatform",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "reddit",
+    href: "https://www.reddit.com/r/nOSplatform",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "discord",
+    href: "https://discord.nos.io/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "telegram",
+    href: "https://t.me/nOSchat",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "medium",
+    href: "https://medium.com/nos-io",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.productShot,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "static/hero.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 76
     },
     __self: this
   })));
@@ -1890,196 +1939,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./components/IcoBanner/IcoBanner.js":
-/*!*******************************************!*\
-  !*** ./components/IcoBanner/IcoBanner.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Section */ "./components/Section/index.js");
-/* harmony import */ var _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./IcoBanner.scss */ "./components/IcoBanner/IcoBanner.scss");
-/* harmony import */ var _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/IcoBanner/IcoBanner.js";
-
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-var STAGES = [{
-  name: 'Private Sale',
-  active: false,
-  finished: true
-}, {
-  name: 'Whitelist',
-  active: false,
-  finished: true
-}, {
-  name: 'KYC',
-  active: false,
-  finished: true
-}, {
-  name: 'Public Sale (Halted)',
-  active: true,
-  finished: false
-}];
-
-var IcoBanner = function IcoBanner() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.icoBanner,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "Our Token Sale has been temporarily halted due to NEO congestion issues."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.buttonWrap,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://medium.com/nos-io/nos-token-sale-details-instructions-ecee9ccdae1c",
-    target: "_blank",
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.button, _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.buttonPrimary),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Token Sale Details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.youtube.com/watch?v=CcwBNpAfRiU",
-    target: "_blank",
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.button, _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.buttonSecondary),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "nOS Announcement Video")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.progressContainer,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.progressIndicatorWrap,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.progressIndicatorItems,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, STAGES.map(function (_ref) {
-    var _classNames;
-
-    var name = _ref.name,
-        active = _ref.active,
-        finished = _ref.finished;
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: name,
-      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.progressItem, (_classNames = {}, _defineProperty(_classNames, _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.active, active), _defineProperty(_classNames, _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.finished, finished), _classNames)),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.progressLabel,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 38
-      },
-      __self: this
-    }, name));
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.social,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://twitter.com/nOSplatform",
-    target: "_blank",
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socialTwitter,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://medium.com/nos-io",
-    target: "_blank",
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socialMedium,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://t.me/nOSAnnouncements",
-    target: "_blank",
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socialTelegramAnn,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://t.me/nOSchat",
-    target: "_blank",
-    className: _IcoBanner_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socialTelegramMain,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (IcoBanner);
-
-/***/ }),
-
-/***/ "./components/IcoBanner/index.js":
-/*!***************************************!*\
-  !*** ./components/IcoBanner/index.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _IcoBanner__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IcoBanner */ "./components/IcoBanner/IcoBanner.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _IcoBanner__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-
-
-/***/ }),
-
 /***/ "./components/Intro/Intro.js":
 /*!***********************************!*\
   !*** ./components/Intro/Intro.js ***!
@@ -2097,7 +1956,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Intro_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Intro.scss */ "./components/Intro/Intro.scss");
 /* harmony import */ var _Intro_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Intro_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Intro/Intro.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Intro/Intro.js";
 
 
 
@@ -2165,7 +2024,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GDPRBanner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../GDPRBanner */ "./components/GDPRBanner/index.js");
 /* harmony import */ var _Layout_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Layout.scss */ "./components/Layout/Layout.scss");
 /* harmony import */ var _Layout_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Layout_scss__WEBPACK_IMPORTED_MODULE_8__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Layout/Layout.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Layout/Layout.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -2394,7 +2253,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Portal */ "./components/Portal/index.js");
 /* harmony import */ var _Modal_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Modal.scss */ "./components/Modal/Modal.scss");
 /* harmony import */ var _Modal_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Modal_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Modal/Modal.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Modal/Modal.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -2518,7 +2377,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Navigation_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navigation.scss */ "./components/Navigation/Navigation.scss");
 /* harmony import */ var _Navigation_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navigation_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Navigation/Navigation.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Navigation/Navigation.js";
 
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -2671,8 +2530,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Container */ "./components/Container/index.js");
 /* harmony import */ var _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Newsletter.scss */ "./components/Newsletter/Newsletter.scss");
 /* harmony import */ var _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Newsletter_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
 
-var _jsxFileName = "/home/dean/Web/nos/website/components/Newsletter/Newsletter.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Newsletter/Newsletter.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -2698,6 +2558,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -2825,7 +2686,7 @@ function (_React$Component) {
                 throw new Error('Empty server response.');
 
               case 15:
-                alert(data);
+                alert(_this.translateResponse(data));
                 _context3.next = 21;
                 break;
 
@@ -2856,6 +2717,25 @@ function (_React$Component) {
       };
     }());
 
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "translateResponse", function (data) {
+      switch (data) {
+        case "Invalid list ID.":
+          return "Invalid list ID.";
+
+        case "Invalid email address.":
+          return "Your email address is invalid.";
+
+        case "Some fields are missing.":
+          return "Please enter your email address.";
+
+        case "Already subscribed.":
+          return "You're already subscribed!";
+
+        default:
+          return "Check your e-mail for a confirmation link.";
+      }
+    });
+
     return _this;
   }
 
@@ -2866,22 +2746,51 @@ function (_React$Component) {
         className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.newsletter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.container,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, "Sign up to the newsletter to get our latest news & updates"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.titleLeft,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, "Stay in touch"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.large,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "Sign up to the newsletter to get our latest news & updates. Get enganged with our community.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.socialItems,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.newsletterForm,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
         className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.fields,
         action: "https://email.macrowish.com/subscribe",
         method: "post",
@@ -2889,7 +2798,7 @@ function (_React$Component) {
         onSubmit: this.handleSubmit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 24
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -2902,7 +2811,7 @@ function (_React$Component) {
         onChange: this.handleChange('email'),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 31
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -2911,10 +2820,57 @@ function (_React$Component) {
         value: "Sign up",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 40
         },
         __self: this
-      }))));
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.socialIcons,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        name: "twitter",
+        href: "https://twitter.com/nOSplatform",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        name: "reddit",
+        href: "https://www.reddit.com/r/nOSplatform",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        name: "discord",
+        href: "https://discord.nos.io/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        name: "telegram",
+        href: "https://t.me/nOSchat",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        name: "medium",
+        href: "https://medium.com/nos-io",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }))))));
     }
   }]);
 
@@ -2957,7 +2913,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_partners_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/partners.json */ "./data/partners.json", 1);
 /* harmony import */ var _Partners_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Partners.scss */ "./components/Partners/Partners.scss");
 /* harmony import */ var _Partners_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Partners_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Partners/Partners.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Partners/Partners.js";
 
 
 
@@ -3148,7 +3104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section.scss */ "./components/Section/Section.scss");
 /* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Section/Section.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Section/Section.js";
 
 
 
@@ -3204,7 +3160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../DownloadModal */ "./components/DownloadModal/index.js");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Card.scss */ "./components/Showcase/Card/Card.scss");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Card_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Showcase/Card/Card.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Showcase/Card/Card.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -3420,7 +3376,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_showcase_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/showcase.json */ "./data/showcase.json", 1);
 /* harmony import */ var _Showcase_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Showcase.scss */ "./components/Showcase/Showcase.scss");
 /* harmony import */ var _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Showcase_scss__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Showcase/Showcase.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Showcase/Showcase.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -3618,7 +3574,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SocialIcon.scss */ "./components/SocialIcon/SocialIcon.scss");
 /* harmony import */ var _SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/SocialIcon/SocialIcon.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/SocialIcon/SocialIcon.js";
 
 
 
@@ -3684,7 +3640,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Card.scss */ "./components/Team/Card/Card.scss");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Card_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Team/Card/Card.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Team/Card/Card.js";
 
 
 
@@ -3858,7 +3814,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_team_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/team.json */ "./data/team.json", 1);
 /* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Team.scss */ "./components/Team/Team.scss");
 /* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Team_scss__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/home/dean/Web/nos/website/components/Team/Team.js";
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/components/Team/Team.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -32254,16 +32210,14 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout/index.js");
-/* harmony import */ var _components_IcoBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/IcoBanner */ "./components/IcoBanner/index.js");
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero/index.js");
-/* harmony import */ var _components_Partners__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Partners */ "./components/Partners/index.js");
-/* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Features */ "./components/Features/index.js");
-/* harmony import */ var _components_Showcase__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Showcase */ "./components/Showcase/index.js");
-/* harmony import */ var _components_Diagram__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Diagram */ "./components/Diagram/index.js");
-/* harmony import */ var _components_Team__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Team */ "./components/Team/index.js");
-/* harmony import */ var _components_Newsletter__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Newsletter */ "./components/Newsletter/index.js");
-var _jsxFileName = "/home/dean/Web/nos/website/pages/index.js";
-
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero/index.js");
+/* harmony import */ var _components_Partners__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Partners */ "./components/Partners/index.js");
+/* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Features */ "./components/Features/index.js");
+/* harmony import */ var _components_Showcase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Showcase */ "./components/Showcase/index.js");
+/* harmony import */ var _components_Diagram__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Diagram */ "./components/Diagram/index.js");
+/* harmony import */ var _components_Team__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Team */ "./components/Team/index.js");
+/* harmony import */ var _components_Newsletter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Newsletter */ "./components/Newsletter/index.js");
+var _jsxFileName = "/Users/mhuggins/Development/nos/website/pages/index.js";
 
 
 
@@ -32276,58 +32230,51 @@ var _jsxFileName = "/home/dean/Web/nos/website/pages/index.js";
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    ico: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_IcoBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partners__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partners__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Newsletter__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Showcase__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Showcase__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Diagram__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Diagram__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Team__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Team__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Newsletter__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
     },
     __self: this
   }));
