@@ -10,7 +10,7 @@ import Newsletter from '../components/Newsletter';
 // import Demo from '../components/Demo';
 
 const Index = () => (
-  <Layout ico>
+  <Layout>
     <Hero />
     <Partners />
     <Features />
