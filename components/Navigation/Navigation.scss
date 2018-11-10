@@ -3,13 +3,17 @@
   padding: 24px 24px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
   font-size: 14px;
-  position: absolute;
-  z-index: 2;
 
   @media screen and (max-width: $break-medium) {
     flex-direction: column;
     justify-content: center;
+  }
+
+  &.fixed {
+    position: absolute;
+    z-index: 2;
   }
 
   .logo {
@@ -33,10 +37,9 @@
       display: flex;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: $break-small) {
       display: none;
     }
-
 
     a {
       margin-left: 32px;

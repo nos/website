@@ -5,7 +5,7 @@ import { bool } from 'prop-types';
 import styles from './Navigation.scss';
 
 const Navigation = (props) => (
-  <div className={classNames(styles.navigation, { [styles.icoActive]: props.ico })}>
+  <div className={classNames(styles.navigation, { [styles.fixed]: props.fixed })}>
     <Link href="/"><a className={styles.logo} /></Link>
     <nav className={styles.navItems}>
         <Link href="/#hero"><a>Download</a></Link>
@@ -19,11 +19,11 @@ const Navigation = (props) => (
 );
 
 Navigation.propTypes = {
-  ico: bool
+  fixed: bool
 };
 
 Navigation.defaultProps = {
-  ico: false
+  fixed: false
 };
 
 export default Navigation;
