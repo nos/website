@@ -6,7 +6,11 @@
   position: relative;
 
   @media screen and (max-width: $break-medium) {
-    padding-top: 48px;
+    padding-top: 192px;
+  }
+
+  @media screen and (max-width: $break-small) {
+    padding-top: 144px;
   }
 
   .large {

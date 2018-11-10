@@ -11,12 +11,12 @@ import './Layout.scss';
 export default class Layout extends React.Component {
   static propTypes = {
     title: string,
-    ico: bool
+    fixed: bool
   }
 
   static defaultProps = {
     title: 'nOS - Operating System for the Decentralized Internet',
-    ico: false
+    fixed: false
   }
 
   state = {
@@ -42,7 +42,7 @@ export default class Layout extends React.Component {
           <title>{this.props.title}</title>
         </Head>
 
-        <Navigation ico={this.props.ico} />
+        <Navigation fixed={this.props.fixed} />
         {this.props.children}
         <Footer />
         {this.renderBanner()}
