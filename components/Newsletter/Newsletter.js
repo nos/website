@@ -69,11 +69,26 @@ export default class Newsletter extends React.Component {
         throw new Error('Empty server response.');
       }
 
-      alert(data);
+      alert(this.translateResponse(data));
     } catch (err) {
       alert(`Sorry, but an unexpected error was encountered. Please try again later. (${err.message})`);
     } finally {
       this.setState({ disabled: false });
+    }
+  }
+
+  translateResponse = (data) => {
+    switch (data) {
+      case "Invalid list ID.":
+        return "Invalid list ID.";
+      case "Invalid email address.":
+        return "Your email address is invalid.";
+      case "Some fields are missing.":
+        return "Please enter your email address.";
+      case "Already subscribed.":
+        return "You're already subscribed!";
+      default:
+        return "Check your e-mail for a confirmation link.";
     }
   }
 }
