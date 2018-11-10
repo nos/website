@@ -1,16 +1,63 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: $max-width;
+
+  @media screen and (max-width: $break-medium) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .newsletter {
-  background: $pale-gray;
-  text-align: center;
+  background: white;
+  padding: 160px 0;
+
+  .titleLeft {
+    flex: 1;
+    margin-right: 10%;
+
+    @media screen and (max-width: $break-medium) {
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+  }
+
+  .socialItems {
+    flex: 1.25;
+  }
+
+  .socialIcons {
+    margin-top: 32px;
+    display: flex;
+
+    @media screen and (max-width: $break-medium) {
+      flex: 1;
+      justify-content: center;
+    }
+
+    & > * {
+      margin-right: 38px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 
   h3 {
     margin-bottom: 32px;
+    width: 100%;
   }
 
   .fields {
     display: flex;
     justify-content: center;
     max-width: 520px;
-    margin: 0 auto;
+
+    @media screen and (max-width: $break-medium) {
+      margin: 0 auto;
+    }
 
     input {
       height: 50px;

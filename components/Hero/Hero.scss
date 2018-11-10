@@ -2,7 +2,7 @@
   text-align: center;
   background: url('/static/hero-fancy-bg.svg') bottom center no-repeat, linear-gradient(173deg, $pale-gray 0%, $light-gray 45%);
   background-size: 100% auto, auto;
-  padding: 124px 12px 0 12px;
+  padding: 192px 12px 0 12px;
   position: relative;
 
   @media screen and (max-width: $break-medium) {
@@ -24,6 +24,17 @@
       margin-top: 8px;
 
       a { text-decoration: none; font-weight: 500;}
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+
+    & > * {
+      width: 24px;
+      height: 24px;
+      margin: 16px 8px;
     }
   }
 
