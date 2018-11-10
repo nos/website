@@ -1,10 +1,9 @@
-import React from 'react';
+import Head from 'next/head';
 
-import redirect from '../helpers/redirect';
+const Whitepaper = () => (
+  <Head>
+    <meta httpEquiv="refresh" content="0; URL='/static/whitepaper.pdf'" />
+  </Head>
+);
 
-export default class extends React.Component {
-  static async getInitialProps(context) {
-    redirect(context, '/static/whitepaper.pdf');
-    return {};
-  }
-}
+export default Whitepaper;
