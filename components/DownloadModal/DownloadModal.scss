@@ -37,7 +37,8 @@
       width: 112px;
       height: 112px;
       margin-right: 20px;
-      background: url('/static/nos-app-icon.svg');
+      background: url('/static/nos-app-icon.png');
+      background-size: contain;
     }
 
     .message {

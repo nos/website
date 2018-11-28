@@ -3,8 +3,9 @@ $_button-background-color-hover: shade($action-color, 20%);
 
 #{$all-buttons} {
   appearance: none;
-  background: $green-gradient-vertical;
-  border: 0;
+  background-image: $green-gradient-vertical;
+  background-color: $_button-background-color;
+  border: 0 transparent;
   border-radius: 999px;
   color: white;
   cursor: pointer;
@@ -23,8 +24,8 @@ $_button-background-color-hover: shade($action-color, 20%);
   white-space: nowrap;
 
   &:hover {
+    background-image: none;
     background-color: $_button-background-color-hover;
-    color: contrast-switch($_button-background-color-hover);
   }
 
   &:focus {
