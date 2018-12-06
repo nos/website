@@ -1,5 +1,7 @@
 # website
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nos/website.svg)](https://greenkeeper.io/)
+
 ## Setup
 
 ```bash
