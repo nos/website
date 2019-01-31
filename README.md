@@ -21,7 +21,7 @@ You can then access the site at http://localhost:3000.
 The nos.io website is intended to be deployed as a static app.  To deploy, run:
 
 ```bash
-yarn build && yarn export
+yarn deploy
 ```
 
 This will generate a static `out` folder.  The web server must be configured to point to this folder
