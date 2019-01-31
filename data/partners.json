@@ -15,13 +15,18 @@
     "width": "216"
   },
   {
-    "name": "NEX",
-    "image": "static/logo-nex.png",
-    "width": "62"
-  },
-  {
     "name": "Moonlight",
     "image": "static/logo-moonlight.png",
     "width": "198"
+  },
+  {
+    "name": "Nash",
+    "image": "static/logo-nash.svg",
+    "width": "115"
+  },
+  {
+    "name": "Cruzeo",
+    "image": "static/logo-cruzeo.png",
+    "width": "180"
   }
 ]
