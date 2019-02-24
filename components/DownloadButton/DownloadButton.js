@@ -7,7 +7,6 @@ export default class DownloadButton extends React.Component {
     state = {downloadUrl: "https://github.com/nos/client/releases"};
 
     setDownloadUrl = async () => {
-        let downloadUrl = "https://github.com/nos/client/releases";
         const resp = await fetch('https://api.github.com/repos/nos/client/releases/latest');
         const response = await resp.json();
         const assets = response.assets;
