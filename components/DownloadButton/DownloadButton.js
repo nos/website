@@ -20,9 +20,7 @@ export default class DownloadButton extends React.Component {
     }
 
     componentDidMount() {
-        if(this.state.downloadUrl === "https://github.com/nos/client/releases") {
             this.setDownloadUrl();
-        }
     }
 
 
