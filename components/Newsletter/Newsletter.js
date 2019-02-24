@@ -9,7 +9,7 @@ export default class Newsletter extends React.Component {
   state = {
     email: '',
     disabled: false
-  }
+  };
 
   render() {
     return (
@@ -17,7 +17,7 @@ export default class Newsletter extends React.Component {
         <Container className={styles.container}>
           <div className={styles.titleLeft}>
             <h2>Stay in touch</h2>
-            <p className={styles.large}>Sign up to the newsletter to get our latest news & updates. Get enganged with our community.</p>
+            <p className={styles.large}>Sign up to the newsletter to get our latest news & updates. Get engaged with our community.</p>
           </div>
           <div className={styles.socialItems}>
             <div className={styles.newsletterForm}>
