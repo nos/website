@@ -7,7 +7,7 @@ import styles from './DownloadButton.scss';
 
 const DownloadButton = ({ className, label }) => (
   <Consumer>
-    {downloadUrl => console.log(downloadUrl) || (
+    {downloadUrl => (
       <a
         className={classNames('button', styles.downloadButton, className)}
         href={downloadUrl}
