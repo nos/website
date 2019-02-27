@@ -6,7 +6,9 @@ import { string, bool } from 'prop-types';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import GDPRBanner from '../GDPRBanner';
+
 import './Layout.scss';
+import { Provider } from './Context';
 
 export default class Layout extends React.Component {
   static propTypes = {
@@ -20,10 +22,31 @@ export default class Layout extends React.Component {
   }
 
   state = {
-    accepted: true
+    accepted: true,
+    downloadUrl: 'https://github.com/nos/client/releases'
+  }
+
+  setDownloadUrl = async () => {
+    try {
+      const resp = await fetch('https://api.github.com/repos/nos/client/releases/latest');
+      const response = await resp.json();
+      const assets = response.assets;
+
+      assets.forEach(asset => {
+        const browserDownloadUrl = asset.browser_download_url;
+
+        if ((browserDownloadUrl.endsWith(".exe") && navigator.platform.indexOf('Win') !== -1) || (browserDownloadUrl.endsWith(".dmg") && navigator.platform.indexOf('Mac') !== -1) || (browserDownloadUrl.endsWith(".AppImage") && navigator.platform.indexOf('Linux') !== -1)) {
+          this.setState({downloadUrl: browserDownloadUrl});
+        }
+      })
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   componentDidMount = () => {
+    this.setDownloadUrl();
+
     if (!cookie.get('gdpr')) {
       this.setState({ accepted: false });
     }
@@ -31,22 +54,24 @@ export default class Layout extends React.Component {
 
   render() {
     return (
-      <div>
-        <Head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="description" content="nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications" />
-          <meta name="og:image" content="static/dapps-snapshot.png" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          <link rel="shortcut icon" href="static/logo-nos.png" type="image/x-icon" />
-          <title>{this.props.title}</title>
-        </Head>
+      <Provider value={this.state.downloadUrl}>
+        <div>
+          <Head>
+            <meta charSet="utf-8" />
+            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+            <meta name="description" content="nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications" />
+            <meta name="og:image" content="static/dapps-snapshot.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <link rel="shortcut icon" href="static/logo-nos.png" type="image/x-icon" />
+            <title>{this.props.title}</title>
+          </Head>
 
-        <Navigation fixed={this.props.fixed} />
-        {this.props.children}
-        <Footer />
-        {this.renderBanner()}
-      </div>
+          <Navigation fixed={this.props.fixed} />
+          {this.props.children}
+          <Footer />
+          {this.renderBanner()}
+        </div>
+      </Provider>
     );
   }
 
