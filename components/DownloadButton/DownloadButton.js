@@ -1,7 +1,9 @@
 import classNames from 'classnames';
 import {string} from 'prop-types';
-import styles from './DownloadButton.scss';
+
 import { Consumer } from '../Layout/Context';
+
+import styles from './DownloadButton.scss';
 
 const DownloadButton = ({ className, label }) => (
   <Consumer>
