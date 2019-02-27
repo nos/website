@@ -571,7 +571,7 @@ var DownloadButton = function DownloadButton(_ref) {
     },
     __self: this
   }, function (downloadUrl) {
-    return console.log(downloadUrl) || react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('button', _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4___default.a.downloadButton, className),
       href: downloadUrl,
       target: "_blank",
@@ -2133,15 +2133,16 @@ function (_React$Component) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              _context.next = 2;
+              _context.prev = 0;
+              _context.next = 3;
               return fetch('https://api.github.com/repos/nos/client/releases/latest');
 
-            case 2:
+            case 3:
               resp = _context.sent;
-              _context.next = 5;
+              _context.next = 6;
               return resp.json();
 
-            case 5:
+            case 6:
               response = _context.sent;
               assets = response.assets;
               assets.forEach(function (asset) {
@@ -2153,13 +2154,20 @@ function (_React$Component) {
                   });
                 }
               });
+              _context.next = 14;
+              break;
 
-            case 8:
+            case 11:
+              _context.prev = 11;
+              _context.t0 = _context["catch"](0);
+              console.error(_context.t0);
+
+            case 14:
             case "end":
               return _context.stop();
           }
         }
-      }, _callee, this);
+      }, _callee, this, [[0, 11]]);
     })));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "componentDidMount", function () {
@@ -2182,7 +2190,7 @@ function (_React$Component) {
         onAccept: _this.handleAccept,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 83
         },
         __self: this
       });
@@ -2206,26 +2214,26 @@ function (_React$Component) {
         value: this.state.downloadUrl,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 60
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -2233,7 +2241,7 @@ function (_React$Component) {
         content: "ie=edge",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 61
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -2241,7 +2249,7 @@ function (_React$Component) {
         content: "nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 62
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -2249,7 +2257,7 @@ function (_React$Component) {
         content: "static/dapps-snapshot.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -2257,7 +2265,7 @@ function (_React$Component) {
         content: "width=device-width, initial-scale=1, shrink-to-fit=no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 64
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -2266,26 +2274,26 @@ function (_React$Component) {
         type: "image/x-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 65
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 66
         },
         __self: this
       }, this.props.title)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_6__["default"], {
         fixed: this.props.fixed,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         },
         __self: this
       }), this.props.children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 71
         },
         __self: this
       }), this.renderBanner()));
