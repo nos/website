@@ -26,4 +26,8 @@
 .starGazer {
   margin-left: 15px;
   margin-bottom: -10px;
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 15px;
+  }
 }
