@@ -13,7 +13,7 @@
     "start": "next start",
     "export": "next export -o docs",
     "deploy": "yarn build && yarn export && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: redeploy site\" && git push origin master",
-    "postexport": "mv docs/whitepaper.pdf docs/whitepaper.js && mkdir docs/whitepaper.pdf && mv docs/whitepaper.js docs/whitepaper.pdf/index.js"
+    "postexport": "shx mv docs/whitepaper.pdf docs/whitepaper.js && shx mkdir docs/whitepaper.pdf && shx mv docs/whitepaper.js docs/whitepaper.pdf/index.js"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -29,6 +29,7 @@
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.0.0"
+    "babel-plugin-inline-react-svg": "^1.0.0",
+    "shx": "^0.3.2"
   }
 }

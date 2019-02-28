@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Container/Container.js":
 /*!*******************************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Container_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Container.scss */ "./components/Container/Container.scss");
 /* harmony import */ var _Container_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Container_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Container/Container.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Container\\Container.js";
 
 
 
@@ -74,7 +74,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Decorator_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Decorator.scss */ "./components/Decorator/Decorator.scss");
 /* harmony import */ var _Decorator_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Decorator_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Decorator/Decorator.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Decorator\\Decorator.js";
 
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Intro__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Intro */ "./components/Intro/index.js");
 /* harmony import */ var _Diagram_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Diagram.scss */ "./components/Diagram/Diagram.scss");
 /* harmony import */ var _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Diagram_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Diagram/Diagram.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Diagram\\Diagram.js";
 
 
 
@@ -554,7 +554,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layout_Context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Layout/Context */ "./components/Layout/Context.js");
 /* harmony import */ var _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./DownloadButton.scss */ "./components/DownloadButton/DownloadButton.scss");
 /* harmony import */ var _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/DownloadButton/DownloadButton.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\DownloadButton\\DownloadButton.js";
 
 
 
@@ -571,16 +571,21 @@ var DownloadButton = function DownloadButton(_ref) {
     },
     __self: this
   }, function (downloadUrl) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('button', _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4___default.a.downloadButton, className),
-      href: downloadUrl,
-      target: "_blank",
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
       },
       __self: this
-    }, label);
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('button', _DownloadButton_scss__WEBPACK_IMPORTED_MODULE_4___default.a.downloadButton, className),
+      href: downloadUrl,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, label));
   });
 };
 
@@ -632,7 +637,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../DownloadButton */ "./components/DownloadButton/index.js");
 /* harmony import */ var _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./DownloadModal.scss */ "./components/DownloadModal/DownloadModal.scss");
 /* harmony import */ var _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/DownloadModal/DownloadModal.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\DownloadModal\\DownloadModal.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -811,7 +816,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Container */ "./components/Container/index.js");
 /* harmony import */ var _Feature_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Feature.scss */ "./components/Features/Feature/Feature.scss");
 /* harmony import */ var _Feature_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Feature_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Features/Feature/Feature.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Features\\Feature\\Feature.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -974,7 +979,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Feature */ "./components/Features/Feature/index.js");
 /* harmony import */ var _Features_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Features.scss */ "./components/Features/Features.scss");
 /* harmony import */ var _Features_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Features_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Features/Features.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Features\\Features.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1382,7 +1387,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.scss */ "./components/Footer/Footer.scss");
 /* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Footer/Footer.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Footer\\Footer.js";
 
 
 
@@ -1553,7 +1558,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Portal */ "./components/Portal/index.js");
 /* harmony import */ var _GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./GDPRBanner.scss */ "./components/GDPRBanner/GDPRBanner.scss");
 /* harmony import */ var _GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_GDPRBanner_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/GDPRBanner/GDPRBanner.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\GDPRBanner\\GDPRBanner.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1699,7 +1704,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
 /* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Hero.scss */ "./components/Hero/Hero.scss");
 /* harmony import */ var _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Hero_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Hero/Hero.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Hero\\Hero.js";
 
 
 
@@ -1775,7 +1780,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1789,7 +1794,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1802,7 +1807,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1816,7 +1821,7 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1829,34 +1834,34 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.download,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.meta,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "static/whitepaper.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 36
     },
     __self: this
   }, "Whitepaper"), ' • ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1864,14 +1869,14 @@ var Hero = function Hero() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 38
     },
     __self: this
   }, "GitHub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.social,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -1879,7 +1884,7 @@ var Hero = function Hero() {
     href: "https://twitter.com/nOSplatform",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -1887,7 +1892,7 @@ var Hero = function Hero() {
     href: "https://www.reddit.com/r/nOSplatform",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 44
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -1895,7 +1900,7 @@ var Hero = function Hero() {
     href: "https://discord.nos.io/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 45
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -1903,7 +1908,7 @@ var Hero = function Hero() {
     href: "https://t.me/nOSchat",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 46
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -1911,21 +1916,21 @@ var Hero = function Hero() {
     href: "https://medium.com/nos-io",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 47
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.productShot,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "static/hero.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 52
     },
     __self: this
   })));
@@ -1968,7 +1973,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Intro_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Intro.scss */ "./components/Intro/Intro.scss");
 /* harmony import */ var _Intro_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Intro_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Intro/Intro.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Intro\\Intro.js";
 
 
 
@@ -2063,7 +2068,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layout_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Layout_scss__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _Context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Context */ "./components/Layout/Context.js");
 
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Layout/Layout.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Layout\\Layout.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -2354,7 +2359,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Portal */ "./components/Portal/index.js");
 /* harmony import */ var _Modal_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Modal.scss */ "./components/Modal/Modal.scss");
 /* harmony import */ var _Modal_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Modal_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Modal/Modal.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Modal\\Modal.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -2478,7 +2483,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Navigation_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navigation.scss */ "./components/Navigation/Navigation.scss");
 /* harmony import */ var _Navigation_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navigation_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Navigation/Navigation.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Navigation\\Navigation.js";
 
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -2507,69 +2512,81 @@ var Navigation = function Navigation(props) {
     className: _Navigation_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: _Navigation_scss__WEBPACK_IMPORTED_MODULE_4___default.a.navItems,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/#hero",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }, "Download")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/#features",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
   }, "Features")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/#showcases",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 20
     },
     __self: this
   }, "Showcases")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/#team",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 24
     },
     __self: this
-  }, "Team"))));
+  }, "Team")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    className: _Navigation_scss__WEBPACK_IMPORTED_MODULE_4___default.a.starGazer,
+    src: "https://ghbtns.com/github-btn.html?user=nos&repo=client&type=star&size=large",
+    frameborder: "0",
+    scrolling: "0",
+    width: "160px",
+    height: "30px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  })));
 };
 
 Navigation.propTypes = {
@@ -2620,7 +2637,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Newsletter_scss__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../SocialIcon */ "./components/SocialIcon/index.js");
 
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Newsletter/Newsletter.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Newsletter\\Newsletter.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -3001,7 +3018,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_partners_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/partners.json */ "./data/partners.json", 1);
 /* harmony import */ var _Partners_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Partners.scss */ "./components/Partners/Partners.scss");
 /* harmony import */ var _Partners_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Partners_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Partners/Partners.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Partners\\Partners.js";
 
 
 
@@ -3192,7 +3209,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section.scss */ "./components/Section/Section.scss");
 /* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Section/Section.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Section\\Section.js";
 
 
 
@@ -3248,7 +3265,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../DownloadModal */ "./components/DownloadModal/index.js");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Card.scss */ "./components/Showcase/Card/Card.scss");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Card_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Showcase/Card/Card.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Showcase\\Card\\Card.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -3464,7 +3481,8 @@ __webpack_require__.r(__webpack_exports__);
 var _data_showcase_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/showcase.json */ "./data/showcase.json", 1);
 /* harmony import */ var _Showcase_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Showcase.scss */ "./components/Showcase/Showcase.scss");
 /* harmony import */ var _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Showcase_scss__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Showcase/Showcase.js";
+/* harmony import */ var _DownloadButton__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../DownloadButton */ "./components/DownloadButton/index.js");
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Showcase\\Showcase.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -3490,6 +3508,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -3538,7 +3557,7 @@ function (_React$Component) {
       }, without(app, 'description'), {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 43
         },
         __self: this
       }), app.description);
@@ -3556,51 +3575,50 @@ function (_React$Component) {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.showcase,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         name: "showcases",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.intro,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
         },
         __self: this
       }, "Decentralized Apps Showcase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.large,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/nos/client/releases",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
-      }, "Download nOS Client"), ' ', "to check out early nOSNet Community dApps.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        label: 'Download nOS Client',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), " to check out early nOSNet Community dApps.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cards,
         __source: {
           fileName: _jsxFileName,
@@ -3613,7 +3631,7 @@ function (_React$Component) {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cards,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 35
         },
         __self: this
       }, _data_showcase_json__WEBPACK_IMPORTED_MODULE_5__.slice(PRIMARY_COUNT).map(function (app) {
@@ -3662,7 +3680,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SocialIcon.scss */ "./components/SocialIcon/SocialIcon.scss");
 /* harmony import */ var _SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_SocialIcon_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/SocialIcon/SocialIcon.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\SocialIcon\\SocialIcon.js";
 
 
 
@@ -3728,7 +3746,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Card.scss */ "./components/Team/Card/Card.scss");
 /* harmony import */ var _Card_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Card_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Team/Card/Card.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Team\\Card\\Card.js";
 
 
 
@@ -3902,7 +3920,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_team_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/team.json */ "./data/team.json", 1);
 /* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Team.scss */ "./components/Team/Team.scss");
 /* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Team_scss__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/components/Team/Team.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\components\\Team\\Team.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -32299,7 +32317,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Diagram__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Diagram */ "./components/Diagram/index.js");
 /* harmony import */ var _components_Team__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Team */ "./components/Team/index.js");
 /* harmony import */ var _components_Newsletter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Newsletter */ "./components/Newsletter/index.js");
-var _jsxFileName = "/Users/jeroenpeeters/Documents/Development/Neo/nOS/website/pages/index.js";
+var _jsxFileName = "D:\\Development\\nos\\website\\pages\\index.js";
 
 
 
