@@ -31,7 +31,7 @@ const Hero = () => (
     <Decorator version={1} animation={4} style={{ right: '18%', width: '120px', height: '120px' }} />
 
     <div className={styles.download}>
-      <DownloadButton starGazer={true} />
+      <DownloadButton />
       <div className={styles.meta}>
         <a href="static/whitepaper.pdf">Whitepaper</a>
         {' • '}
