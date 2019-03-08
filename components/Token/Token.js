@@ -25,7 +25,7 @@ const Token = () => (
       <h3 className={styles.subtitle}>Get NOS token</h3>
       <div className={styles.exchanges}>
         {exchanges.map((exchange) => (
-          <img key={exchange.name} src={exchange.image} alt={exchange.name} width={exchange.width} />
+          <a href={exchange.url}><img key={exchange.name} src={exchange.image} alt={exchange.name} width={exchange.width} /></a>
         ))}
       </div>
     </Container>

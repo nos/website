@@ -2,6 +2,7 @@
   {
     "name": "Switcheo",
     "image": "static/exchange-switcheo.svg",
-    "width": "308"
+    "width": "308",
+    "url": "https://switcheo.exchange/markets/NOS_NEO"
   }
 ]
