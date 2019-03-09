@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Partners from '../components/Partners';
+import Token from '../components/Token';
 import Features from '../components/Features';
 import Showcase from '../components/Showcase';
 import Diagram from '../components/Diagram';
@@ -13,6 +14,7 @@ const Index = () => (
     <Hero />
     <Partners />
     <Features />
+    <Token />
     <Newsletter />
     <Showcase />
     <Diagram />

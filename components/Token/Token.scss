@@ -1,0 +1,38 @@
+.token {
+  background: linear-gradient(194.67deg, #CF5BD9 -4.01%, #6D48B8 38.19%, #443562 85.96%);
+  color: white;
+  max-width: 100%;
+
+  .subtitle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 40px 20px 0;
+    max-width: 100%;
+    opacity: .6;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .cards {
+    max-width: $break-large;
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .exchanges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+    img {
+      margin: 16px 32px;
+      max-width: 100%;
+    }
+  }
+}
