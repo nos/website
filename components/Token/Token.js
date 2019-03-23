@@ -12,7 +12,8 @@ const Token = () => (
       <h3 className={styles.subtitle}>Token Utility</h3>
       <h2>NOS Token</h2>
       <p className={styles.large}>
-        NOS is the backbone of the nOS Virtual Operating System
+        NOS is the backbone of the nOS Virtual Operating System. 
+        <span className={styles.small}>Please note that we are still adding new utilities. Not all listed features are live yet.</span>
           {/*{' '}*/}
       </p>
     </Intro>
