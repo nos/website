@@ -8,6 +8,7 @@ import exchanges from '../../data/exchanges.json';
 
 const Token = () => (
   <Section className={styles.token}>
+    <a name="token" />
     <Intro>
       <h3 className={styles.subtitle}>Token Utility</h3>
       <h2>NOS Token</h2>
@@ -25,8 +26,8 @@ const Token = () => (
     <Container>
       <h3 className={styles.subtitle}>Get NOS token</h3>
       <div className={styles.exchanges}>
-        {exchanges.map((exchange) => (
-          <a href={exchange.url}><img key={exchange.name} src={exchange.image} alt={exchange.name} width={exchange.width} /></a>
+        {exchanges.map((exchange, i) => (
+          <a key={`anchorelement-${i}`} href={exchange.url}><img key={exchange.name} src={exchange.image} alt={exchange.name} width={exchange.width} /></a>
         ))}
       </div>
     </Container>
