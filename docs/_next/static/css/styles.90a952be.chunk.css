@@ -3579,14 +3579,11 @@ hr {
     opacity: .6; }
   .token___ZmS-K p {
     font-size: 20px; }
-    .token___ZmS-K p .small___2_xWp {
-      display: block;
-      font-size: 16px; }
   .token___ZmS-K .cards___3n2SD {
-    max-width: 760px;
+    max-width: 540px;
     margin: 0 auto 40px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap; }
   .token___ZmS-K .exchanges___YVp4H {
     display: flex;
@@ -3850,7 +3847,7 @@ hr {
   margin: 1.5em 0; }
 
 .card___1x2xT {
-  width: 33.33%;
+  width: 50%;
   text-align: center;
   font-size: 14px;
   margin-bottom: 60px; }
@@ -6979,5 +6976,3 @@ hr {
         padding-left: 48px;
         padding-right: 48px; }
 
-
-/*# sourceMappingURL=styles.chunk.css.map*/
