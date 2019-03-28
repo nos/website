@@ -16,6 +16,9 @@ const Navigation = props => (
       <Link href="/#features">
         <a>Features</a>
       </Link>
+      <Link href="/#token">
+        <a>Token</a>
+      </Link>
       <Link href="/#showcases">
         <a>Showcases</a>
       </Link>
@@ -26,7 +29,7 @@ const Navigation = props => (
       <iframe
         className={styles.starGazer}
         src="https://ghbtns.com/github-btn.html?user=nos&repo=client&type=star&size=large"
-        frameborder="0"
+        frameBorder="0"
         scrolling="0"
         width="160px"
         height="30px"
