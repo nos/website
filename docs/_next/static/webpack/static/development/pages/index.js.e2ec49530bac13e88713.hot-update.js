@@ -35,7 +35,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 var Token = function Token() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.token,
     __source: {
       fileName: _jsxFileName,
@@ -49,7 +49,7 @@ var Token = function Token() {
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -90,7 +90,7 @@ var Token = function Token() {
     },
     __self: this
   }, _data_token_json__WEBPACK_IMPORTED_MODULE_6__.map(function (item) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_5__["JobPostingBanner"], _extends({
       key: item.title
     }, item, {
       __source: {
@@ -99,7 +99,7 @@ var Token = function Token() {
       },
       __self: this
     }));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -142,7 +142,7 @@ var Token = function Token() {
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Token);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Token);
 
 /***/ })
 

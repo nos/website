@@ -4148,32 +4148,32 @@ var _head = _interopRequireDefault(__webpack_require__(/*! ./head */ "./node_mod
 var Error =
 /*#__PURE__*/
 function (_React$Component) {
-  (0, _inherits2.default)(Error, _React$Component);
+  (0, _inherits2.JobPostingBanner)(Error, _React$Component);
 
   function Error() {
-    (0, _classCallCheck2.default)(this, Error);
-    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Error).apply(this, arguments));
+    (0, _classCallCheck2.JobPostingBanner)(this, Error);
+    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(Error).apply(this, arguments));
   }
 
-  (0, _createClass2.default)(Error, [{
+  (0, _createClass2.JobPostingBanner)(Error, [{
     key: "render",
     value: function render() {
       var statusCode = this.props.statusCode;
-      var title = statusCode === 404 ? 'This page could not be found' : _httpStatus.default[statusCode] || 'An unexpected error has occurred';
-      return _react.default.createElement("div", {
+      var title = statusCode === 404 ? 'This page could not be found' : _httpStatus.JobPostingBanner[statusCode] || 'An unexpected error has occurred';
+      return _react.JobPostingBanner.createElement("div", {
         style: styles.error
-      }, _react.default.createElement(_head.default, null, _react.default.createElement("meta", {
+      }, _react.JobPostingBanner.createElement(_head.JobPostingBanner, null, _react.JobPostingBanner.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1.0"
-      }), _react.default.createElement("title", null, statusCode, ": ", title)), _react.default.createElement("div", null, _react.default.createElement("style", {
+      }), _react.JobPostingBanner.createElement("title", null, statusCode, ": ", title)), _react.JobPostingBanner.createElement("div", null, _react.JobPostingBanner.createElement("style", {
         dangerouslySetInnerHTML: {
           __html: 'body { margin: 0 }'
         }
-      }), statusCode ? _react.default.createElement("h1", {
+      }), statusCode ? _react.JobPostingBanner.createElement("h1", {
         style: styles.h1
-      }, statusCode) : null, _react.default.createElement("div", {
+      }, statusCode) : null, _react.JobPostingBanner.createElement("div", {
         style: styles.desc
-      }, _react.default.createElement("h2", {
+      }, _react.JobPostingBanner.createElement("h2", {
         style: styles.h2
       }, title, "."))));
     }
@@ -4189,13 +4189,13 @@ function (_React$Component) {
     }
   }]);
   return Error;
-}(_react.default.Component);
+}(_react.JobPostingBanner.Component);
 
 exports.default = Error;
 
 if (true) {
   Error.propTypes = {
-    statusCode: _propTypes.default.number
+    statusCode: _propTypes.JobPostingBanner.number
   };
 }
 
@@ -4280,30 +4280,30 @@ var _sideEffect = _interopRequireDefault(__webpack_require__(/*! ./side-effect *
 var Head =
 /*#__PURE__*/
 function (_React$Component) {
-  (0, _inherits2.default)(Head, _React$Component);
+  (0, _inherits2.JobPostingBanner)(Head, _React$Component);
 
   function Head() {
-    (0, _classCallCheck2.default)(this, Head);
-    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Head).apply(this, arguments));
+    (0, _classCallCheck2.JobPostingBanner)(this, Head);
+    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(Head).apply(this, arguments));
   }
 
-  (0, _createClass2.default)(Head, [{
+  (0, _createClass2.JobPostingBanner)(Head, [{
     key: "render",
     value: function render() {
       return null;
     }
   }]);
   return Head;
-}(_react.default.Component);
+}(_react.JobPostingBanner.Component);
 
-(0, _defineProperty2.default)(Head, "contextTypes", {
-  headManager: _propTypes.default.object
+(0, _defineProperty2.JobPostingBanner)(Head, "contextTypes", {
+  headManager: _propTypes.JobPostingBanner.object
 });
 var NEXT_HEAD_IDENTIFIER = 'next-head';
 
 function defaultHead() {
   var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : NEXT_HEAD_IDENTIFIER;
-  return [_react.default.createElement("meta", {
+  return [_react.JobPostingBanner.createElement("meta", {
     key: "charSet",
     charSet: "utf-8",
     className: className
@@ -4312,19 +4312,19 @@ function defaultHead() {
 
 function reduceComponents(components) {
   return components.map(function (component) {
-    return _react.default.Children.toArray(component.props.children);
+    return _react.JobPostingBanner.Children.toArray(component.props.children);
   }).reduce(function (a, b) {
     return a.concat(b);
   }, []).reduce(function (a, b) {
-    if (_react.default.Fragment && b.type === _react.default.Fragment) {
-      return a.concat(_react.default.Children.toArray(b.props.children));
+    if (_react.JobPostingBanner.Fragment && b.type === _react.JobPostingBanner.Fragment) {
+      return a.concat(_react.JobPostingBanner.Children.toArray(b.props.children));
     }
 
     return a.concat(b);
   }, []).reverse().concat(defaultHead('')).filter(Boolean).filter(unique()).reverse().map(function (c, i) {
     var className = (c.props && c.props.className ? c.props.className + ' ' : '') + NEXT_HEAD_IDENTIFIER;
     var key = c.key || i;
-    return _react.default.cloneElement(c, {
+    return _react.JobPostingBanner.cloneElement(c, {
       key: key,
       className: className
     });
@@ -4350,9 +4350,9 @@ var ALLOWED_DUPLICATES = ['article:tag', 'og:image', 'og:image:alt', 'og:image:w
 */
 
 function unique() {
-  var keys = new _set.default();
-  var tags = new _set.default();
-  var metaTypes = new _set.default();
+  var keys = new _set.JobPostingBanner();
+  var tags = new _set.JobPostingBanner();
+  var metaTypes = new _set.JobPostingBanner();
   var metaCategories = {};
   return function (h) {
     if (h.key && h.key.indexOf('.$') === 0) {
@@ -4377,7 +4377,7 @@ function unique() {
             metaTypes.add(metatype);
           } else {
             var category = h.props[metatype];
-            var categories = metaCategories[metatype] || new _set.default();
+            var categories = metaCategories[metatype] || new _set.JobPostingBanner();
             if (categories.has(category) && ALLOWED_DUPLICATES.indexOf(category) === -1) return false;
             categories.add(category);
             metaCategories[metatype] = categories;
@@ -4391,7 +4391,7 @@ function unique() {
   };
 }
 
-var _default = (0, _sideEffect.default)(reduceComponents, onStateChange, mapOnServer)(Head);
+var _default = (0, _sideEffect.JobPostingBanner)(reduceComponents, onStateChange, mapOnServer)(Head);
 
 exports.default = _default;
 
@@ -4456,11 +4456,11 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       throw new Error('Expected WrappedComponent to be a React component.');
     }
 
-    var mountedInstances = new _set.default();
+    var mountedInstances = new _set.JobPostingBanner();
     var state;
 
     function emitChange(component) {
-      state = reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances));
+      state = reduceComponentsToState((0, _toConsumableArray2.JobPostingBanner)(mountedInstances));
 
       if (SideEffect.canUseDOM) {
         handleStateChangeOnClient.call(component, state);
@@ -4472,8 +4472,8 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
     var SideEffect =
     /*#__PURE__*/
     function (_Component) {
-      (0, _inherits2.default)(SideEffect, _Component);
-      (0, _createClass2.default)(SideEffect, null, [{
+      (0, _inherits2.JobPostingBanner)(SideEffect, _Component);
+      (0, _createClass2.JobPostingBanner)(SideEffect, null, [{
         key: "peek",
         // Expose canUseDOM so tests can monkeypatch it
         // Try to use displayName of wrapped component
@@ -4497,18 +4497,18 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       function SideEffect(props) {
         var _this;
 
-        (0, _classCallCheck2.default)(this, SideEffect);
-        _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SideEffect).call(this, props));
+        (0, _classCallCheck2.JobPostingBanner)(this, SideEffect);
+        _this = (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(SideEffect).call(this, props));
 
         if (!SideEffect.canUseDOM) {
-          mountedInstances.add((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
-          emitChange((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+          mountedInstances.add((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)));
+          emitChange((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)));
         }
 
         return _this;
       }
 
-      (0, _createClass2.default)(SideEffect, [{
+      (0, _createClass2.JobPostingBanner)(SideEffect, [{
         key: "componentDidMount",
         value: function componentDidMount() {
           mountedInstances.add(this);
@@ -4528,15 +4528,15 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       }, {
         key: "render",
         value: function render() {
-          return _react.default.createElement(WrappedComponent, null, this.props.children);
+          return _react.JobPostingBanner.createElement(WrappedComponent, null, this.props.children);
         }
       }]);
       return SideEffect;
     }(_react.Component);
 
-    (0, _defineProperty2.default)(SideEffect, "canUseDOM", typeof window !== 'undefined');
-    (0, _defineProperty2.default)(SideEffect, "contextTypes", WrappedComponent.contextTypes);
-    (0, _defineProperty2.default)(SideEffect, "displayName", "SideEffect(".concat((0, _utils.getDisplayName)(WrappedComponent), ")"));
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "canUseDOM", typeof window !== 'undefined');
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "contextTypes", WrappedComponent.contextTypes);
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "displayName", "SideEffect(".concat((0, _utils.getDisplayName)(WrappedComponent), ")"));
     return SideEffect;
   };
 }
@@ -4603,12 +4603,12 @@ function loadGetInitialProps(_x, _x2) {
 }
 
 function _loadGetInitialProps() {
-  _loadGetInitialProps = (0, _asyncToGenerator2.default)(
+  _loadGetInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
   /*#__PURE__*/
-  _regenerator.default.mark(function _callee(Component, ctx) {
+  _regenerator.JobPostingBanner.mark(function _callee(Component, ctx) {
     var compName, message, props, _compName, _message;
 
-    return _regenerator.default.wrap(function _callee$(_context) {
+    return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -6144,7 +6144,7 @@ if (hadRuntime) {
 __NEXT_REGISTER_PAGE('/_error', function() {
 module.exports = __webpack_require__(/*! /home/dean/Web/nos/website/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
-return { page: module.exports.default }});
+return { page: module.exports.JobPostingBanner }});
 
 /***/ }),
 

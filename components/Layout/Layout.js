@@ -9,6 +9,7 @@ import GDPRBanner from '../GDPRBanner';
 
 import './Layout.scss';
 import { Provider } from './Context';
+import JobPostingBanner from "../JobPostingBanner";
 
 export default class Layout extends React.Component {
   static propTypes = {
@@ -70,9 +71,18 @@ export default class Layout extends React.Component {
           {this.props.children}
           <Footer />
           {this.renderBanner()}
+          {this.renderJobBanner()}
         </div>
       </Provider>
     );
+  }
+
+  renderJobBanner = () => {
+    if (this.state.closed) {
+      return null;
+    }
+
+    return <JobPostingBanner accepted={this.state.closed} onClose={this.handleClose} />;
   }
 
   renderBanner = () => {
@@ -88,4 +98,9 @@ export default class Layout extends React.Component {
       cookie.set('gdpr', 'true');
     });
   }
+
+  handleClose = () => {
+    this.setState({ closed: true });
+  }
+
 }

@@ -10,17 +10,17 @@ import Newsletter from '../components/Newsletter';
 // import Demo from '../components/Demo';
 
 const Index = () => (
-  <Layout fixed>
-    <Hero />
-    <Partners />
-    <Features />
-    <Token />
-    <Newsletter />
-    <Showcase />
-    <Diagram />
-    <Team />
-    {/* <Demo /> */}
-  </Layout>
+    <Layout fixed>
+        <Hero/>
+        <Partners/>
+        <Features/>
+        <Token/>
+        <Newsletter/>
+        <Showcase/>
+        <Diagram/>
+        <Team/>
+        {/* <Demo /> */}
+    </Layout>
 );
 
 export default Index;

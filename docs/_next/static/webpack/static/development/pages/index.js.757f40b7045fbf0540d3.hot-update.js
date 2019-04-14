@@ -144,7 +144,7 @@ Navigation.propTypes = {
 Navigation.defaultProps = {
   fixed: false
 };
-/* harmony default export */ __webpack_exports__["default"] = (Navigation);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Navigation);
 
 /***/ })
 

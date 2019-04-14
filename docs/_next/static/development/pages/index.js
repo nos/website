@@ -37,7 +37,7 @@ var Container = function Container(props) {
 Container.propTypes = {
   className: prop_types__WEBPACK_IMPORTED_MODULE_2__["string"]
 };
-/* harmony default export */ __webpack_exports__["default"] = (Container);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Container);
 
 /***/ }),
 
@@ -51,7 +51,7 @@ Container.propTypes = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Container */ "./components/Container/Container.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Container__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Container__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -108,7 +108,7 @@ Decorator.defaultProps = {
   outline: false,
   style: {}
 };
-/* harmony default export */ __webpack_exports__["default"] = (Decorator);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Decorator);
 
 /***/ }),
 
@@ -122,7 +122,7 @@ Decorator.defaultProps = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Decorator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Decorator */ "./components/Decorator/Decorator.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Decorator__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Decorator__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -155,14 +155,14 @@ var _jsxFileName = "/home/dean/Web/nos/website/components/Diagram/Diagram.js";
 
 
 var Diagram = function Diagram() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     className: _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default.a.diagram,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     className: _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default.a.intro,
     __source: {
       fileName: _jsxFileName,
@@ -175,7 +175,7 @@ var Diagram = function Diagram() {
       lineNumber: 11
     },
     __self: this
-  }, "nOS dApp Infrastructure")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "nOS dApp Infrastructure")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     className: _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default.a.content,
     __source: {
       fileName: _jsxFileName,
@@ -516,7 +516,7 @@ var Diagram = function Diagram() {
   }, "Applications can choose to build their back-end using smart contracts")))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Diagram);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Diagram);
 
 /***/ }),
 
@@ -530,7 +530,7 @@ var Diagram = function Diagram() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Diagram__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Diagram */ "./components/Diagram/Diagram.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Diagram__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Diagram__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -597,7 +597,7 @@ DownloadButton.defaultProps = {
   className: null,
   label: 'Download Now'
 };
-/* harmony default export */ __webpack_exports__["default"] = (DownloadButton);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (DownloadButton);
 
 /***/ }),
 
@@ -611,7 +611,7 @@ DownloadButton.defaultProps = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadButton__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DownloadButton */ "./components/DownloadButton/DownloadButton.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _DownloadButton__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _DownloadButton__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -724,7 +724,7 @@ function (_React$Component) {
   _createClass(DownloadModal, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Modal__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         className: _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5___default.a.downloadModal,
         renderHeader: this.renderHeader,
         __source: {
@@ -753,7 +753,7 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, "This application can only be opened in nOS Client")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, "This application can only be opened in nOS Client")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
         className: _DownloadModal_scss__WEBPACK_IMPORTED_MODULE_5___default.a.download,
         label: "Click here to download now",
         __source: {
@@ -791,7 +791,7 @@ _defineProperty(DownloadModal, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DownloadModal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DownloadModal */ "./components/DownloadModal/DownloadModal.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _DownloadModal__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _DownloadModal__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -919,7 +919,7 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Feature_scss__WEBPACK_IMPORTED_MODULE_4___default.a.container, _defineProperty({}, _Feature_scss__WEBPACK_IMPORTED_MODULE_4___default.a.flip, this.props.flip)),
         __source: {
           fileName: _jsxFileName,
@@ -956,7 +956,7 @@ _defineProperty(Feature, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Feature */ "./components/Features/Feature/Feature.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Feature__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Feature__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -1026,7 +1026,7 @@ function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Features)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderBrowser", function () {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         renderImage: function renderImage() {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
             __source: {
@@ -1041,7 +1041,7 @@ function (_React$Component) {
               lineNumber: 23
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 2,
             animation: 1,
             outline: true,
@@ -1056,7 +1056,7 @@ function (_React$Component) {
               lineNumber: 24
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 1,
             animation: 2,
             style: {
@@ -1100,7 +1100,7 @@ function (_React$Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderApps", function () {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         flip: true,
         renderImage: function renderImage() {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
@@ -1116,7 +1116,7 @@ function (_React$Component) {
               lineNumber: 48
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 1,
             animation: 5,
             outline: true,
@@ -1131,7 +1131,7 @@ function (_React$Component) {
               lineNumber: 49
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 2,
             animation: 1,
             style: {
@@ -1175,7 +1175,7 @@ function (_React$Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderWallet", function () {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         renderImage: function renderImage() {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
             __source: {
@@ -1190,7 +1190,7 @@ function (_React$Component) {
               lineNumber: 73
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 2,
             animation: 2,
             outline: true,
@@ -1205,7 +1205,7 @@ function (_React$Component) {
               lineNumber: 74
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 3,
             animation: 5,
             style: {
@@ -1249,7 +1249,7 @@ function (_React$Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderExchange", function () {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Feature__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         flip: true,
         renderImage: function renderImage() {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
@@ -1265,7 +1265,7 @@ function (_React$Component) {
               lineNumber: 98
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 2,
             animation: 1,
             outline: true,
@@ -1280,7 +1280,7 @@ function (_React$Component) {
               lineNumber: 99
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
             version: 1,
             animation: 2,
             style: {
@@ -1329,7 +1329,7 @@ function (_React$Component) {
   _createClass(Features, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
         className: _Features_scss__WEBPACK_IMPORTED_MODULE_4___default.a.features,
         __source: {
           fileName: _jsxFileName,
@@ -1364,7 +1364,7 @@ function (_React$Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Features__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Features */ "./components/Features/Features.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Features__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Features__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -1447,7 +1447,7 @@ var Footer = function Footer() {
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -1474,7 +1474,7 @@ var Footer = function Footer() {
       lineNumber: 18
     },
     __self: this
-  }, "write us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "write us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     name: "twitter",
     href: "https://twitter.com/nOSplatform",
     __source: {
@@ -1482,7 +1482,7 @@ var Footer = function Footer() {
       lineNumber: 19
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     name: "reddit",
     href: "https://www.reddit.com/r/nOSplatform",
     __source: {
@@ -1490,7 +1490,7 @@ var Footer = function Footer() {
       lineNumber: 20
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     name: "discord",
     href: "https://discord.nos.io/",
     __source: {
@@ -1498,7 +1498,7 @@ var Footer = function Footer() {
       lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     name: "telegram",
     href: "https://t.me/nOSchat",
     __source: {
@@ -1506,7 +1506,7 @@ var Footer = function Footer() {
       lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     name: "medium",
     href: "https://medium.com/nos-io",
     __source: {
@@ -1517,7 +1517,7 @@ var Footer = function Footer() {
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Footer);
 
 /***/ }),
 
@@ -1531,7 +1531,7 @@ var Footer = function Footer() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer */ "./components/Footer/Footer.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Footer__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Footer__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -1610,7 +1610,7 @@ function (_React$Component) {
   }, {
     key: "renderBanner",
     value: function renderBanner() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Portal__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Portal__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -1681,7 +1681,7 @@ _defineProperty(GDPRBanner, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GDPRBanner__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GDPRBanner */ "./components/GDPRBanner/GDPRBanner.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _GDPRBanner__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _GDPRBanner__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -1713,7 +1713,7 @@ var _jsxFileName = "/home/dean/Web/nos/website/components/Hero/Hero.js";
 
 
 var Hero = function Hero() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.hero,
     __source: {
       fileName: _jsxFileName,
@@ -1740,7 +1740,7 @@ var Hero = function Hero() {
       lineNumber: 12
     },
     __self: this
-  }, "Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 3,
     animation: 1,
     outline: true,
@@ -1755,7 +1755,7 @@ var Hero = function Hero() {
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 3,
     animation: 2,
     style: {
@@ -1769,7 +1769,7 @@ var Hero = function Hero() {
       lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 2,
     animation: 3,
     outline: true,
@@ -1783,7 +1783,7 @@ var Hero = function Hero() {
       lineNumber: 23
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 1,
     animation: 1,
     outline: true,
@@ -1797,7 +1797,7 @@ var Hero = function Hero() {
       lineNumber: 25
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 2,
     animation: 2,
     style: {
@@ -1810,7 +1810,7 @@ var Hero = function Hero() {
       lineNumber: 27
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 1,
     animation: 2,
     style: {
@@ -1824,7 +1824,7 @@ var Hero = function Hero() {
       lineNumber: 29
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     version: 1,
     animation: 4,
     style: {
@@ -1844,7 +1844,7 @@ var Hero = function Hero() {
       lineNumber: 33
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -1879,7 +1879,7 @@ var Hero = function Hero() {
       lineNumber: 42
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     name: "twitter",
     href: "https://twitter.com/nOSplatform",
     __source: {
@@ -1887,7 +1887,7 @@ var Hero = function Hero() {
       lineNumber: 43
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     name: "reddit",
     href: "https://www.reddit.com/r/nOSplatform",
     __source: {
@@ -1895,7 +1895,7 @@ var Hero = function Hero() {
       lineNumber: 44
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     name: "discord",
     href: "https://discord.nos.io/",
     __source: {
@@ -1903,7 +1903,7 @@ var Hero = function Hero() {
       lineNumber: 45
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     name: "telegram",
     href: "https://t.me/nOSchat",
     __source: {
@@ -1911,7 +1911,7 @@ var Hero = function Hero() {
       lineNumber: 46
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     name: "medium",
     href: "https://medium.com/nos-io",
     __source: {
@@ -1936,7 +1936,7 @@ var Hero = function Hero() {
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Hero);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Hero);
 
 /***/ }),
 
@@ -1950,7 +1950,7 @@ var Hero = function Hero() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Hero__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hero */ "./components/Hero/Hero.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Hero__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Hero__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -1996,7 +1996,7 @@ Intro.propTypes = {
 Intro.defaultProps = {
   className: null
 };
-/* harmony default export */ __webpack_exports__["default"] = (Intro);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Intro);
 
 /***/ }),
 
@@ -2010,7 +2010,7 @@ Intro.defaultProps = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Intro__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Intro */ "./components/Intro/Intro.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Intro__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Intro__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -2190,7 +2190,7 @@ function (_React$Component) {
         return null;
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_GDPRBanner__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_GDPRBanner__WEBPACK_IMPORTED_MODULE_8__["JobPostingBanner"], {
         accepted: _this.state.accepted,
         onAccept: _this.handleAccept,
         __source: {
@@ -2288,14 +2288,14 @@ function (_React$Component) {
           lineNumber: 66
         },
         __self: this
-      }, this.props.title)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, this.props.title)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         fixed: this.props.fixed,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
         },
         __self: this
-      }), this.props.children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), this.props.children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["JobPostingBanner"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
@@ -2332,7 +2332,7 @@ _defineProperty(Layout, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Layout */ "./components/Layout/Layout.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Layout__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Layout__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -2402,7 +2402,7 @@ function (_React$PureComponent) {
   _createClass(Modal, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Portal__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Portal__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
         className: _Modal_scss__WEBPACK_IMPORTED_MODULE_5___default.a.portal,
         __source: {
           fileName: _jsxFileName,
@@ -2458,7 +2458,7 @@ _defineProperty(Modal, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modal */ "./components/Modal/Modal.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Modal__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Modal__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -2608,7 +2608,7 @@ Navigation.propTypes = {
 Navigation.defaultProps = {
   fixed: false
 };
-/* harmony default export */ __webpack_exports__["default"] = (Navigation);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Navigation);
 
 /***/ }),
 
@@ -2622,7 +2622,7 @@ Navigation.defaultProps = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navigation */ "./components/Navigation/Navigation.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Navigation__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Navigation__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -2860,14 +2860,14 @@ function (_React$Component) {
   _createClass(Newsletter, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.newsletter,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
         className: _Newsletter_scss__WEBPACK_IMPORTED_MODULE_5___default.a.container,
         __source: {
           fileName: _jsxFileName,
@@ -2948,7 +2948,7 @@ function (_React$Component) {
           lineNumber: 46
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         name: "twitter",
         href: "https://twitter.com/nOSplatform",
         __source: {
@@ -2956,7 +2956,7 @@ function (_React$Component) {
           lineNumber: 47
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         name: "reddit",
         href: "https://www.reddit.com/r/nOSplatform",
         __source: {
@@ -2964,7 +2964,7 @@ function (_React$Component) {
           lineNumber: 48
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         name: "discord",
         href: "https://discord.nos.io/",
         __source: {
@@ -2972,7 +2972,7 @@ function (_React$Component) {
           lineNumber: 49
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         name: "telegram",
         href: "https://t.me/nOSchat",
         __source: {
@@ -2980,7 +2980,7 @@ function (_React$Component) {
           lineNumber: 50
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialIcon__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
         name: "medium",
         href: "https://medium.com/nos-io",
         __source: {
@@ -3009,7 +3009,7 @@ function (_React$Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Newsletter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Newsletter */ "./components/Newsletter/Newsletter.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Newsletter__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Newsletter__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3038,7 +3038,7 @@ var _jsxFileName = "/home/dean/Web/nos/website/components/Partners/Partners.js";
 
 
 var Partners = function Partners() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     className: _Partners_scss__WEBPACK_IMPORTED_MODULE_3___default.a.partners,
     __source: {
       fileName: _jsxFileName,
@@ -3073,7 +3073,7 @@ var Partners = function Partners() {
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Partners);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Partners);
 
 /***/ }),
 
@@ -3087,7 +3087,7 @@ var Partners = function Partners() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Partners__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Partners */ "./components/Partners/Partners.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Partners__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Partners__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3203,7 +3203,7 @@ _defineProperty(Portal, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Portal */ "./components/Portal/Portal.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Portal__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Portal__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3237,7 +3237,7 @@ var Section = function Section(props) {
   }, props.children);
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Section);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Section);
 
 /***/ }),
 
@@ -3251,7 +3251,7 @@ var Section = function Section(props) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Section */ "./components/Section/Section.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Section__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Section__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3334,7 +3334,7 @@ function (_React$Component) {
         return null;
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadModal__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadModal__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
         target: _this.state.target,
         onClose: _this.handleClose,
         __source: {
@@ -3468,7 +3468,7 @@ _defineProperty(Card, "defaultProps", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./components/Showcase/Card/Card.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3564,7 +3564,7 @@ function (_React$Component) {
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderApp", function (app) {
       var primary = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], _extends({
         key: app.name,
         primary: primary
       }, without(app, 'description'), {
@@ -3584,14 +3584,14 @@ function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.showcase,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 22
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -3604,7 +3604,7 @@ function (_React$Component) {
           lineNumber: 24
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
         className: _Showcase_scss__WEBPACK_IMPORTED_MODULE_6___default.a.intro,
         __source: {
           fileName: _jsxFileName,
@@ -3624,7 +3624,7 @@ function (_React$Component) {
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton__WEBPACK_IMPORTED_MODULE_7__["JobPostingBanner"], {
         label: 'Download nOS Client',
         __source: {
           fileName: _jsxFileName,
@@ -3670,7 +3670,7 @@ function (_React$Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Showcase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Showcase */ "./components/Showcase/Showcase.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Showcase__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Showcase__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3722,7 +3722,7 @@ var SocialIcon = function SocialIcon(props) {
 SocialIcon.propTypes = {
   name: Object(prop_types__WEBPACK_IMPORTED_MODULE_2__["oneOf"])(Object.keys(CLASSES)).isRequired
 };
-/* harmony default export */ __webpack_exports__["default"] = (SocialIcon);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (SocialIcon);
 
 /***/ }),
 
@@ -3736,7 +3736,7 @@ SocialIcon.propTypes = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialIcon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SocialIcon */ "./components/SocialIcon/SocialIcon.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _SocialIcon__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _SocialIcon__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3894,7 +3894,7 @@ Card.defaultProps = {
   github: null,
   dribbble: null
 };
-/* harmony default export */ __webpack_exports__["default"] = (Card);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Card);
 
 /***/ }),
 
@@ -3908,7 +3908,7 @@ Card.defaultProps = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./components/Team/Card/Card.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -3946,14 +3946,14 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 var Team = function Team() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     className: _Team_scss__WEBPACK_IMPORTED_MODULE_6___default.a.team,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -3966,7 +3966,7 @@ var Team = function Team() {
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -3993,7 +3993,7 @@ var Team = function Team() {
     },
     __self: this
   }, _data_team_json__WEBPACK_IMPORTED_MODULE_5__.map(function (member) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], _extends({
       key: member.name
     }, member, {
       __source: {
@@ -4005,7 +4005,7 @@ var Team = function Team() {
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Team);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Team);
 
 /***/ }),
 
@@ -4019,7 +4019,7 @@ var Team = function Team() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Team__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Team */ "./components/Team/Team.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Team__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Team__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -4076,7 +4076,7 @@ Card.propTypes = {
   title: prop_types__WEBPACK_IMPORTED_MODULE_2__["string"].isRequired,
   image: prop_types__WEBPACK_IMPORTED_MODULE_2__["string"].isRequired
 };
-/* harmony default export */ __webpack_exports__["default"] = (Card);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Card);
 
 /***/ }),
 
@@ -4090,7 +4090,7 @@ Card.propTypes = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./components/Token/Card/Card.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -4131,7 +4131,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 var Token = function Token() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.token,
     __source: {
       fileName: _jsxFileName,
@@ -4145,7 +4145,7 @@ var Token = function Token() {
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -4186,7 +4186,7 @@ var Token = function Token() {
     },
     __self: this
   }, _data_token_json__WEBPACK_IMPORTED_MODULE_6__.map(function (item) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_5__["JobPostingBanner"], _extends({
       key: item.title
     }, item, {
       __source: {
@@ -4195,7 +4195,7 @@ var Token = function Token() {
       },
       __self: this
     }));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -4238,7 +4238,7 @@ var Token = function Token() {
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Token);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Token);
 
 /***/ }),
 
@@ -4252,7 +4252,7 @@ var Token = function Token() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Token__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Token */ "./components/Token/Token.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Token__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Token__WEBPACK_IMPORTED_MODULE_0__["JobPostingBanner"]; });
 
 
 
@@ -9190,7 +9190,7 @@ module.exports = hoistNonReactStatics;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js").default || __webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js"));
+module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js").JobPostingBanner || __webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js"));
 
 
 /***/ }),
@@ -26515,15 +26515,15 @@ var EventEmitter =
 /*#__PURE__*/
 function () {
   function EventEmitter() {
-    (0, _classCallCheck2.default)(this, EventEmitter);
-    (0, _defineProperty2.default)(this, "listeners", {});
+    (0, _classCallCheck2.JobPostingBanner)(this, EventEmitter);
+    (0, _defineProperty2.JobPostingBanner)(this, "listeners", {});
   }
 
-  (0, _createClass2.default)(EventEmitter, [{
+  (0, _createClass2.JobPostingBanner)(EventEmitter, [{
     key: "on",
     value: function on(event, cb) {
       if (!this.listeners[event]) {
-        this.listeners[event] = new _set.default();
+        this.listeners[event] = new _set.JobPostingBanner();
       }
 
       if (this.listeners[event].has(cb)) {
@@ -26608,30 +26608,30 @@ var _sideEffect = _interopRequireDefault(__webpack_require__(/*! ./side-effect *
 var Head =
 /*#__PURE__*/
 function (_React$Component) {
-  (0, _inherits2.default)(Head, _React$Component);
+  (0, _inherits2.JobPostingBanner)(Head, _React$Component);
 
   function Head() {
-    (0, _classCallCheck2.default)(this, Head);
-    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Head).apply(this, arguments));
+    (0, _classCallCheck2.JobPostingBanner)(this, Head);
+    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(Head).apply(this, arguments));
   }
 
-  (0, _createClass2.default)(Head, [{
+  (0, _createClass2.JobPostingBanner)(Head, [{
     key: "render",
     value: function render() {
       return null;
     }
   }]);
   return Head;
-}(_react.default.Component);
+}(_react.JobPostingBanner.Component);
 
-(0, _defineProperty2.default)(Head, "contextTypes", {
-  headManager: _propTypes.default.object
+(0, _defineProperty2.JobPostingBanner)(Head, "contextTypes", {
+  headManager: _propTypes.JobPostingBanner.object
 });
 var NEXT_HEAD_IDENTIFIER = 'next-head';
 
 function defaultHead() {
   var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : NEXT_HEAD_IDENTIFIER;
-  return [_react.default.createElement("meta", {
+  return [_react.JobPostingBanner.createElement("meta", {
     key: "charSet",
     charSet: "utf-8",
     className: className
@@ -26640,19 +26640,19 @@ function defaultHead() {
 
 function reduceComponents(components) {
   return components.map(function (component) {
-    return _react.default.Children.toArray(component.props.children);
+    return _react.JobPostingBanner.Children.toArray(component.props.children);
   }).reduce(function (a, b) {
     return a.concat(b);
   }, []).reduce(function (a, b) {
-    if (_react.default.Fragment && b.type === _react.default.Fragment) {
-      return a.concat(_react.default.Children.toArray(b.props.children));
+    if (_react.JobPostingBanner.Fragment && b.type === _react.JobPostingBanner.Fragment) {
+      return a.concat(_react.JobPostingBanner.Children.toArray(b.props.children));
     }
 
     return a.concat(b);
   }, []).reverse().concat(defaultHead('')).filter(Boolean).filter(unique()).reverse().map(function (c, i) {
     var className = (c.props && c.props.className ? c.props.className + ' ' : '') + NEXT_HEAD_IDENTIFIER;
     var key = c.key || i;
-    return _react.default.cloneElement(c, {
+    return _react.JobPostingBanner.cloneElement(c, {
       key: key,
       className: className
     });
@@ -26678,9 +26678,9 @@ var ALLOWED_DUPLICATES = ['article:tag', 'og:image', 'og:image:alt', 'og:image:w
 */
 
 function unique() {
-  var keys = new _set.default();
-  var tags = new _set.default();
-  var metaTypes = new _set.default();
+  var keys = new _set.JobPostingBanner();
+  var tags = new _set.JobPostingBanner();
+  var metaTypes = new _set.JobPostingBanner();
   var metaCategories = {};
   return function (h) {
     if (h.key && h.key.indexOf('.$') === 0) {
@@ -26705,7 +26705,7 @@ function unique() {
             metaTypes.add(metatype);
           } else {
             var category = h.props[metatype];
-            var categories = metaCategories[metatype] || new _set.default();
+            var categories = metaCategories[metatype] || new _set.JobPostingBanner();
             if (categories.has(category) && ALLOWED_DUPLICATES.indexOf(category) === -1) return false;
             categories.add(category);
             metaCategories[metatype] = categories;
@@ -26719,7 +26719,7 @@ function unique() {
   };
 }
 
-var _default = (0, _sideEffect.default)(reduceComponents, onStateChange, mapOnServer)(Head);
+var _default = (0, _sideEffect.JobPostingBanner)(reduceComponents, onStateChange, mapOnServer)(Head);
 
 exports.default = _default;
 
@@ -26799,27 +26799,27 @@ function memoizedFormatUrl(formatUrl) {
 var Link =
 /*#__PURE__*/
 function (_Component) {
-  (0, _inherits2.default)(Link, _Component);
+  (0, _inherits2.JobPostingBanner)(Link, _Component);
 
   function Link() {
     var _getPrototypeOf2;
 
     var _this;
 
-    (0, _classCallCheck2.default)(this, Link);
+    (0, _classCallCheck2.JobPostingBanner)(this, Link);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(Link)).call.apply(_getPrototypeOf2, [this].concat(args)));
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "formatUrls", memoizedFormatUrl(function (href, asHref) {
+    _this = (0, _possibleConstructorReturn2.JobPostingBanner)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.JobPostingBanner)(Link)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    (0, _defineProperty2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)), "formatUrls", memoizedFormatUrl(function (href, asHref) {
       return {
-        href: href && (0, _typeof2.default)(href) === 'object' ? (0, _url.format)(href) : href,
-        as: asHref && (0, _typeof2.default)(asHref) === 'object' ? (0, _url.format)(asHref) : asHref
+        href: href && (0, _typeof2.JobPostingBanner)(href) === 'object' ? (0, _url.format)(href) : href,
+        as: asHref && (0, _typeof2.JobPostingBanner)(asHref) === 'object' ? (0, _url.format)(asHref) : asHref
       };
     }));
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "linkClicked", function (e) {
+    (0, _defineProperty2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)), "linkClicked", function (e) {
       var _e$currentTarget = e.currentTarget,
           nodeName = _e$currentTarget.nodeName,
           target = _e$currentTarget.target;
@@ -26853,7 +26853,7 @@ function (_Component) {
       var replace = _this.props.replace;
       var changeMethod = replace ? 'replace' : 'push'; // straight up redirect
 
-      _router.default[changeMethod](href, as, {
+      _router.JobPostingBanner[changeMethod](href, as, {
         shallow: _this.props.shallow
       }).then(function (success) {
         if (!success) return;
@@ -26869,7 +26869,7 @@ function (_Component) {
     return _this;
   }
 
-  (0, _createClass2.default)(Link, [{
+  (0, _createClass2.JobPostingBanner)(Link, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       this.prefetch();
@@ -26877,7 +26877,7 @@ function (_Component) {
   }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate(prevProps) {
-      if ((0, _stringify.default)(this.props.href) !== (0, _stringify.default)(prevProps.href)) {
+      if ((0, _stringify.JobPostingBanner)(this.props.href) !== (0, _stringify.JobPostingBanner)(prevProps.href)) {
         this.prefetch();
       }
     } // The function is memoized so that no extra lifecycles are needed
@@ -26896,7 +26896,7 @@ function (_Component) {
 
       var href = (0, _url.resolve)(pathname, parsedHref);
 
-      _router.default.prefetch(href);
+      _router.JobPostingBanner.prefetch(href);
     }
   }, {
     key: "render",
@@ -26911,7 +26911,7 @@ function (_Component) {
 
 
       if (typeof children === 'string') {
-        children = _react.default.createElement("a", null, children);
+        children = _react.JobPostingBanner.createElement("a", null, children);
       } // This will return the first child, if multiple are provided it will throw an error
 
 
@@ -26941,7 +26941,7 @@ function (_Component) {
         props.href = (0, _router._rewriteUrlForNextExport)(props.href);
       }
 
-      return _react.default.cloneElement(child, props);
+      return _react.JobPostingBanner.cloneElement(child, props);
     }
   }]);
   return Link;
@@ -26953,14 +26953,14 @@ if (true) {
   var exact = __webpack_require__(/*! prop-types-exact */ "./node_modules/prop-types-exact/build/index.js");
 
   Link.propTypes = exact({
-    href: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]).isRequired,
-    as: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
-    prefetch: _propTypes.default.bool,
-    replace: _propTypes.default.bool,
-    shallow: _propTypes.default.bool,
-    passHref: _propTypes.default.bool,
-    scroll: _propTypes.default.bool,
-    children: _propTypes.default.oneOfType([_propTypes.default.element, function (props, propName) {
+    href: _propTypes.JobPostingBanner.oneOfType([_propTypes.JobPostingBanner.string, _propTypes.JobPostingBanner.object]).isRequired,
+    as: _propTypes.JobPostingBanner.oneOfType([_propTypes.JobPostingBanner.string, _propTypes.JobPostingBanner.object]),
+    prefetch: _propTypes.JobPostingBanner.bool,
+    replace: _propTypes.JobPostingBanner.bool,
+    shallow: _propTypes.JobPostingBanner.bool,
+    passHref: _propTypes.JobPostingBanner.bool,
+    scroll: _propTypes.JobPostingBanner.bool,
+    children: _propTypes.JobPostingBanner.oneOfType([_propTypes.JobPostingBanner.element, function (props, propName) {
       var value = props[propName];
 
       if (typeof value === 'string') {
@@ -27008,11 +27008,11 @@ var Queue =
 /*#__PURE__*/
 function () {
   function Queue() {
-    (0, _classCallCheck2.default)(this, Queue);
+    (0, _classCallCheck2.JobPostingBanner)(this, Queue);
     this._queue = [];
   }
 
-  (0, _createClass2.default)(Queue, [{
+  (0, _createClass2.JobPostingBanner)(Queue, [{
     key: "enqueue",
     value: function enqueue(run) {
       this._queue.push(run);
@@ -27035,8 +27035,8 @@ var PQueue =
 /*#__PURE__*/
 function () {
   function PQueue(opts) {
-    (0, _classCallCheck2.default)(this, PQueue);
-    opts = (0, _assign.default)({
+    (0, _classCallCheck2.JobPostingBanner)(this, PQueue);
+    opts = (0, _assign.JobPostingBanner)({
       concurrency: Infinity,
       queueClass: Queue
     }, opts);
@@ -27053,7 +27053,7 @@ function () {
     this._resolveEmpty = function () {};
   }
 
-  (0, _createClass2.default)(PQueue, [{
+  (0, _createClass2.JobPostingBanner)(PQueue, [{
     key: "_next",
     value: function _next() {
       this._pendingCount--;
@@ -27069,7 +27069,7 @@ function () {
     value: function add(fn, opts) {
       var _this = this;
 
-      return new _promise.default(function (resolve, reject) {
+      return new _promise.JobPostingBanner(function (resolve, reject) {
         var run = function run() {
           _this._pendingCount++;
           fn().then(function (val) {
@@ -27095,7 +27095,7 @@ function () {
     value: function onEmpty() {
       var _this2 = this;
 
-      return new _promise.default(function (resolve) {
+      return new _promise.JobPostingBanner(function (resolve) {
         var existingResolve = _this2._resolveEmpty;
 
         _this2._resolveEmpty = function () {
@@ -27142,7 +27142,7 @@ exports.makePublicRouterInstance = makePublicRouterInstance;
 Object.defineProperty(exports, "withRouter", {
   enumerable: true,
   get: function get() {
-    return _withRouter.default;
+    return _withRouter.JobPostingBanner;
   }
 });
 exports.Router = exports.createRouter = exports.default = void 0;
@@ -27184,7 +27184,7 @@ var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'before
 
 Object.defineProperty(SingletonRouter, 'events', {
   get: function get() {
-    return _router.default.events;
+    return _router.JobPostingBanner.events;
   }
 });
 propertyFields.concat(urlPropertyFields).forEach(function (field) {
@@ -27192,7 +27192,7 @@ propertyFields.concat(urlPropertyFields).forEach(function (field) {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.default)(SingletonRouter, field, {
+  (0, _defineProperty.JobPostingBanner)(SingletonRouter, field, {
     get: function get() {
       throwIfNoRouter();
       return SingletonRouter.router[field];
@@ -27209,7 +27209,7 @@ coreMethodFields.forEach(function (field) {
 });
 routerEvents.forEach(function (event) {
   SingletonRouter.ready(function () {
-    _router.default.events.on(event, function () {
+    _router.JobPostingBanner.events.on(event, function () {
       var eventField = "on".concat(event.charAt(0).toUpperCase()).concat(event.substring(1));
 
       if (SingletonRouter[eventField]) {
@@ -27259,7 +27259,7 @@ var createRouter = function createRouter() {
     args[_key] = arguments[_key];
   }
 
-  SingletonRouter.router = (0, _construct2.default)(_router.default, args);
+  SingletonRouter.router = (0, _construct2.JobPostingBanner)(_router.JobPostingBanner, args);
   SingletonRouter.readyCallbacks.forEach(function (cb) {
     return cb();
   });
@@ -27269,18 +27269,18 @@ var createRouter = function createRouter() {
 
 
 exports.createRouter = createRouter;
-var Router = _router.default;
+var Router = _router.JobPostingBanner;
 exports.Router = Router;
 
 function _rewriteUrlForNextExport(url) {
   var _url$split = url.split('#'),
-      _url$split2 = (0, _slicedToArray2.default)(_url$split, 2),
+      _url$split2 = (0, _slicedToArray2.JobPostingBanner)(_url$split, 2),
       hash = _url$split2[1];
 
   url = url.replace(/#.*/, '');
 
   var _url$split3 = url.split('?'),
-      _url$split4 = (0, _slicedToArray2.default)(_url$split3, 2),
+      _url$split4 = (0, _slicedToArray2.JobPostingBanner)(_url$split3, 2),
       path = _url$split4[0],
       qs = _url$split4[1];
 
@@ -27309,8 +27309,8 @@ function makePublicRouterInstance(router) {
   for (var _i = 0; _i < urlPropertyFields.length; _i++) {
     var property = urlPropertyFields[_i];
 
-    if ((0, _typeof2.default)(router[property]) === 'object') {
-      instance[property] = (0, _objectSpread2.default)({}, router[property]); // makes sure query is not stateful
+    if ((0, _typeof2.JobPostingBanner)(router[property]) === 'object') {
+      instance[property] = (0, _objectSpread2.JobPostingBanner)({}, router[property]); // makes sure query is not stateful
 
       continue;
     }
@@ -27319,13 +27319,13 @@ function makePublicRouterInstance(router) {
   } // Events is a static property on the router, the router doesn't have to be initialized to use it
 
 
-  instance.events = _router.default.events;
+  instance.events = _router.JobPostingBanner.events;
   propertyFields.forEach(function (field) {
     // Here we need to use Object.defineProperty because, we need to return
     // the property assigned to the actual router
     // The value might get changed as we change routes and this is the
     // proper way to access it
-    (0, _defineProperty.default)(instance, field, {
+    (0, _defineProperty.JobPostingBanner)(instance, field, {
       get: function get() {
         return router[field];
       }
@@ -27403,8 +27403,8 @@ function () {
         ErrorComponent = _ref.ErrorComponent,
         err = _ref.err;
 
-    (0, _classCallCheck2.default)(this, Router);
-    (0, _defineProperty2.default)(this, "onPopState", function (e) {
+    (0, _classCallCheck2.JobPostingBanner)(this, Router);
+    (0, _defineProperty2.JobPostingBanner)(this, "onPopState", function (e) {
       if (!e.state) {
         // We get state as undefined for two reasons.
         //  1. With older safari (< 8) and older chrome (< 34)
@@ -27467,14 +27467,14 @@ function () {
     };
     this.events = Router.events;
     this.pageLoader = pageLoader;
-    this.prefetchQueue = new _pQueue.default({
+    this.prefetchQueue = new _pQueue.JobPostingBanner({
       concurrency: 2
     });
     this.ErrorComponent = ErrorComponent;
     this.pathname = _pathname;
     this.query = _query;
     this.asPath = _as2;
-    this.subscriptions = new _set.default();
+    this.subscriptions = new _set.JobPostingBanner();
     this.componentLoadCancel = null;
 
     this._beforePopState = function () {
@@ -27492,7 +27492,7 @@ function () {
     }
   }
 
-  (0, _createClass2.default)(Router, [{
+  (0, _createClass2.JobPostingBanner)(Router, [{
     key: "update",
     value: function update(route, Component) {
       var data = this.components[route];
@@ -27501,7 +27501,7 @@ function () {
         throw new Error("Cannot update unavailable route: ".concat(route));
       }
 
-      var newData = (0, _objectSpread2.default)({}, data, {
+      var newData = (0, _objectSpread2.JobPostingBanner)({}, data, {
         Component: Component
       });
       this.components[route] = newData; // pages/_app.js updated
@@ -27518,11 +27518,11 @@ function () {
   }, {
     key: "reload",
     value: function () {
-      var _reload = (0, _asyncToGenerator2.default)(
+      var _reload = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee(route) {
+      _regenerator.JobPostingBanner.mark(function _callee(route) {
         var pathname, query, url, as, routeInfo, error;
-        return _regenerator.default.wrap(function _callee$(_context) {
+        return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -27606,19 +27606,19 @@ function () {
   }, {
     key: "change",
     value: function () {
-      var _change = (0, _asyncToGenerator2.default)(
+      var _change = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee2(method, _url, _as, options) {
+      _regenerator.JobPostingBanner.mark(function _callee2(method, _url, _as, options) {
         var url, as, _parse, asPathname, asQuery, _parse2, pathname, query, route, _options$shallow, shallow, routeInfo, _routeInfo, error, hash;
 
-        return _regenerator.default.wrap(function _callee2$(_context2) {
+        return _regenerator.JobPostingBanner.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 // If url and as provided as an object representation,
                 // we'll format them into the string version here.
-                url = (0, _typeof2.default)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
-                as = (0, _typeof2.default)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
+                url = (0, _typeof2.JobPostingBanner)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
+                as = (0, _typeof2.JobPostingBanner)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
                 // "<page>/index.html" directly for the SSR page.
 
                 if (__NEXT_DATA__.nextExport) {
@@ -27687,7 +27687,7 @@ function () {
                 Router.events.emit('beforeHistoryChange', as);
                 this.changeState(method, url, as, options);
                 hash = window.location.hash.substring(1);
-                this.set(route, pathname, query, as, (0, _objectSpread2.default)({}, routeInfo, {
+                this.set(route, pathname, query, as, (0, _objectSpread2.JobPostingBanner)({}, routeInfo, {
                   hash: hash
                 }));
 
@@ -27745,12 +27745,12 @@ function () {
   }, {
     key: "getRouteInfo",
     value: function () {
-      var _getRouteInfo = (0, _asyncToGenerator2.default)(
+      var _getRouteInfo = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee3(route, pathname, query, as) {
+      _regenerator.JobPostingBanner.mark(function _callee3(route, pathname, query, as) {
         var routeInfo, _routeInfo2, Component, ctx, _Component, _ctx;
 
-        return _regenerator.default.wrap(function _callee3$(_context3) {
+        return _regenerator.JobPostingBanner.wrap(function _callee3$(_context3) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
@@ -27895,12 +27895,12 @@ function () {
       if (!this.asPath) return false;
 
       var _this$asPath$split = this.asPath.split('#'),
-          _this$asPath$split2 = (0, _slicedToArray2.default)(_this$asPath$split, 2),
+          _this$asPath$split2 = (0, _slicedToArray2.JobPostingBanner)(_this$asPath$split, 2),
           oldUrlNoHash = _this$asPath$split2[0],
           oldHash = _this$asPath$split2[1];
 
       var _as$split = as.split('#'),
-          _as$split2 = (0, _slicedToArray2.default)(_as$split, 2),
+          _as$split2 = (0, _slicedToArray2.JobPostingBanner)(_as$split, 2),
           newUrlNoHash = _as$split2[0],
           newHash = _as$split2[1]; // Makes sure we scroll to the provided hash if the url/hash are the same
 
@@ -27924,7 +27924,7 @@ function () {
     key: "scrollToHash",
     value: function scrollToHash(as) {
       var _as$split3 = as.split('#'),
-          _as$split4 = (0, _slicedToArray2.default)(_as$split3, 2),
+          _as$split4 = (0, _slicedToArray2.JobPostingBanner)(_as$split3, 2),
           hash = _as$split4[1]; // Scroll to top if the hash is just `#` with no value
 
 
@@ -27952,7 +27952,7 @@ function () {
   }, {
     key: "urlIsNew",
     value: function urlIsNew(pathname, query) {
-      return this.pathname !== pathname || !(0, _shallowEquals.default)(query, this.query);
+      return this.pathname !== pathname || !(0, _shallowEquals.JobPostingBanner)(query, this.query);
     }
   }, {
     key: "isShallowRoutingPossible",
@@ -27965,14 +27965,14 @@ function () {
   }, {
     key: "prefetch",
     value: function () {
-      var _prefetch = (0, _asyncToGenerator2.default)(
+      var _prefetch = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee4(url) {
+      _regenerator.JobPostingBanner.mark(function _callee4(url) {
         var _this2 = this;
 
         var _parse3, pathname, route;
 
-        return _regenerator.default.wrap(function _callee4$(_context4) {
+        return _regenerator.JobPostingBanner.wrap(function _callee4$(_context4) {
           while (1) {
             switch (_context4.prev = _context4.next) {
               case 0:
@@ -28004,11 +28004,11 @@ function () {
   }, {
     key: "fetchComponent",
     value: function () {
-      var _fetchComponent = (0, _asyncToGenerator2.default)(
+      var _fetchComponent = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee5(route, as) {
+      _regenerator.JobPostingBanner.mark(function _callee5(route, as) {
         var cancelled, cancel, Component, error;
-        return _regenerator.default.wrap(function _callee5$(_context5) {
+        return _regenerator.JobPostingBanner.wrap(function _callee5$(_context5) {
           while (1) {
             switch (_context5.prev = _context5.next) {
               case 0:
@@ -28057,11 +28057,11 @@ function () {
   }, {
     key: "getInitialProps",
     value: function () {
-      var _getInitialProps = (0, _asyncToGenerator2.default)(
+      var _getInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee6(Component, ctx) {
+      _regenerator.JobPostingBanner.mark(function _callee6(Component, ctx) {
         var cancelled, cancel, App, props, err;
-        return _regenerator.default.wrap(function _callee6$(_context6) {
+        return _regenerator.JobPostingBanner.wrap(function _callee6$(_context6) {
           while (1) {
             switch (_context6.prev = _context6.next) {
               case 0:
@@ -28116,10 +28116,10 @@ function () {
   }, {
     key: "fetchRoute",
     value: function () {
-      var _fetchRoute = (0, _asyncToGenerator2.default)(
+      var _fetchRoute = (0, _asyncToGenerator2.JobPostingBanner)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee7(route) {
-        return _regenerator.default.wrap(function _callee7$(_context7) {
+      _regenerator.JobPostingBanner.mark(function _callee7(route) {
+        return _regenerator.JobPostingBanner.wrap(function _callee7$(_context7) {
           while (1) {
             switch (_context7.prev = _context7.next) {
               case 0:
@@ -28153,7 +28153,7 @@ function () {
     value: function notify(data) {
       var App = this.components['/_app'].Component;
       this.subscriptions.forEach(function (fn) {
-        return fn((0, _objectSpread2.default)({}, data, {
+        return fn((0, _objectSpread2.JobPostingBanner)({}, data, {
           App: App
         }));
       });
@@ -28173,7 +28173,7 @@ function () {
 }();
 
 exports.default = Router;
-(0, _defineProperty2.default)(Router, "events", new _EventEmitter.default());
+(0, _defineProperty2.JobPostingBanner)(Router, "events", new _EventEmitter.JobPostingBanner());
 
 function toRoute(path) {
   return path.replace(/\/$/, '') || '/';
@@ -28228,30 +28228,30 @@ function withRouter(ComposedComponent) {
   var WithRouteWrapper =
   /*#__PURE__*/
   function (_Component) {
-    (0, _inherits2.default)(WithRouteWrapper, _Component);
+    (0, _inherits2.JobPostingBanner)(WithRouteWrapper, _Component);
 
     function WithRouteWrapper() {
-      (0, _classCallCheck2.default)(this, WithRouteWrapper);
-      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(WithRouteWrapper).apply(this, arguments));
+      (0, _classCallCheck2.JobPostingBanner)(this, WithRouteWrapper);
+      return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(WithRouteWrapper).apply(this, arguments));
     }
 
-    (0, _createClass2.default)(WithRouteWrapper, [{
+    (0, _createClass2.JobPostingBanner)(WithRouteWrapper, [{
       key: "render",
       value: function render() {
-        var props = (0, _objectSpread2.default)({
+        var props = (0, _objectSpread2.JobPostingBanner)({
           router: this.context.router
         }, this.props);
-        return _react.default.createElement(ComposedComponent, props);
+        return _react.JobPostingBanner.createElement(ComposedComponent, props);
       }
     }]);
     return WithRouteWrapper;
   }(_react.Component);
 
-  (0, _defineProperty2.default)(WithRouteWrapper, "contextTypes", {
-    router: _propTypes.default.object
+  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "contextTypes", {
+    router: _propTypes.JobPostingBanner.object
   });
-  (0, _defineProperty2.default)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
-  return (0, _hoistNonReactStatics.default)(WithRouteWrapper, ComposedComponent);
+  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
+  return (0, _hoistNonReactStatics.JobPostingBanner)(WithRouteWrapper, ComposedComponent);
 }
 
 /***/ }),
@@ -28344,11 +28344,11 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       throw new Error('Expected WrappedComponent to be a React component.');
     }
 
-    var mountedInstances = new _set.default();
+    var mountedInstances = new _set.JobPostingBanner();
     var state;
 
     function emitChange(component) {
-      state = reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances));
+      state = reduceComponentsToState((0, _toConsumableArray2.JobPostingBanner)(mountedInstances));
 
       if (SideEffect.canUseDOM) {
         handleStateChangeOnClient.call(component, state);
@@ -28360,8 +28360,8 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
     var SideEffect =
     /*#__PURE__*/
     function (_Component) {
-      (0, _inherits2.default)(SideEffect, _Component);
-      (0, _createClass2.default)(SideEffect, null, [{
+      (0, _inherits2.JobPostingBanner)(SideEffect, _Component);
+      (0, _createClass2.JobPostingBanner)(SideEffect, null, [{
         key: "peek",
         // Expose canUseDOM so tests can monkeypatch it
         // Try to use displayName of wrapped component
@@ -28385,18 +28385,18 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       function SideEffect(props) {
         var _this;
 
-        (0, _classCallCheck2.default)(this, SideEffect);
-        _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SideEffect).call(this, props));
+        (0, _classCallCheck2.JobPostingBanner)(this, SideEffect);
+        _this = (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(SideEffect).call(this, props));
 
         if (!SideEffect.canUseDOM) {
-          mountedInstances.add((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
-          emitChange((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+          mountedInstances.add((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)));
+          emitChange((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)));
         }
 
         return _this;
       }
 
-      (0, _createClass2.default)(SideEffect, [{
+      (0, _createClass2.JobPostingBanner)(SideEffect, [{
         key: "componentDidMount",
         value: function componentDidMount() {
           mountedInstances.add(this);
@@ -28416,15 +28416,15 @@ function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapS
       }, {
         key: "render",
         value: function render() {
-          return _react.default.createElement(WrappedComponent, null, this.props.children);
+          return _react.JobPostingBanner.createElement(WrappedComponent, null, this.props.children);
         }
       }]);
       return SideEffect;
     }(_react.Component);
 
-    (0, _defineProperty2.default)(SideEffect, "canUseDOM", typeof window !== 'undefined');
-    (0, _defineProperty2.default)(SideEffect, "contextTypes", WrappedComponent.contextTypes);
-    (0, _defineProperty2.default)(SideEffect, "displayName", "SideEffect(".concat((0, _utils.getDisplayName)(WrappedComponent), ")"));
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "canUseDOM", typeof window !== 'undefined');
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "contextTypes", WrappedComponent.contextTypes);
+    (0, _defineProperty2.JobPostingBanner)(SideEffect, "displayName", "SideEffect(".concat((0, _utils.getDisplayName)(WrappedComponent), ")"));
     return SideEffect;
   };
 }
@@ -28491,12 +28491,12 @@ function loadGetInitialProps(_x, _x2) {
 }
 
 function _loadGetInitialProps() {
-  _loadGetInitialProps = (0, _asyncToGenerator2.default)(
+  _loadGetInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
   /*#__PURE__*/
-  _regenerator.default.mark(function _callee(Component, ctx) {
+  _regenerator.JobPostingBanner.mark(function _callee(Component, ctx) {
     var compName, message, props, _compName, _message;
 
-    return _regenerator.default.wrap(function _callee$(_context) {
+    return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -29283,7 +29283,7 @@ var index = typeof fetch=='function' ? fetch.bind() : function(url, options) {
 	});
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (index);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (index);
 //# sourceMappingURL=unfetch.es.js.map
 
 
@@ -30220,11 +30220,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-exports['default'] = isPlainObject;
+exports['JobPostingBanner'] = isPlainObject;
 function isPlainObject(x) {
   return x && (typeof x === 'undefined' ? 'undefined' : _typeof(x)) === 'object' && !Array.isArray(x);
 }
-module.exports = exports['default'];
+module.exports = exports['JobPostingBanner'];
 //# sourceMappingURL=isPlainObject.js.map
 
 /***/ }),
@@ -30239,7 +30239,7 @@ module.exports = exports['default'];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports['default'] = forbidExtraProps;
+exports['JobPostingBanner'] = forbidExtraProps;
 
 var _object = __webpack_require__(/*! object.assign */ "./node_modules/object.assign/index.js");
 
@@ -30262,7 +30262,7 @@ var specialProperty = 'prop-types-exact: ' + zeroWidthSpace;
 var semaphore = typeof Symbol === 'function' && typeof Symbol['for'] === 'function' ? Symbol['for'](specialProperty) : /* istanbul ignore next */specialProperty;
 
 function brand(fn) {
-  return (0, _object2['default'])(fn, _defineProperty({}, specialProperty, semaphore));
+  return (0, _object2['JobPostingBanner'])(fn, _defineProperty({}, specialProperty, semaphore));
 }
 
 function isBranded(value) {
@@ -30270,17 +30270,17 @@ function isBranded(value) {
 }
 
 function forbidExtraProps(propTypes) {
-  if (!(0, _isPlainObject2['default'])(propTypes)) {
+  if (!(0, _isPlainObject2['JobPostingBanner'])(propTypes)) {
     throw new TypeError('given propTypes must be an object');
   }
-  if ((0, _has2['default'])(propTypes, specialProperty) && !isBranded(propTypes[specialProperty])) {
+  if ((0, _has2['JobPostingBanner'])(propTypes, specialProperty) && !isBranded(propTypes[specialProperty])) {
     throw new TypeError('Against all odds, you created a propType for a prop that uses both the zero-width space and our custom string - which, sadly, conflicts with `prop-types-exact`');
   }
 
-  return (0, _object2['default'])({}, propTypes, _defineProperty({}, specialProperty, brand(function () {
+  return (0, _object2['JobPostingBanner'])({}, propTypes, _defineProperty({}, specialProperty, brand(function () {
     function forbidUnknownProps(props, _, componentName) {
       var unknownProps = Object.keys(props).filter(function (prop) {
-        return !(0, _has2['default'])(propTypes, prop);
+        return !(0, _has2['JobPostingBanner'])(propTypes, prop);
       });
       if (unknownProps.length > 0) {
         return new TypeError(String(componentName) + ': unknown props found: ' + String(unknownProps.join(', ')));
@@ -30291,7 +30291,7 @@ function forbidExtraProps(propTypes) {
     return forbidUnknownProps;
   }())));
 }
-module.exports = exports['default'];
+module.exports = exports['JobPostingBanner'];
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -32676,56 +32676,56 @@ var _jsxFileName = "/home/dean/Web/nos/website/pages/index.js";
  // import Demo from '../components/Demo';
 
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["JobPostingBanner"], {
     fixed: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partners__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partners__WEBPACK_IMPORTED_MODULE_3__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_5__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Token__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Token__WEBPACK_IMPORTED_MODULE_4__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Newsletter__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Newsletter__WEBPACK_IMPORTED_MODULE_9__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Showcase__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Showcase__WEBPACK_IMPORTED_MODULE_6__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Diagram__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Diagram__WEBPACK_IMPORTED_MODULE_7__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Team__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Team__WEBPACK_IMPORTED_MODULE_8__["JobPostingBanner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -32734,7 +32734,7 @@ var Index = function Index() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (Index);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -32751,7 +32751,7 @@ var Index = function Index() {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.JobPostingBanner || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -32767,7 +32767,7 @@ var Index = function Index() {
 __NEXT_REGISTER_PAGE('/', function() {
 module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
-return { page: module.exports.default }});
+return { page: module.exports.JobPostingBanner }});
 
 /***/ }),
 
