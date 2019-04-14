@@ -1626,7 +1626,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.5' };
+var core = module.exports = { version: '2.5.7' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -3051,7 +3051,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -5637,7 +5637,7 @@ var _stripAnsi = _interopRequireDefault(__webpack_require__(/*! strip-ansi */ ".
 
 var _sourceMapSupport = __webpack_require__(/*! ../source-map-support */ "./node_modules/next/dist/client/source-map-support.js");
 
-var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js"));
+var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/unfetch/dist/unfetch.es.js"));
 
 // This alternative WebpackDevServer combines the functionality of:
 // https://github.com/webpack/webpack-dev-server/blob/webpack-1/client/index.js
@@ -5660,7 +5660,7 @@ function connect(options) {
         colNumber = _ref.colNumber;
     // Resolve invalid paths coming from react-error-overlay
     var resolvedFilename = fileName.replace(/^webpack:\/\//, '');
-    (0, _unfetch.JobPostingBanner)('/_next/development/open-stack-frame-in-editor' + "?fileName=".concat(window.encodeURIComponent(resolvedFilename)) + "&lineNumber=".concat(lineNumber || 1) + "&colNumber=".concat(colNumber || 1));
+    (0, _unfetch.default)('/_next/development/open-stack-frame-in-editor' + "?fileName=".concat(window.encodeURIComponent(resolvedFilename)) + "&lineNumber=".concat(lineNumber || 1) + "&colNumber=".concat(colNumber || 1));
   }); // We need to keep track of if there has been a runtime error.
   // Essentially, we cannot guarantee application state was not corrupted by the
   // runtime error. To prevent confusing behavior, we forcibly reload the entire
@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/dean/Web/nos/website/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\Web2\\website\\.next");
       return error;
     }
   };
@@ -5745,7 +5745,7 @@ function handleSuccess() {
 function handleWarnings(warnings) {
   clearOutdatedErrors(); // Print warnings to the console.
 
-  var formatted = (0, _formatWebpackMessages.JobPostingBanner)({
+  var formatted = (0, _formatWebpackMessages.default)({
     warnings: warnings,
     errors: []
   });
@@ -5757,7 +5757,7 @@ function handleWarnings(warnings) {
         break;
       }
 
-      console.warn((0, _stripAnsi.JobPostingBanner)(formatted.warnings[i]));
+      console.warn((0, _stripAnsi.default)(formatted.warnings[i]));
     }
   }
 } // Compilation with errors (e.g. syntax error or missing modules).
@@ -5768,7 +5768,7 @@ function handleErrors(errors) {
   isFirstCompilation = false;
   hasCompileErrors = true; // "Massage" webpack messages.
 
-  var formatted = (0, _formatWebpackMessages.JobPostingBanner)({
+  var formatted = (0, _formatWebpackMessages.default)({
     errors: errors,
     warnings: []
   }); // Only show the first error.
@@ -5777,7 +5777,7 @@ function handleErrors(errors) {
 
   if (typeof console !== 'undefined' && typeof console.error === 'function') {
     for (var i = 0; i < formatted.errors.length; i++) {
-      console.error((0, _stripAnsi.JobPostingBanner)(formatted.errors[i]));
+      console.error((0, _stripAnsi.default)(formatted.errors[i]));
     }
   }
 } // There is a newer version of the code available.
@@ -5858,11 +5858,11 @@ function tryApplyUpdates(_x) {
 }
 
 function _tryApplyUpdates() {
-  _tryApplyUpdates = (0, _asyncToGenerator2.JobPostingBanner)(
+  _tryApplyUpdates = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee(onHotUpdateSuccess) {
+  _regenerator.default.mark(function _callee(onHotUpdateSuccess) {
     var handleApplyUpdates, updatedModules;
-    return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+    return _regenerator.default.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -5979,14 +5979,14 @@ var React = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_mod
 var ErrorBoundary =
 /*#__PURE__*/
 function (_React$Component) {
-  (0, _inherits2.JobPostingBanner)(ErrorBoundary, _React$Component);
+  (0, _inherits2.default)(ErrorBoundary, _React$Component);
 
   function ErrorBoundary() {
-    (0, _classCallCheck2.JobPostingBanner)(this, ErrorBoundary);
-    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(ErrorBoundary).apply(this, arguments));
+    (0, _classCallCheck2.default)(this, ErrorBoundary);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ErrorBoundary).apply(this, arguments));
   }
 
-  (0, _createClass2.JobPostingBanner)(ErrorBoundary, [{
+  (0, _createClass2.default)(ErrorBoundary, [{
     key: "componentDidCatch",
     value: function componentDidCatch(error, info) {
       var onError = this.props.onError; // onError is required
@@ -6043,16 +6043,16 @@ var HeadManager =
 /*#__PURE__*/
 function () {
   function HeadManager() {
-    (0, _classCallCheck2.JobPostingBanner)(this, HeadManager);
+    (0, _classCallCheck2.default)(this, HeadManager);
     this.updatePromise = null;
   }
 
-  (0, _createClass2.JobPostingBanner)(HeadManager, [{
+  (0, _createClass2.default)(HeadManager, [{
     key: "updateHead",
     value: function updateHead(head) {
       var _this = this;
 
-      var promise = this.updatePromise = _promise.JobPostingBanner.resolve().then(function () {
+      var promise = this.updatePromise = _promise.default.resolve().then(function () {
         if (promise !== _this.updatePromise) return;
         _this.updatePromise = null;
 
@@ -6205,7 +6205,7 @@ var _loadable = _interopRequireDefault(__webpack_require__(/*! ../lib/loadable *
 // So, we need to polyfill it.
 // See: https://webpack.js.org/guides/code-splitting/#dynamic-imports
 if (!window.Promise) {
-  window.Promise = _promise.JobPostingBanner;
+  window.Promise = _promise.default;
 }
 
 var _window = window,
@@ -6231,10 +6231,10 @@ envConfig.setConfig({
   publicRuntimeConfig: runtimeConfig
 });
 var asPath = (0, _utils.getURL)();
-var pageLoader = new _pageLoader.JobPostingBanner(buildId, prefix);
+var pageLoader = new _pageLoader.default(buildId, prefix);
 
 window.__NEXT_LOADED_PAGES__.forEach(function (_ref) {
-  var _ref2 = (0, _slicedToArray2.JobPostingBanner)(_ref, 2),
+  var _ref2 = (0, _slicedToArray2.default)(_ref, 2),
       r = _ref2[0],
       f = _ref2[1];
 
@@ -6243,7 +6243,7 @@ window.__NEXT_LOADED_PAGES__.forEach(function (_ref) {
 
 delete window.__NEXT_LOADED_PAGES__;
 window.__NEXT_REGISTER_PAGE = pageLoader.registerPage.bind(pageLoader);
-var headManager = new _headManager.JobPostingBanner();
+var headManager = new _headManager.default();
 var appContainer = document.getElementById('__next');
 var lastAppProps;
 var webpackHMR;
@@ -6253,20 +6253,20 @@ var ErrorComponent;
 exports.ErrorComponent = ErrorComponent;
 var Component;
 var App;
-var emitter = new _EventEmitter.JobPostingBanner();
+var emitter = new _EventEmitter.default();
 exports.emitter = emitter;
 
 var _default =
 /*#__PURE__*/
-(0, _asyncToGenerator2.JobPostingBanner)(
+(0, _asyncToGenerator2.default)(
 /*#__PURE__*/
-_regenerator.JobPostingBanner.mark(function _callee() {
+_regenerator.default.mark(function _callee() {
   var _ref4,
       passedWebpackHMR,
       initialErr,
       _args = arguments;
 
-  return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+  return _regenerator.default.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
@@ -6314,7 +6314,7 @@ _regenerator.JobPostingBanner.mark(function _callee() {
 
         case 20:
           _context.next = 22;
-          return _loadable.JobPostingBanner.preloadReady(dynamicIds || []);
+          return _loadable.default.preloadReady(dynamicIds || []);
 
         case 22:
           exports.router = router = (0, _router2.createRouter)(page, query, asPath, {
@@ -6365,10 +6365,10 @@ function render(_x) {
 
 
 function _render() {
-  _render = (0, _asyncToGenerator2.JobPostingBanner)(
+  _render = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee2(props) {
-    return _regenerator.JobPostingBanner.wrap(function _callee2$(_context2) {
+  _regenerator.default.mark(function _callee2(props) {
+    return _regenerator.default.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -6396,7 +6396,7 @@ function _render() {
             _context2.prev = 9;
             _context2.t0 = _context2["catch"](4);
             _context2.next = 13;
-            return renderError((0, _objectSpread2.JobPostingBanner)({}, props, {
+            return renderError((0, _objectSpread2.default)({}, props, {
               err: _context2.t0
             }));
 
@@ -6415,11 +6415,11 @@ function renderError(_x2) {
 }
 
 function _renderError() {
-  _renderError = (0, _asyncToGenerator2.JobPostingBanner)(
+  _renderError = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee3(props) {
+  _regenerator.default.mark(function _callee3(props) {
     var App, err, initProps;
-    return _regenerator.JobPostingBanner.wrap(function _callee3$(_context3) {
+    return _regenerator.default.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
@@ -6463,7 +6463,7 @@ function _renderError() {
           case 11:
             initProps = _context3.t0;
             _context3.next = 14;
-            return doRender((0, _objectSpread2.JobPostingBanner)({}, props, {
+            return doRender((0, _objectSpread2.default)({}, props, {
               err: err,
               Component: ErrorComponent,
               props: initProps
@@ -6483,12 +6483,12 @@ var isInitialRender = true;
 
 function renderReactElement(reactEl, domEl) {
   // The check for `.hydrate` is there to support React alternatives like preact
-  if (isInitialRender && typeof _reactDom.JobPostingBanner.hydrate === 'function') {
-    _reactDom.JobPostingBanner.hydrate(reactEl, domEl);
+  if (isInitialRender && typeof _reactDom.default.hydrate === 'function') {
+    _reactDom.default.hydrate(reactEl, domEl);
 
     isInitialRender = false;
   } else {
-    _reactDom.JobPostingBanner.render(reactEl, domEl);
+    _reactDom.default.render(reactEl, domEl);
   }
 }
 
@@ -6497,12 +6497,12 @@ function doRender(_x3) {
 }
 
 function _doRender() {
-  _doRender = (0, _asyncToGenerator2.JobPostingBanner)(
+  _doRender = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee5(_ref6) {
+  _regenerator.default.mark(function _callee5(_ref6) {
     var App, Component, props, err, _ref6$emitter, emitterProp, _router, pathname, _query, _asPath, appProps, onError;
 
-    return _regenerator.JobPostingBanner.wrap(function _callee5$(_context5) {
+    return _regenerator.default.wrap(function _callee5$(_context5) {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
@@ -6532,7 +6532,7 @@ function _doRender() {
           case 6:
             Component = Component || lastAppProps.Component;
             props = props || lastAppProps.props;
-            appProps = (0, _objectSpread2.JobPostingBanner)({
+            appProps = (0, _objectSpread2.default)({
               Component: Component,
               err: err,
               router: router,
@@ -6547,7 +6547,7 @@ function _doRender() {
             }); // In development runtime errors are caught by react-error-overlay.
 
             if (true) {
-              renderReactElement(_react.JobPostingBanner.createElement(App, appProps), appContainer);
+              renderReactElement(_react.default.createElement(App, appProps), appContainer);
             } else {}
 
             emitterProp.emit('after-reactdom-render', {
@@ -6596,14 +6596,14 @@ __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /
 var _window = window,
     assetPrefix = _window.__NEXT_DATA__.assetPrefix;
 var prefix = assetPrefix || '';
-var webpackHMR = (0, _webpackHotMiddlewareClient.JobPostingBanner)({
+var webpackHMR = (0, _webpackHotMiddlewareClient.default)({
   assetPrefix: prefix
 });
 window.next = next;
-(0, next.JobPostingBanner)({
+(0, next.default)({
   webpackHMR: webpackHMR
 }).then(function (emitter) {
-  (0, _onDemandEntriesClient.JobPostingBanner)({
+  (0, _onDemandEntriesClient.default)({
     assetPrefix: prefix
   });
   var lastScroll;
@@ -6666,14 +6666,14 @@ var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/r
 
 var _router = _interopRequireDefault(__webpack_require__(/*! ../lib/router */ "./node_modules/next/dist/lib/router/index.js"));
 
-var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js"));
+var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/unfetch/dist/unfetch.es.js"));
 
 /* global location */
 var _default = function _default(_ref) {
   var assetPrefix = _ref.assetPrefix;
 
-  _router.JobPostingBanner.ready(function () {
-    _router.JobPostingBanner.events.on('routeChangeComplete', ping);
+  _router.default.ready(function () {
+    _router.default.events.on('routeChangeComplete', ping);
   });
 
   function ping() {
@@ -6681,18 +6681,18 @@ var _default = function _default(_ref) {
   }
 
   function _ping() {
-    _ping = (0, _asyncToGenerator2.JobPostingBanner)(
+    _ping = (0, _asyncToGenerator2.default)(
     /*#__PURE__*/
-    _regenerator.JobPostingBanner.mark(function _callee() {
+    _regenerator.default.mark(function _callee() {
       var url, res, payload, pageRes;
-      return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+      return _regenerator.default.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
               _context.prev = 0;
-              url = "".concat(assetPrefix || '', "/_next/on-demand-entries-ping?page=").concat(_router.JobPostingBanner.pathname);
+              url = "".concat(assetPrefix || '', "/_next/on-demand-entries-ping?page=").concat(_router.default.pathname);
               _context.next = 4;
-              return (0, _unfetch.JobPostingBanner)(url, {
+              return (0, _unfetch.default)(url, {
                 credentials: 'same-origin'
               });
 
@@ -6710,7 +6710,7 @@ var _default = function _default(_ref) {
               }
 
               _context.next = 11;
-              return (0, _unfetch.JobPostingBanner)(location.href, {
+              return (0, _unfetch.default)(location.href, {
                 credentials: 'same-origin'
               });
 
@@ -6747,10 +6747,10 @@ var _default = function _default(_ref) {
   }
 
   function _runPinger() {
-    _runPinger = (0, _asyncToGenerator2.JobPostingBanner)(
+    _runPinger = (0, _asyncToGenerator2.default)(
     /*#__PURE__*/
-    _regenerator.JobPostingBanner.mark(function _callee2() {
-      return _regenerator.JobPostingBanner.wrap(function _callee2$(_context2) {
+    _regenerator.default.mark(function _callee2() {
+      return _regenerator.default.wrap(function _callee2$(_context2) {
         while (1) {
           switch (_context2.prev = _context2.next) {
             case 0:
@@ -6764,7 +6764,7 @@ var _default = function _default(_ref) {
 
             case 3:
               _context2.next = 5;
-              return new _promise.JobPostingBanner(function (resolve) {
+              return new _promise.default(function (resolve) {
                 pingerTimeout = setTimeout(resolve, 5000);
               });
 
@@ -6879,16 +6879,16 @@ var handlers = {
     }
 
     if (route === '/_error') {
-      var _arr = (0, _keys.JobPostingBanner)(_router.JobPostingBanner.components);
+      var _arr = (0, _keys.default)(_router.default.components);
 
       for (var _i = 0; _i < _arr.length; _i++) {
         var r = _arr[_i];
-        var err = _router.JobPostingBanner.components[r].err;
+        var err = _router.default.components[r].err;
 
         if (err) {
           // reload all error routes
           // which are expected to be errors of '/_error' routes
-          _router.JobPostingBanner.reload(r);
+          _router.default.reload(r);
         }
       }
 
@@ -6901,7 +6901,7 @@ var handlers = {
       return;
     }
 
-    _router.JobPostingBanner.reload(route);
+    _router.default.reload(route);
   },
   change: function change(route) {
     // If the App component changes we have to reload the current route, this is handled by hot-self-accept-loader
@@ -6910,16 +6910,16 @@ var handlers = {
       return;
     }
 
-    var _ref = _router.JobPostingBanner.components[route] || {},
+    var _ref = _router.default.components[route] || {},
         err = _ref.err,
         Component = _ref.Component;
 
     if (err) {
       // reload to recover from runtime errors
-      _router.JobPostingBanner.reload(route);
+      _router.default.reload(route);
     }
 
-    if (_router.JobPostingBanner.route !== route) {
+    if (_router.default.route !== route) {
       // If this is a not a change for a currently viewing page.
       // We don't need to worry about it.
       return;
@@ -6939,13 +6939,13 @@ var _default = function _default(_ref2) {
   var options = {
     path: "".concat(assetPrefix, "/_next/webpack-hmr")
   };
-  var devClient = (0, _hotDevClient.JobPostingBanner)(options);
+  var devClient = (0, _hotDevClient.default)(options);
   devClient.subscribeToHmrEvent(function (obj) {
     var fn = handlers[obj.action];
 
     if (fn) {
       var data = obj.data || [];
-      fn.apply(void 0, (0, _toConsumableArray2.JobPostingBanner)(data));
+      fn.apply(void 0, (0, _toConsumableArray2.default)(data));
     } else {
       throw new Error('Unexpected action ' + obj.action);
     }
@@ -6986,15 +6986,15 @@ var EventEmitter =
 /*#__PURE__*/
 function () {
   function EventEmitter() {
-    (0, _classCallCheck2.JobPostingBanner)(this, EventEmitter);
-    (0, _defineProperty2.JobPostingBanner)(this, "listeners", {});
+    (0, _classCallCheck2.default)(this, EventEmitter);
+    (0, _defineProperty2.default)(this, "listeners", {});
   }
 
-  (0, _createClass2.JobPostingBanner)(EventEmitter, [{
+  (0, _createClass2.default)(EventEmitter, [{
     key: "on",
     value: function on(event, cb) {
       if (!this.listeners[event]) {
-        this.listeners[event] = new _set.JobPostingBanner();
+        this.listeners[event] = new _set.default();
       }
 
       if (this.listeners[event].has(cb)) {
@@ -7136,7 +7136,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 // https://github.com/jamiebuilds/react-loadable/blob/v5.5.0/src/index.js
 // Modified to be compatible with webpack 4 / Next.js
 var ALL_INITIALIZERS = [];
-var READY_INITIALIZERS = new _map.JobPostingBanner();
+var READY_INITIALIZERS = new _map.default();
 var initialized = false;
 
 function load(loader) {
@@ -7167,7 +7167,7 @@ function loadMap(obj) {
   var promises = [];
 
   try {
-    (0, _keys.JobPostingBanner)(obj).forEach(function (key) {
+    (0, _keys.default)(obj).forEach(function (key) {
       var result = load(obj[key]);
 
       if (!result.loading) {
@@ -7188,7 +7188,7 @@ function loadMap(obj) {
     state.error = err;
   }
 
-  state.promise = _promise.JobPostingBanner.all(promises).then(function (res) {
+  state.promise = _promise.default.all(promises).then(function (res) {
     state.loading = false;
     return res;
   }).catch(function (err) {
@@ -7199,17 +7199,17 @@ function loadMap(obj) {
 }
 
 function resolve(obj) {
-  return obj && obj.__esModule ? obj.JobPostingBanner : obj;
+  return obj && obj.__esModule ? obj.default : obj;
 }
 
 function render(loaded, props) {
-  return _react.JobPostingBanner.createElement(resolve(loaded), props);
+  return _react.default.createElement(resolve(loaded), props);
 }
 
 function createLoadableComponent(loadFn, options) {
   var _class, _temp;
 
-  var opts = (0, _assign.JobPostingBanner)({
+  var opts = (0, _assign.default)({
     loader: null,
     loading: null,
     delay: 200,
@@ -7241,7 +7241,7 @@ function createLoadableComponent(loadFn, options) {
     var _iteratorError = undefined;
 
     try {
-      for (var _iterator = (0, _getIterator2.JobPostingBanner)(moduleIds), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+      for (var _iterator = (0, _getIterator2.default)(moduleIds), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
         var moduleId = _step.value;
         READY_INITIALIZERS.set(moduleId, function () {
           return init();
@@ -7266,14 +7266,14 @@ function createLoadableComponent(loadFn, options) {
   return _temp = _class =
   /*#__PURE__*/
   function (_React$Component) {
-    (0, _inherits2.JobPostingBanner)(LoadableComponent, _React$Component);
+    (0, _inherits2.default)(LoadableComponent, _React$Component);
 
     function LoadableComponent(props) {
       var _this;
 
-      (0, _classCallCheck2.JobPostingBanner)(this, LoadableComponent);
-      _this = (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(LoadableComponent).call(this, props));
-      (0, _defineProperty2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)((0, _assertThisInitialized2.JobPostingBanner)(_this)), "retry", function () {
+      (0, _classCallCheck2.default)(this, LoadableComponent);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(LoadableComponent).call(this, props));
+      (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "retry", function () {
         _this.setState({
           error: null,
           loading: true,
@@ -7295,7 +7295,7 @@ function createLoadableComponent(loadFn, options) {
       return _this;
     }
 
-    (0, _createClass2.JobPostingBanner)(LoadableComponent, [{
+    (0, _createClass2.default)(LoadableComponent, [{
       key: "componentWillMount",
       value: function componentWillMount() {
         this._mounted = true;
@@ -7307,7 +7307,7 @@ function createLoadableComponent(loadFn, options) {
       value: function _loadModule() {
         var _this2 = this;
 
-        if (this.context.loadable && (0, _isArray.JobPostingBanner)(opts.modules)) {
+        if (this.context.loadable && (0, _isArray.default)(opts.modules)) {
           opts.modules.forEach(function (moduleName) {
             _this2.context.loadable.report(moduleName);
           });
@@ -7377,7 +7377,7 @@ function createLoadableComponent(loadFn, options) {
       key: "render",
       value: function render() {
         if (this.state.loading || this.state.error) {
-          return _react.JobPostingBanner.createElement(opts.loading, {
+          return _react.default.createElement(opts.loading, {
             isLoading: this.state.loading,
             pastDelay: this.state.pastDelay,
             timedOut: this.state.timedOut,
@@ -7397,9 +7397,9 @@ function createLoadableComponent(loadFn, options) {
       }
     }]);
     return LoadableComponent;
-  }(_react.JobPostingBanner.Component), (0, _defineProperty2.JobPostingBanner)(_class, "contextTypes", {
-    loadable: _propTypes.JobPostingBanner.shape({
-      report: _propTypes.JobPostingBanner.func.isRequired
+  }(_react.default.Component), (0, _defineProperty2.default)(_class, "contextTypes", {
+    loadable: _propTypes.default.shape({
+      report: _propTypes.default.func.isRequired
     })
   }), _temp;
 }
@@ -7426,7 +7426,7 @@ function flushInitializers(initializers) {
     promises.push(init());
   }
 
-  return _promise.JobPostingBanner.all(promises).then(function () {
+  return _promise.default.all(promises).then(function () {
     if (initializers.length) {
       return flushInitializers(initializers);
     }
@@ -7434,13 +7434,13 @@ function flushInitializers(initializers) {
 }
 
 Loadable.preloadAll = function () {
-  return new _promise.JobPostingBanner(function (resolve, reject) {
+  return new _promise.default(function (resolve, reject) {
     flushInitializers(ALL_INITIALIZERS).then(resolve, reject);
   });
 };
 
 Loadable.preloadReady = function (webpackIds) {
-  return new _promise.JobPostingBanner(function (resolve, reject) {
+  return new _promise.default(function (resolve, reject) {
     var initializers = webpackIds.reduce(function (allInitalizers, moduleId) {
       var initializer = READY_INITIALIZERS.get(moduleId);
 
@@ -7494,11 +7494,11 @@ var Queue =
 /*#__PURE__*/
 function () {
   function Queue() {
-    (0, _classCallCheck2.JobPostingBanner)(this, Queue);
+    (0, _classCallCheck2.default)(this, Queue);
     this._queue = [];
   }
 
-  (0, _createClass2.JobPostingBanner)(Queue, [{
+  (0, _createClass2.default)(Queue, [{
     key: "enqueue",
     value: function enqueue(run) {
       this._queue.push(run);
@@ -7521,8 +7521,8 @@ var PQueue =
 /*#__PURE__*/
 function () {
   function PQueue(opts) {
-    (0, _classCallCheck2.JobPostingBanner)(this, PQueue);
-    opts = (0, _assign.JobPostingBanner)({
+    (0, _classCallCheck2.default)(this, PQueue);
+    opts = (0, _assign.default)({
       concurrency: Infinity,
       queueClass: Queue
     }, opts);
@@ -7539,7 +7539,7 @@ function () {
     this._resolveEmpty = function () {};
   }
 
-  (0, _createClass2.JobPostingBanner)(PQueue, [{
+  (0, _createClass2.default)(PQueue, [{
     key: "_next",
     value: function _next() {
       this._pendingCount--;
@@ -7555,7 +7555,7 @@ function () {
     value: function add(fn, opts) {
       var _this = this;
 
-      return new _promise.JobPostingBanner(function (resolve, reject) {
+      return new _promise.default(function (resolve, reject) {
         var run = function run() {
           _this._pendingCount++;
           fn().then(function (val) {
@@ -7581,7 +7581,7 @@ function () {
     value: function onEmpty() {
       var _this2 = this;
 
-      return new _promise.JobPostingBanner(function (resolve) {
+      return new _promise.default(function (resolve) {
         var existingResolve = _this2._resolveEmpty;
 
         _this2._resolveEmpty = function () {
@@ -7640,16 +7640,16 @@ var PageLoader =
 /*#__PURE__*/
 function () {
   function PageLoader(buildId, assetPrefix) {
-    (0, _classCallCheck2.JobPostingBanner)(this, PageLoader);
+    (0, _classCallCheck2.default)(this, PageLoader);
     this.buildId = buildId;
     this.assetPrefix = assetPrefix;
     this.pageCache = {};
     this.pageLoadedHandlers = {};
-    this.pageRegisterEvents = new _EventEmitter.JobPostingBanner();
+    this.pageRegisterEvents = new _EventEmitter.default();
     this.loadingRoutes = {};
   }
 
-  (0, _createClass2.JobPostingBanner)(PageLoader, [{
+  (0, _createClass2.default)(PageLoader, [{
     key: "normalizeRoute",
     value: function normalizeRoute(route) {
       if (route[0] !== '/') {
@@ -7666,7 +7666,7 @@ function () {
       var _this = this;
 
       route = this.normalizeRoute(route);
-      return new _promise.JobPostingBanner(function (resolve, reject) {
+      return new _promise.default(function (resolve, reject) {
         var fire = function fire(_ref) {
           var error = _ref.error,
               page = _ref.page;
@@ -7821,7 +7821,7 @@ exports.makePublicRouterInstance = makePublicRouterInstance;
 Object.defineProperty(exports, "withRouter", {
   enumerable: true,
   get: function get() {
-    return _withRouter.JobPostingBanner;
+    return _withRouter.default;
   }
 });
 exports.Router = exports.createRouter = exports.default = void 0;
@@ -7863,7 +7863,7 @@ var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'before
 
 Object.defineProperty(SingletonRouter, 'events', {
   get: function get() {
-    return _router.JobPostingBanner.events;
+    return _router.default.events;
   }
 });
 propertyFields.concat(urlPropertyFields).forEach(function (field) {
@@ -7871,7 +7871,7 @@ propertyFields.concat(urlPropertyFields).forEach(function (field) {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.JobPostingBanner)(SingletonRouter, field, {
+  (0, _defineProperty.default)(SingletonRouter, field, {
     get: function get() {
       throwIfNoRouter();
       return SingletonRouter.router[field];
@@ -7888,7 +7888,7 @@ coreMethodFields.forEach(function (field) {
 });
 routerEvents.forEach(function (event) {
   SingletonRouter.ready(function () {
-    _router.JobPostingBanner.events.on(event, function () {
+    _router.default.events.on(event, function () {
       var eventField = "on".concat(event.charAt(0).toUpperCase()).concat(event.substring(1));
 
       if (SingletonRouter[eventField]) {
@@ -7938,7 +7938,7 @@ var createRouter = function createRouter() {
     args[_key] = arguments[_key];
   }
 
-  SingletonRouter.router = (0, _construct2.JobPostingBanner)(_router.JobPostingBanner, args);
+  SingletonRouter.router = (0, _construct2.default)(_router.default, args);
   SingletonRouter.readyCallbacks.forEach(function (cb) {
     return cb();
   });
@@ -7948,18 +7948,18 @@ var createRouter = function createRouter() {
 
 
 exports.createRouter = createRouter;
-var Router = _router.JobPostingBanner;
+var Router = _router.default;
 exports.Router = Router;
 
 function _rewriteUrlForNextExport(url) {
   var _url$split = url.split('#'),
-      _url$split2 = (0, _slicedToArray2.JobPostingBanner)(_url$split, 2),
+      _url$split2 = (0, _slicedToArray2.default)(_url$split, 2),
       hash = _url$split2[1];
 
   url = url.replace(/#.*/, '');
 
   var _url$split3 = url.split('?'),
-      _url$split4 = (0, _slicedToArray2.JobPostingBanner)(_url$split3, 2),
+      _url$split4 = (0, _slicedToArray2.default)(_url$split3, 2),
       path = _url$split4[0],
       qs = _url$split4[1];
 
@@ -7988,8 +7988,8 @@ function makePublicRouterInstance(router) {
   for (var _i = 0; _i < urlPropertyFields.length; _i++) {
     var property = urlPropertyFields[_i];
 
-    if ((0, _typeof2.JobPostingBanner)(router[property]) === 'object') {
-      instance[property] = (0, _objectSpread2.JobPostingBanner)({}, router[property]); // makes sure query is not stateful
+    if ((0, _typeof2.default)(router[property]) === 'object') {
+      instance[property] = (0, _objectSpread2.default)({}, router[property]); // makes sure query is not stateful
 
       continue;
     }
@@ -7998,13 +7998,13 @@ function makePublicRouterInstance(router) {
   } // Events is a static property on the router, the router doesn't have to be initialized to use it
 
 
-  instance.events = _router.JobPostingBanner.events;
+  instance.events = _router.default.events;
   propertyFields.forEach(function (field) {
     // Here we need to use Object.defineProperty because, we need to return
     // the property assigned to the actual router
     // The value might get changed as we change routes and this is the
     // proper way to access it
-    (0, _defineProperty.JobPostingBanner)(instance, field, {
+    (0, _defineProperty.default)(instance, field, {
       get: function get() {
         return router[field];
       }
@@ -8082,8 +8082,8 @@ function () {
         ErrorComponent = _ref.ErrorComponent,
         err = _ref.err;
 
-    (0, _classCallCheck2.JobPostingBanner)(this, Router);
-    (0, _defineProperty2.JobPostingBanner)(this, "onPopState", function (e) {
+    (0, _classCallCheck2.default)(this, Router);
+    (0, _defineProperty2.default)(this, "onPopState", function (e) {
       if (!e.state) {
         // We get state as undefined for two reasons.
         //  1. With older safari (< 8) and older chrome (< 34)
@@ -8146,14 +8146,14 @@ function () {
     };
     this.events = Router.events;
     this.pageLoader = pageLoader;
-    this.prefetchQueue = new _pQueue.JobPostingBanner({
+    this.prefetchQueue = new _pQueue.default({
       concurrency: 2
     });
     this.ErrorComponent = ErrorComponent;
     this.pathname = _pathname;
     this.query = _query;
     this.asPath = _as2;
-    this.subscriptions = new _set.JobPostingBanner();
+    this.subscriptions = new _set.default();
     this.componentLoadCancel = null;
 
     this._beforePopState = function () {
@@ -8171,7 +8171,7 @@ function () {
     }
   }
 
-  (0, _createClass2.JobPostingBanner)(Router, [{
+  (0, _createClass2.default)(Router, [{
     key: "update",
     value: function update(route, Component) {
       var data = this.components[route];
@@ -8180,7 +8180,7 @@ function () {
         throw new Error("Cannot update unavailable route: ".concat(route));
       }
 
-      var newData = (0, _objectSpread2.JobPostingBanner)({}, data, {
+      var newData = (0, _objectSpread2.default)({}, data, {
         Component: Component
       });
       this.components[route] = newData; // pages/_app.js updated
@@ -8197,11 +8197,11 @@ function () {
   }, {
     key: "reload",
     value: function () {
-      var _reload = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _reload = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee(route) {
+      _regenerator.default.mark(function _callee(route) {
         var pathname, query, url, as, routeInfo, error;
-        return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+        return _regenerator.default.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -8285,19 +8285,19 @@ function () {
   }, {
     key: "change",
     value: function () {
-      var _change = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _change = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee2(method, _url, _as, options) {
+      _regenerator.default.mark(function _callee2(method, _url, _as, options) {
         var url, as, _parse, asPathname, asQuery, _parse2, pathname, query, route, _options$shallow, shallow, routeInfo, _routeInfo, error, hash;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee2$(_context2) {
+        return _regenerator.default.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 // If url and as provided as an object representation,
                 // we'll format them into the string version here.
-                url = (0, _typeof2.JobPostingBanner)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
-                as = (0, _typeof2.JobPostingBanner)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
+                url = (0, _typeof2.default)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
+                as = (0, _typeof2.default)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
                 // "<page>/index.html" directly for the SSR page.
 
                 if (__NEXT_DATA__.nextExport) {
@@ -8366,7 +8366,7 @@ function () {
                 Router.events.emit('beforeHistoryChange', as);
                 this.changeState(method, url, as, options);
                 hash = window.location.hash.substring(1);
-                this.set(route, pathname, query, as, (0, _objectSpread2.JobPostingBanner)({}, routeInfo, {
+                this.set(route, pathname, query, as, (0, _objectSpread2.default)({}, routeInfo, {
                   hash: hash
                 }));
 
@@ -8424,12 +8424,12 @@ function () {
   }, {
     key: "getRouteInfo",
     value: function () {
-      var _getRouteInfo = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _getRouteInfo = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee3(route, pathname, query, as) {
+      _regenerator.default.mark(function _callee3(route, pathname, query, as) {
         var routeInfo, _routeInfo2, Component, ctx, _Component, _ctx;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee3$(_context3) {
+        return _regenerator.default.wrap(function _callee3$(_context3) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
@@ -8574,12 +8574,12 @@ function () {
       if (!this.asPath) return false;
 
       var _this$asPath$split = this.asPath.split('#'),
-          _this$asPath$split2 = (0, _slicedToArray2.JobPostingBanner)(_this$asPath$split, 2),
+          _this$asPath$split2 = (0, _slicedToArray2.default)(_this$asPath$split, 2),
           oldUrlNoHash = _this$asPath$split2[0],
           oldHash = _this$asPath$split2[1];
 
       var _as$split = as.split('#'),
-          _as$split2 = (0, _slicedToArray2.JobPostingBanner)(_as$split, 2),
+          _as$split2 = (0, _slicedToArray2.default)(_as$split, 2),
           newUrlNoHash = _as$split2[0],
           newHash = _as$split2[1]; // Makes sure we scroll to the provided hash if the url/hash are the same
 
@@ -8603,7 +8603,7 @@ function () {
     key: "scrollToHash",
     value: function scrollToHash(as) {
       var _as$split3 = as.split('#'),
-          _as$split4 = (0, _slicedToArray2.JobPostingBanner)(_as$split3, 2),
+          _as$split4 = (0, _slicedToArray2.default)(_as$split3, 2),
           hash = _as$split4[1]; // Scroll to top if the hash is just `#` with no value
 
 
@@ -8631,7 +8631,7 @@ function () {
   }, {
     key: "urlIsNew",
     value: function urlIsNew(pathname, query) {
-      return this.pathname !== pathname || !(0, _shallowEquals.JobPostingBanner)(query, this.query);
+      return this.pathname !== pathname || !(0, _shallowEquals.default)(query, this.query);
     }
   }, {
     key: "isShallowRoutingPossible",
@@ -8644,14 +8644,14 @@ function () {
   }, {
     key: "prefetch",
     value: function () {
-      var _prefetch = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _prefetch = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee4(url) {
+      _regenerator.default.mark(function _callee4(url) {
         var _this2 = this;
 
         var _parse3, pathname, route;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee4$(_context4) {
+        return _regenerator.default.wrap(function _callee4$(_context4) {
           while (1) {
             switch (_context4.prev = _context4.next) {
               case 0:
@@ -8683,11 +8683,11 @@ function () {
   }, {
     key: "fetchComponent",
     value: function () {
-      var _fetchComponent = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _fetchComponent = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee5(route, as) {
+      _regenerator.default.mark(function _callee5(route, as) {
         var cancelled, cancel, Component, error;
-        return _regenerator.JobPostingBanner.wrap(function _callee5$(_context5) {
+        return _regenerator.default.wrap(function _callee5$(_context5) {
           while (1) {
             switch (_context5.prev = _context5.next) {
               case 0:
@@ -8736,11 +8736,11 @@ function () {
   }, {
     key: "getInitialProps",
     value: function () {
-      var _getInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _getInitialProps = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee6(Component, ctx) {
+      _regenerator.default.mark(function _callee6(Component, ctx) {
         var cancelled, cancel, App, props, err;
-        return _regenerator.JobPostingBanner.wrap(function _callee6$(_context6) {
+        return _regenerator.default.wrap(function _callee6$(_context6) {
           while (1) {
             switch (_context6.prev = _context6.next) {
               case 0:
@@ -8795,10 +8795,10 @@ function () {
   }, {
     key: "fetchRoute",
     value: function () {
-      var _fetchRoute = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _fetchRoute = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee7(route) {
-        return _regenerator.JobPostingBanner.wrap(function _callee7$(_context7) {
+      _regenerator.default.mark(function _callee7(route) {
+        return _regenerator.default.wrap(function _callee7$(_context7) {
           while (1) {
             switch (_context7.prev = _context7.next) {
               case 0:
@@ -8832,7 +8832,7 @@ function () {
     value: function notify(data) {
       var App = this.components['/_app'].Component;
       this.subscriptions.forEach(function (fn) {
-        return fn((0, _objectSpread2.JobPostingBanner)({}, data, {
+        return fn((0, _objectSpread2.default)({}, data, {
           App: App
         }));
       });
@@ -8852,7 +8852,7 @@ function () {
 }();
 
 exports.default = Router;
-(0, _defineProperty2.JobPostingBanner)(Router, "events", new _EventEmitter.JobPostingBanner());
+(0, _defineProperty2.default)(Router, "events", new _EventEmitter.default());
 
 function toRoute(path) {
   return path.replace(/\/$/, '') || '/';
@@ -8907,30 +8907,30 @@ function withRouter(ComposedComponent) {
   var WithRouteWrapper =
   /*#__PURE__*/
   function (_Component) {
-    (0, _inherits2.JobPostingBanner)(WithRouteWrapper, _Component);
+    (0, _inherits2.default)(WithRouteWrapper, _Component);
 
     function WithRouteWrapper() {
-      (0, _classCallCheck2.JobPostingBanner)(this, WithRouteWrapper);
-      return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(WithRouteWrapper).apply(this, arguments));
+      (0, _classCallCheck2.default)(this, WithRouteWrapper);
+      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(WithRouteWrapper).apply(this, arguments));
     }
 
-    (0, _createClass2.JobPostingBanner)(WithRouteWrapper, [{
+    (0, _createClass2.default)(WithRouteWrapper, [{
       key: "render",
       value: function render() {
-        var props = (0, _objectSpread2.JobPostingBanner)({
+        var props = (0, _objectSpread2.default)({
           router: this.context.router
         }, this.props);
-        return _react.JobPostingBanner.createElement(ComposedComponent, props);
+        return _react.default.createElement(ComposedComponent, props);
       }
     }]);
     return WithRouteWrapper;
   }(_react.Component);
 
-  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "contextTypes", {
-    router: _propTypes.JobPostingBanner.object
+  (0, _defineProperty2.default)(WithRouteWrapper, "contextTypes", {
+    router: _propTypes.default.object
   });
-  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
-  return (0, _hoistNonReactStatics.JobPostingBanner)(WithRouteWrapper, ComposedComponent);
+  (0, _defineProperty2.default)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
+  return (0, _hoistNonReactStatics.default)(WithRouteWrapper, ComposedComponent);
 }
 
 /***/ }),
@@ -9053,12 +9053,12 @@ function loadGetInitialProps(_x, _x2) {
 }
 
 function _loadGetInitialProps() {
-  _loadGetInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
+  _loadGetInitialProps = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee(Component, ctx) {
+  _regenerator.default.mark(function _callee(Component, ctx) {
     var compName, message, props, _compName, _message;
 
-    return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+    return _regenerator.default.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -9136,12 +9136,12 @@ function getURL() {
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9749,88 +9749,30 @@ if (true) {
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
-/***/ "./node_modules/next/node_modules/unfetch/dist/unfetch.es.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/next/node_modules/unfetch/dist/unfetch.es.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/object-assign/index.js":
+/*!***************************************************************************************************!*\
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var index = typeof fetch=='function' ? fetch.bind() : function(url, options) {
-	options = options || {};
-	return new Promise( function (resolve, reject) {
-		var request = new XMLHttpRequest();
-
-		request.open(options.method || 'get', url);
-
-		for (var i in options.headers) {
-			request.setRequestHeader(i, options.headers[i]);
-		}
-
-		request.withCredentials = options.credentials=='include';
-
-		request.onload = function () {
-			resolve(response());
-		};
-
-		request.onerror = reject;
-
-		request.send(options.body);
-
-		function response() {
-			var keys = [],
-				all = [],
-				headers = {},
-				header;
-
-			request.getAllResponseHeaders().replace(/^(.*?):\s*([\s\S]*?)$/gm, function (m, key, value) {
-				keys.push(key = key.toLowerCase());
-				all.push([key, value]);
-				header = headers[key];
-				headers[key] = header ? (header + "," + value) : value;
-			});
-
-			return {
-				ok: (request.status/200|0) == 1,		// 200-299
-				status: request.status,
-				statusText: request.statusText,
-				url: request.responseURL,
-				clone: response,
-				text: function () { return Promise.resolve(request.responseText); },
-				json: function () { return Promise.resolve(request.responseText).then(JSON.parse); },
-				blob: function () { return Promise.resolve(new Blob([request.response])); },
-				headers: {
-					keys: function () { return keys; },
-					entries: function () { return all; },
-					get: function (n) { return headers[n.toLowerCase()]; },
-					has: function (n) { return n.toLowerCase() in headers; }
-				}
-			};
-		}
-	});
-};
-
-/* harmony default export */ __webpack_exports__["JobPostingBanner"] = (index);
-//# sourceMappingURL=unfetch.es.js.map
-
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/punycode/punycode.js":
+/*!*******************************************!*\
+  !*** ./node_modules/punycode/punycode.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10354,18 +10296,7 @@ var index = typeof fetch=='function' ? fetch.bind() : function(url, options) {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/object-assign/index.js":
-/*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_19b830e266d1a33d6422 ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/object-assign/index.js");
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -10580,12 +10511,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -10650,7 +10581,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function(module) {
 /******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['JobPostingBanner']; } :
+/******/ 			function getDefault() { return module['default']; } :
 /******/ 			function getModuleExports() { return module; };
 /******/ 		__webpack_require__.d(getter, 'a', getter);
 /******/ 		return getter;
@@ -16330,12 +16261,12 @@ module.exports = "!function(e){function t(n){if(u[n])return u[n].exports;var r=u
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -17137,6 +17068,75 @@ module.exports = function (str) {
 
 /***/ }),
 
+/***/ "./node_modules/unfetch/dist/unfetch.es.js":
+/*!*************************************************!*\
+  !*** ./node_modules/unfetch/dist/unfetch.es.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var index = typeof fetch=='function' ? fetch.bind() : function(url, options) {
+	options = options || {};
+	return new Promise( function (resolve, reject) {
+		var request = new XMLHttpRequest();
+
+		request.open(options.method || 'get', url);
+
+		for (var i in options.headers) {
+			request.setRequestHeader(i, options.headers[i]);
+		}
+
+		request.withCredentials = options.credentials=='include';
+
+		request.onload = function () {
+			resolve(response());
+		};
+
+		request.onerror = reject;
+
+		request.send(options.body);
+
+		function response() {
+			var keys = [],
+				all = [],
+				headers = {},
+				header;
+
+			request.getAllResponseHeaders().replace(/^(.*?):\s*([\s\S]*?)$/gm, function (m, key, value) {
+				keys.push(key = key.toLowerCase());
+				all.push([key, value]);
+				header = headers[key];
+				headers[key] = header ? (header + "," + value) : value;
+			});
+
+			return {
+				ok: (request.status/200|0) == 1,		// 200-299
+				status: request.status,
+				statusText: request.statusText,
+				url: request.responseURL,
+				clone: response,
+				text: function () { return Promise.resolve(request.responseText); },
+				json: function () { return Promise.resolve(request.responseText).then(JSON.parse); },
+				blob: function () { return Promise.resolve(new Blob([request.response])); },
+				headers: {
+					keys: function () { return keys; },
+					entries: function () { return all; },
+					get: function (n) { return headers[n.toLowerCase()]; },
+					has: function (n) { return n.toLowerCase() in headers; }
+				}
+			};
+		}
+	});
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+//# sourceMappingURL=unfetch.es.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -17168,7 +17168,7 @@ module.exports = function (str) {
 
 
 
-var punycode = __webpack_require__(/*! punycode */ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js");
+var punycode = __webpack_require__(/*! punycode */ "./node_modules/punycode/punycode.js");
 var util = __webpack_require__(/*! ./util */ "./node_modules/url/util.js");
 
 exports.parse = urlParse;
@@ -17911,12 +17911,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -17960,19 +17960,19 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/dean/Web/nos/website/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! D:\Web2\website\node_modules\next\dist\client\next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_19b830e266d1a33d6422":
+/***/ "dll-reference dll_8127e4a26b28a85e2cfb":
 /*!*******************************************!*\
-  !*** external "dll_19b830e266d1a33d6422" ***!
+  !*** external "dll_8127e4a26b28a85e2cfb" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_19b830e266d1a33d6422;
+module.exports = dll_8127e4a26b28a85e2cfb;
 
 /***/ })
 

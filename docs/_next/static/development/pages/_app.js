@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -1483,7 +1483,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.5' };
+var core = module.exports = { version: '2.5.7' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -2888,7 +2888,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -4401,15 +4401,15 @@ var EventEmitter =
 /*#__PURE__*/
 function () {
   function EventEmitter() {
-    (0, _classCallCheck2.JobPostingBanner)(this, EventEmitter);
-    (0, _defineProperty2.JobPostingBanner)(this, "listeners", {});
+    (0, _classCallCheck2.default)(this, EventEmitter);
+    (0, _defineProperty2.default)(this, "listeners", {});
   }
 
-  (0, _createClass2.JobPostingBanner)(EventEmitter, [{
+  (0, _createClass2.default)(EventEmitter, [{
     key: "on",
     value: function on(event, cb) {
       if (!this.listeners[event]) {
-        this.listeners[event] = new _set.JobPostingBanner();
+        this.listeners[event] = new _set.default();
       }
 
       if (this.listeners[event].has(cb)) {
@@ -4502,14 +4502,14 @@ var _router = __webpack_require__(/*! ./router */ "./node_modules/next/dist/lib/
 var App =
 /*#__PURE__*/
 function (_Component) {
-  (0, _inherits2.JobPostingBanner)(App, _Component);
+  (0, _inherits2.default)(App, _Component);
 
   function App() {
-    (0, _classCallCheck2.JobPostingBanner)(this, App);
-    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(App).apply(this, arguments));
+    (0, _classCallCheck2.default)(this, App);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(App).apply(this, arguments));
   }
 
-  (0, _createClass2.JobPostingBanner)(App, [{
+  (0, _createClass2.default)(App, [{
     key: "getChildContext",
     value: function getChildContext() {
       var headManager = this.props.headManager;
@@ -4533,18 +4533,18 @@ function (_Component) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
       var url = createUrl(router);
-      return _react.JobPostingBanner.createElement(Container, null, _react.JobPostingBanner.createElement(Component, (0, _extends2.JobPostingBanner)({}, pageProps, {
+      return _react.default.createElement(Container, null, _react.default.createElement(Component, (0, _extends2.default)({}, pageProps, {
         url: url
       })));
     }
   }], [{
     key: "getInitialProps",
     value: function () {
-      var _getInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _getInitialProps = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee(_ref) {
+      _regenerator.default.mark(function _callee(_ref) {
         var Component, router, ctx, pageProps;
-        return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+        return _regenerator.default.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -4577,22 +4577,22 @@ function (_Component) {
 }(_react.Component);
 
 exports.default = App;
-(0, _defineProperty2.JobPostingBanner)(App, "childContextTypes", {
-  headManager: _propTypes.JobPostingBanner.object,
-  router: _propTypes.JobPostingBanner.object
+(0, _defineProperty2.default)(App, "childContextTypes", {
+  headManager: _propTypes.default.object,
+  router: _propTypes.default.object
 });
 
 var Container =
 /*#__PURE__*/
 function (_Component2) {
-  (0, _inherits2.JobPostingBanner)(Container, _Component2);
+  (0, _inherits2.default)(Container, _Component2);
 
   function Container() {
-    (0, _classCallCheck2.JobPostingBanner)(this, Container);
-    return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(Container).apply(this, arguments));
+    (0, _classCallCheck2.default)(this, Container);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Container).apply(this, arguments));
   }
 
-  (0, _createClass2.JobPostingBanner)(Container, [{
+  (0, _createClass2.default)(Container, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       this.scrollToHash();
@@ -4713,11 +4713,11 @@ var Queue =
 /*#__PURE__*/
 function () {
   function Queue() {
-    (0, _classCallCheck2.JobPostingBanner)(this, Queue);
+    (0, _classCallCheck2.default)(this, Queue);
     this._queue = [];
   }
 
-  (0, _createClass2.JobPostingBanner)(Queue, [{
+  (0, _createClass2.default)(Queue, [{
     key: "enqueue",
     value: function enqueue(run) {
       this._queue.push(run);
@@ -4740,8 +4740,8 @@ var PQueue =
 /*#__PURE__*/
 function () {
   function PQueue(opts) {
-    (0, _classCallCheck2.JobPostingBanner)(this, PQueue);
-    opts = (0, _assign.JobPostingBanner)({
+    (0, _classCallCheck2.default)(this, PQueue);
+    opts = (0, _assign.default)({
       concurrency: Infinity,
       queueClass: Queue
     }, opts);
@@ -4758,7 +4758,7 @@ function () {
     this._resolveEmpty = function () {};
   }
 
-  (0, _createClass2.JobPostingBanner)(PQueue, [{
+  (0, _createClass2.default)(PQueue, [{
     key: "_next",
     value: function _next() {
       this._pendingCount--;
@@ -4774,7 +4774,7 @@ function () {
     value: function add(fn, opts) {
       var _this = this;
 
-      return new _promise.JobPostingBanner(function (resolve, reject) {
+      return new _promise.default(function (resolve, reject) {
         var run = function run() {
           _this._pendingCount++;
           fn().then(function (val) {
@@ -4800,7 +4800,7 @@ function () {
     value: function onEmpty() {
       var _this2 = this;
 
-      return new _promise.JobPostingBanner(function (resolve) {
+      return new _promise.default(function (resolve) {
         var existingResolve = _this2._resolveEmpty;
 
         _this2._resolveEmpty = function () {
@@ -4847,7 +4847,7 @@ exports.makePublicRouterInstance = makePublicRouterInstance;
 Object.defineProperty(exports, "withRouter", {
   enumerable: true,
   get: function get() {
-    return _withRouter.JobPostingBanner;
+    return _withRouter.default;
   }
 });
 exports.Router = exports.createRouter = exports.default = void 0;
@@ -4889,7 +4889,7 @@ var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'before
 
 Object.defineProperty(SingletonRouter, 'events', {
   get: function get() {
-    return _router.JobPostingBanner.events;
+    return _router.default.events;
   }
 });
 propertyFields.concat(urlPropertyFields).forEach(function (field) {
@@ -4897,7 +4897,7 @@ propertyFields.concat(urlPropertyFields).forEach(function (field) {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.JobPostingBanner)(SingletonRouter, field, {
+  (0, _defineProperty.default)(SingletonRouter, field, {
     get: function get() {
       throwIfNoRouter();
       return SingletonRouter.router[field];
@@ -4914,7 +4914,7 @@ coreMethodFields.forEach(function (field) {
 });
 routerEvents.forEach(function (event) {
   SingletonRouter.ready(function () {
-    _router.JobPostingBanner.events.on(event, function () {
+    _router.default.events.on(event, function () {
       var eventField = "on".concat(event.charAt(0).toUpperCase()).concat(event.substring(1));
 
       if (SingletonRouter[eventField]) {
@@ -4964,7 +4964,7 @@ var createRouter = function createRouter() {
     args[_key] = arguments[_key];
   }
 
-  SingletonRouter.router = (0, _construct2.JobPostingBanner)(_router.JobPostingBanner, args);
+  SingletonRouter.router = (0, _construct2.default)(_router.default, args);
   SingletonRouter.readyCallbacks.forEach(function (cb) {
     return cb();
   });
@@ -4974,18 +4974,18 @@ var createRouter = function createRouter() {
 
 
 exports.createRouter = createRouter;
-var Router = _router.JobPostingBanner;
+var Router = _router.default;
 exports.Router = Router;
 
 function _rewriteUrlForNextExport(url) {
   var _url$split = url.split('#'),
-      _url$split2 = (0, _slicedToArray2.JobPostingBanner)(_url$split, 2),
+      _url$split2 = (0, _slicedToArray2.default)(_url$split, 2),
       hash = _url$split2[1];
 
   url = url.replace(/#.*/, '');
 
   var _url$split3 = url.split('?'),
-      _url$split4 = (0, _slicedToArray2.JobPostingBanner)(_url$split3, 2),
+      _url$split4 = (0, _slicedToArray2.default)(_url$split3, 2),
       path = _url$split4[0],
       qs = _url$split4[1];
 
@@ -5014,8 +5014,8 @@ function makePublicRouterInstance(router) {
   for (var _i = 0; _i < urlPropertyFields.length; _i++) {
     var property = urlPropertyFields[_i];
 
-    if ((0, _typeof2.JobPostingBanner)(router[property]) === 'object') {
-      instance[property] = (0, _objectSpread2.JobPostingBanner)({}, router[property]); // makes sure query is not stateful
+    if ((0, _typeof2.default)(router[property]) === 'object') {
+      instance[property] = (0, _objectSpread2.default)({}, router[property]); // makes sure query is not stateful
 
       continue;
     }
@@ -5024,13 +5024,13 @@ function makePublicRouterInstance(router) {
   } // Events is a static property on the router, the router doesn't have to be initialized to use it
 
 
-  instance.events = _router.JobPostingBanner.events;
+  instance.events = _router.default.events;
   propertyFields.forEach(function (field) {
     // Here we need to use Object.defineProperty because, we need to return
     // the property assigned to the actual router
     // The value might get changed as we change routes and this is the
     // proper way to access it
-    (0, _defineProperty.JobPostingBanner)(instance, field, {
+    (0, _defineProperty.default)(instance, field, {
       get: function get() {
         return router[field];
       }
@@ -5108,8 +5108,8 @@ function () {
         ErrorComponent = _ref.ErrorComponent,
         err = _ref.err;
 
-    (0, _classCallCheck2.JobPostingBanner)(this, Router);
-    (0, _defineProperty2.JobPostingBanner)(this, "onPopState", function (e) {
+    (0, _classCallCheck2.default)(this, Router);
+    (0, _defineProperty2.default)(this, "onPopState", function (e) {
       if (!e.state) {
         // We get state as undefined for two reasons.
         //  1. With older safari (< 8) and older chrome (< 34)
@@ -5172,14 +5172,14 @@ function () {
     };
     this.events = Router.events;
     this.pageLoader = pageLoader;
-    this.prefetchQueue = new _pQueue.JobPostingBanner({
+    this.prefetchQueue = new _pQueue.default({
       concurrency: 2
     });
     this.ErrorComponent = ErrorComponent;
     this.pathname = _pathname;
     this.query = _query;
     this.asPath = _as2;
-    this.subscriptions = new _set.JobPostingBanner();
+    this.subscriptions = new _set.default();
     this.componentLoadCancel = null;
 
     this._beforePopState = function () {
@@ -5197,7 +5197,7 @@ function () {
     }
   }
 
-  (0, _createClass2.JobPostingBanner)(Router, [{
+  (0, _createClass2.default)(Router, [{
     key: "update",
     value: function update(route, Component) {
       var data = this.components[route];
@@ -5206,7 +5206,7 @@ function () {
         throw new Error("Cannot update unavailable route: ".concat(route));
       }
 
-      var newData = (0, _objectSpread2.JobPostingBanner)({}, data, {
+      var newData = (0, _objectSpread2.default)({}, data, {
         Component: Component
       });
       this.components[route] = newData; // pages/_app.js updated
@@ -5223,11 +5223,11 @@ function () {
   }, {
     key: "reload",
     value: function () {
-      var _reload = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _reload = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee(route) {
+      _regenerator.default.mark(function _callee(route) {
         var pathname, query, url, as, routeInfo, error;
-        return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+        return _regenerator.default.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -5311,19 +5311,19 @@ function () {
   }, {
     key: "change",
     value: function () {
-      var _change = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _change = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee2(method, _url, _as, options) {
+      _regenerator.default.mark(function _callee2(method, _url, _as, options) {
         var url, as, _parse, asPathname, asQuery, _parse2, pathname, query, route, _options$shallow, shallow, routeInfo, _routeInfo, error, hash;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee2$(_context2) {
+        return _regenerator.default.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 // If url and as provided as an object representation,
                 // we'll format them into the string version here.
-                url = (0, _typeof2.JobPostingBanner)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
-                as = (0, _typeof2.JobPostingBanner)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
+                url = (0, _typeof2.default)(_url) === 'object' ? (0, _url2.format)(_url) : _url;
+                as = (0, _typeof2.default)(_as) === 'object' ? (0, _url2.format)(_as) : _as; // Add the ending slash to the paths. So, we can serve the
                 // "<page>/index.html" directly for the SSR page.
 
                 if (__NEXT_DATA__.nextExport) {
@@ -5392,7 +5392,7 @@ function () {
                 Router.events.emit('beforeHistoryChange', as);
                 this.changeState(method, url, as, options);
                 hash = window.location.hash.substring(1);
-                this.set(route, pathname, query, as, (0, _objectSpread2.JobPostingBanner)({}, routeInfo, {
+                this.set(route, pathname, query, as, (0, _objectSpread2.default)({}, routeInfo, {
                   hash: hash
                 }));
 
@@ -5450,12 +5450,12 @@ function () {
   }, {
     key: "getRouteInfo",
     value: function () {
-      var _getRouteInfo = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _getRouteInfo = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee3(route, pathname, query, as) {
+      _regenerator.default.mark(function _callee3(route, pathname, query, as) {
         var routeInfo, _routeInfo2, Component, ctx, _Component, _ctx;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee3$(_context3) {
+        return _regenerator.default.wrap(function _callee3$(_context3) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
@@ -5600,12 +5600,12 @@ function () {
       if (!this.asPath) return false;
 
       var _this$asPath$split = this.asPath.split('#'),
-          _this$asPath$split2 = (0, _slicedToArray2.JobPostingBanner)(_this$asPath$split, 2),
+          _this$asPath$split2 = (0, _slicedToArray2.default)(_this$asPath$split, 2),
           oldUrlNoHash = _this$asPath$split2[0],
           oldHash = _this$asPath$split2[1];
 
       var _as$split = as.split('#'),
-          _as$split2 = (0, _slicedToArray2.JobPostingBanner)(_as$split, 2),
+          _as$split2 = (0, _slicedToArray2.default)(_as$split, 2),
           newUrlNoHash = _as$split2[0],
           newHash = _as$split2[1]; // Makes sure we scroll to the provided hash if the url/hash are the same
 
@@ -5629,7 +5629,7 @@ function () {
     key: "scrollToHash",
     value: function scrollToHash(as) {
       var _as$split3 = as.split('#'),
-          _as$split4 = (0, _slicedToArray2.JobPostingBanner)(_as$split3, 2),
+          _as$split4 = (0, _slicedToArray2.default)(_as$split3, 2),
           hash = _as$split4[1]; // Scroll to top if the hash is just `#` with no value
 
 
@@ -5657,7 +5657,7 @@ function () {
   }, {
     key: "urlIsNew",
     value: function urlIsNew(pathname, query) {
-      return this.pathname !== pathname || !(0, _shallowEquals.JobPostingBanner)(query, this.query);
+      return this.pathname !== pathname || !(0, _shallowEquals.default)(query, this.query);
     }
   }, {
     key: "isShallowRoutingPossible",
@@ -5670,14 +5670,14 @@ function () {
   }, {
     key: "prefetch",
     value: function () {
-      var _prefetch = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _prefetch = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee4(url) {
+      _regenerator.default.mark(function _callee4(url) {
         var _this2 = this;
 
         var _parse3, pathname, route;
 
-        return _regenerator.JobPostingBanner.wrap(function _callee4$(_context4) {
+        return _regenerator.default.wrap(function _callee4$(_context4) {
           while (1) {
             switch (_context4.prev = _context4.next) {
               case 0:
@@ -5709,11 +5709,11 @@ function () {
   }, {
     key: "fetchComponent",
     value: function () {
-      var _fetchComponent = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _fetchComponent = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee5(route, as) {
+      _regenerator.default.mark(function _callee5(route, as) {
         var cancelled, cancel, Component, error;
-        return _regenerator.JobPostingBanner.wrap(function _callee5$(_context5) {
+        return _regenerator.default.wrap(function _callee5$(_context5) {
           while (1) {
             switch (_context5.prev = _context5.next) {
               case 0:
@@ -5762,11 +5762,11 @@ function () {
   }, {
     key: "getInitialProps",
     value: function () {
-      var _getInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _getInitialProps = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee6(Component, ctx) {
+      _regenerator.default.mark(function _callee6(Component, ctx) {
         var cancelled, cancel, App, props, err;
-        return _regenerator.JobPostingBanner.wrap(function _callee6$(_context6) {
+        return _regenerator.default.wrap(function _callee6$(_context6) {
           while (1) {
             switch (_context6.prev = _context6.next) {
               case 0:
@@ -5821,10 +5821,10 @@ function () {
   }, {
     key: "fetchRoute",
     value: function () {
-      var _fetchRoute = (0, _asyncToGenerator2.JobPostingBanner)(
+      var _fetchRoute = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.JobPostingBanner.mark(function _callee7(route) {
-        return _regenerator.JobPostingBanner.wrap(function _callee7$(_context7) {
+      _regenerator.default.mark(function _callee7(route) {
+        return _regenerator.default.wrap(function _callee7$(_context7) {
           while (1) {
             switch (_context7.prev = _context7.next) {
               case 0:
@@ -5858,7 +5858,7 @@ function () {
     value: function notify(data) {
       var App = this.components['/_app'].Component;
       this.subscriptions.forEach(function (fn) {
-        return fn((0, _objectSpread2.JobPostingBanner)({}, data, {
+        return fn((0, _objectSpread2.default)({}, data, {
           App: App
         }));
       });
@@ -5878,7 +5878,7 @@ function () {
 }();
 
 exports.default = Router;
-(0, _defineProperty2.JobPostingBanner)(Router, "events", new _EventEmitter.JobPostingBanner());
+(0, _defineProperty2.default)(Router, "events", new _EventEmitter.default());
 
 function toRoute(path) {
   return path.replace(/\/$/, '') || '/';
@@ -5933,30 +5933,30 @@ function withRouter(ComposedComponent) {
   var WithRouteWrapper =
   /*#__PURE__*/
   function (_Component) {
-    (0, _inherits2.JobPostingBanner)(WithRouteWrapper, _Component);
+    (0, _inherits2.default)(WithRouteWrapper, _Component);
 
     function WithRouteWrapper() {
-      (0, _classCallCheck2.JobPostingBanner)(this, WithRouteWrapper);
-      return (0, _possibleConstructorReturn2.JobPostingBanner)(this, (0, _getPrototypeOf2.JobPostingBanner)(WithRouteWrapper).apply(this, arguments));
+      (0, _classCallCheck2.default)(this, WithRouteWrapper);
+      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(WithRouteWrapper).apply(this, arguments));
     }
 
-    (0, _createClass2.JobPostingBanner)(WithRouteWrapper, [{
+    (0, _createClass2.default)(WithRouteWrapper, [{
       key: "render",
       value: function render() {
-        var props = (0, _objectSpread2.JobPostingBanner)({
+        var props = (0, _objectSpread2.default)({
           router: this.context.router
         }, this.props);
-        return _react.JobPostingBanner.createElement(ComposedComponent, props);
+        return _react.default.createElement(ComposedComponent, props);
       }
     }]);
     return WithRouteWrapper;
   }(_react.Component);
 
-  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "contextTypes", {
-    router: _propTypes.JobPostingBanner.object
+  (0, _defineProperty2.default)(WithRouteWrapper, "contextTypes", {
+    router: _propTypes.default.object
   });
-  (0, _defineProperty2.JobPostingBanner)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
-  return (0, _hoistNonReactStatics.JobPostingBanner)(WithRouteWrapper, ComposedComponent);
+  (0, _defineProperty2.default)(WithRouteWrapper, "displayName", "withRouter(".concat(displayName, ")"));
+  return (0, _hoistNonReactStatics.default)(WithRouteWrapper, ComposedComponent);
 }
 
 /***/ }),
@@ -6050,12 +6050,12 @@ function loadGetInitialProps(_x, _x2) {
 }
 
 function _loadGetInitialProps() {
-  _loadGetInitialProps = (0, _asyncToGenerator2.JobPostingBanner)(
+  _loadGetInitialProps = (0, _asyncToGenerator2.default)(
   /*#__PURE__*/
-  _regenerator.JobPostingBanner.mark(function _callee(Component, ctx) {
+  _regenerator.default.mark(function _callee(Component, ctx) {
     var compName, message, props, _compName, _message;
 
-    return _regenerator.JobPostingBanner.wrap(function _callee$(_context) {
+    return _regenerator.default.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -6145,12 +6145,12 @@ module.exports = __webpack_require__(/*! next/app */ "./node_modules/next/app.js
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -6758,19 +6758,30 @@ if (true) {
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/object-assign/index.js":
+/*!***************************************************************************************************!*\
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/object-assign/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/punycode/punycode.js":
+/*!*******************************************!*\
+  !*** ./node_modules/punycode/punycode.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7294,18 +7305,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/object-assign/index.js":
-/*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_19b830e266d1a33d6422 ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/object-assign/index.js");
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -7520,12 +7520,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -8340,7 +8340,7 @@ if (hadRuntime) {
 
 
 
-var punycode = __webpack_require__(/*! punycode */ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js");
+var punycode = __webpack_require__(/*! punycode */ "./node_modules/punycode/punycode.js");
 var util = __webpack_require__(/*! ./util */ "./node_modules/url/util.js");
 
 exports.parse = urlParse;
@@ -9083,12 +9083,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_19b830e266d1a33d6422 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_19b830e266d1a33d6422 */ "dll-reference dll_19b830e266d1a33d6422"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -9133,20 +9133,20 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __NEXT_REGISTER_PAGE('/_app', function() {
-module.exports = __webpack_require__(/*! /home/dean/Web/nos/website/node_modules/next/dist/pages/_app.js */"./node_modules/next/dist/pages/_app.js");
+module.exports = __webpack_require__(/*! D:\Web2\website\node_modules\next\dist\pages\_app.js */"./node_modules/next/dist/pages/_app.js");
 
-return { page: module.exports.JobPostingBanner }});
+return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_19b830e266d1a33d6422":
+/***/ "dll-reference dll_8127e4a26b28a85e2cfb":
 /*!*******************************************!*\
-  !*** external "dll_19b830e266d1a33d6422" ***!
+  !*** external "dll_8127e4a26b28a85e2cfb" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_19b830e266d1a33d6422;
+module.exports = dll_8127e4a26b28a85e2cfb;
 
 /***/ })
 
