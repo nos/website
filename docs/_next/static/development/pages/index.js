@@ -2103,7 +2103,7 @@ function (_React$Component) {
         },
         __self: this
       }, "We're hiring! ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "https://drive.google.com/file/d/1IwiBFh0CAs1mLTB-KQpT9xv7wVBW9GfM/view?usp=sharing",
+        href: "static/job-posting.pdf",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
