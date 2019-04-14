@@ -28,7 +28,7 @@ export default class JobPostingBanner extends React.Component {
     return (
         <div className={styles.gdprBanner}>
           <p>
-            We're hiring! <Link href="https://drive.google.com/file/d/1IwiBFh0CAs1mLTB-KQpT9xv7wVBW9GfM/view?usp=sharing"><a>Hybrid React &amp; React Native Developer</a></Link>.
+            We're hiring! <Link href="https://drive.google.com/file/d/1IwiBFh0CAs1mLTB-KQpT9xv7wVBW9GfM/view"><a>Hybrid React &amp; React Native Developer</a></Link>.
           </p>
           <button type="button" onClick={this.props.onClose}>
             Close
