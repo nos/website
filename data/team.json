@@ -13,18 +13,6 @@
     "github": "https://github.com/deanpress"
   },
   {
-    "name": "Matt Huggins",
-    "role": "Lead Developer",
-    "image": "static/team-matt.png",
-    "experience": [
-      "Developer at City of Zion",
-      "Maintainer of Neon Wallet"
-    ],
-    "linkedin": "https://linkedin.com/in/huggie",
-    "twitter": "https://twitter.com/mhuggins",
-    "github": "https://github.com/mhuggins"
-  },
-  {
     "name": "Jeroen Peeters",
     "role": "Developer / Project Manager",
     "image": "static/team-jeoren.png",
@@ -83,6 +71,18 @@
       "B.Sc. in Financial and Actuarial Mathematics"
     ],
     "linkedin": "https://www.linkedin.com/in/alexandra-b-639773173/"
+  },
+  {
+    "name": "Matt Huggins",
+    "role": "Code Contributor",
+    "image": "static/team-matt.png",
+    "experience": [
+      "Developer at City of Zion",
+      "Former maintainer of Neon Wallet"
+    ],
+    "linkedin": "https://linkedin.com/in/huggie",
+    "twitter": "https://twitter.com/mhuggins",
+    "github": "https://github.com/mhuggins"
   },
   {
     "name": "Nick Nikijuluw",
