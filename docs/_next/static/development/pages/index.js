@@ -203,7 +203,7 @@ var Diagram = function Diagram() {
       lineNumber: 16
     },
     __self: this
-  }), "nOS client"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), "nOS Browser"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Diagram_scss__WEBPACK_IMPORTED_MODULE_5___default.a.item,
     __source: {
       fileName: _jsxFileName,
@@ -1090,13 +1090,13 @@ function (_React$Component) {
           lineNumber: 38
         },
         __self: this
-      }, "Open Internet Browser"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Browser"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         },
         __self: this
-      }, "Use nOS Client and experience the open, decentralized internet. Access applications (dApps) that use the nos:// protocol, interact with crypto-currencies, and own your data."));
+      }, "Easily use apps that integrate with crypto-currencies. Contribute crypto to the apps you care about with Attention-Based Rewards."));
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderApps", function () {
@@ -1165,13 +1165,13 @@ function (_React$Component) {
           lineNumber: 63
         },
         __self: this
-      }, "dApp Gateway"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "App Store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
-      }, "Discover decentralized applications in our user-friendly dApp Gateway. Unlike traditional App Stores, nOS applications are ranked in an open and decentralized manner."));
+      }, "A decentralized portal where apps can be listed and discovered, managed entirely by voter-elected curators. "));
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderWallet", function () {
@@ -1245,7 +1245,7 @@ function (_React$Component) {
           lineNumber: 89
         },
         __self: this
-      }, "Manage, send, and receive crypto-currencies and digital assets securely in the Wallet tab of nOS Client."));
+      }, "Stake, send, and receive digital assets, and vote for delegates and curators on the nOS Network."));
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "renderExchange", function () {
@@ -1320,7 +1320,7 @@ function (_React$Component) {
           lineNumber: 114
         },
         __self: this
-      }, "Powered by NEX, nOS lets you easily trade crypto-currencies and other digital assets, directly from nOS Client."));
+      }, "nOS lets you easily trade crypto-currencies and other digital assets, directly from nOS Browser."));
     });
 
     return _this;
@@ -1421,7 +1421,7 @@ var Footer = function Footer() {
       lineNumber: 11
     },
     __self: this
-  }, "\xA9 Copyright 2018 nOS - All Rights Reserved"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "\xA9 Copyright 2018-2019 nOS - All Rights Reserved"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1733,14 +1733,14 @@ var Hero = function Hero() {
       lineNumber: 10
     },
     __self: this
-  }, "Discover & Build the web of the future"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Access the crypto-powered web."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: _Hero_scss__WEBPACK_IMPORTED_MODULE_5___default.a.large,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Discover or create apps using blockchains and cryptocurrencies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Decorator__WEBPACK_IMPORTED_MODULE_2__["default"], {
     version: 3,
     animation: 1,
     outline: true,
@@ -2419,7 +2419,7 @@ function (_React$Component) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "description",
-        content: "nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications",
+        content: "nOS is an all-in-one platform that introduces new implementable business models powered by blockchain technologies. Any application can leverage nOS to extend its revenue generating strategies without surrendering user privacy.",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
@@ -2482,7 +2482,7 @@ _defineProperty(Layout, "propTypes", {
 });
 
 _defineProperty(Layout, "defaultProps", {
-  title: 'nOS - Operating System for the Decentralized Internet',
+  title: 'nOS - Access the crypto-powered web',
   fixed: false
 });
 
@@ -2730,19 +2730,6 @@ var Navigation = function Navigation(props) {
     },
     __self: this
   }, "Token")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/#showcases",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "Showcases")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/#team",
     __source: {
       fileName: _jsxFileName,
@@ -4326,27 +4313,20 @@ var Token = function Token() {
       lineNumber: 13
     },
     __self: this
-  }, "Token Utility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "Network Coin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "NOS Token"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "NOS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.large,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "NOS is the backbone of the nOS Virtual Operating System.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.small,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Please note that we are still adding new utilities. Not all listed features are live yet."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.cards,
     __source: {
       fileName: _jsxFileName,
@@ -4376,7 +4356,7 @@ var Token = function Token() {
       lineNumber: 27
     },
     __self: this
-  }, "Get NOS token"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Get NOS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Token_scss__WEBPACK_IMPORTED_MODULE_4___default.a.exchanges,
     __source: {
       fileName: _jsxFileName,
@@ -4430,10 +4410,10 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************!*\
   !*** ./data/exchanges.json ***!
   \*****************************/
-/*! exports provided: 0, 1, default */
+/*! exports provided: 0, default */
 /***/ (function(module) {
 
-module.exports = [{"name":"Switcheo","image":"static/exchange-switcheo.svg","width":"308","url":"https://switcheo.exchange/markets/NOS_NEO"},{"name":"Bitmart","image":"static/exchange-bitmart.png","width":"240","url":"https://www.bitmart.com/trade?symbol=NOS_BTC"}];
+module.exports = [{"name":"Switcheo","image":"static/exchange-switcheo.svg","width":"308","url":"https://switcheo.exchange/markets/NOS_NEO"}];
 
 /***/ }),
 
@@ -4441,10 +4421,10 @@ module.exports = [{"name":"Switcheo","image":"static/exchange-switcheo.svg","wid
 /*!****************************!*\
   !*** ./data/partners.json ***!
   \****************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = [{"name":"NEO Global Capital","image":"static/logo-ngc.png","width":"78"},{"name":"Travala","image":"static/logo-travala.png","width":"175"},{"name":"Data Access Worldwide","image":"static/logo-data-access.png","width":"216"},{"name":"Moonlight","image":"static/logo-moonlight.png","width":"198"},{"name":"Nash","image":"static/logo-nash.svg","width":"115"},{"name":"Cruzeo","image":"static/logo-cruzeo.png","width":"180"}];
+module.exports = [{"name":"Travala","image":"static/logo-travala.png","width":"175"},{"name":"Data Access Worldwide","image":"static/logo-data-access.png","width":"216"},{"name":"NEO Global Capital","image":"static/logo-ngc.png","width":"78"},{"name":"ARK","image":"static/logo-ark.png","width":"205"},{"name":"Nash","image":"static/logo-nash.svg","width":"120"},{"name":"Scatter","image":"static/logo-scatter.png","width":"110"},{"name":"Moonlight","image":"static/logo-moonlight.png","width":"198"},{"name":"Cruzeo","image":"static/logo-cruzeo.png","width":"180"}];
 
 /***/ }),
 
@@ -4466,7 +4446,7 @@ module.exports = [{"name":"Voteo","image":"static/dapp-voteo.png","color":"blue"
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, default */
 /***/ (function(module) {
 
-module.exports = [{"name":"Dean van Dugteren","role":"Founder & CEO","image":"static/team-dean.png","experience":["Developer at City of Zion","Founder VDT.Network","Founder Click.DJ"],"linkedin":"https://linkedin.com/in/Deanpress","twitter":"https://twitter.com/Deanpress","github":"https://github.com/deanpress"},{"name":"Matt Huggins","role":"Lead Developer","image":"static/team-matt.png","experience":["Developer at City of Zion","Maintainer of Neon Wallet"],"linkedin":"https://linkedin.com/in/huggie","twitter":"https://twitter.com/mhuggins","github":"https://github.com/mhuggins"},{"name":"Jeroen Peeters","role":"Developer / Project Manager","image":"static/team-jeoren.png","experience":["Front-end Consultant at Evance","Contributor at City of Zion","Creator of Neoblog"],"linkedin":"https://linkedin.com/in/jeroenptrs","twitter":"https://twitter.com/_jptrs","github":"https://github.com/jeroenptrs"},{"name":"Maurice Dalderup","role":"Full-stack Developer","image":"static/team-maurice.png","experience":["Blockchain Consultant at Trase","Contributor at City of Zion","Creator of Neoblog"],"linkedin":"https://linkedin.com/in/mauricedalderup","twitter":"https://twitter.com/mauricedalderup","github":"https://github.com/dalderupmaurice"},{"name":"Fabricio Rosa Marques","role":"Design Contributor","image":"static/team-fab.png","experience":["Lead Designer at Pitch","Product Designer at Pie","Designer at fournova (Tower)"],"linkedin":"https://linkedin.com/in/fabriciorm","dribbble":"https://dribbble.com/fabric8"},{"name":"Nikolaj Kuntner","role":"Research Contributor","image":"static/team-nikolaj.png","experience":["Developer at City of Zion","Laboratory Technician at Institute of Science and Technology Austria","Software Engineer at DAQRI"],"linkedin":"https://www.linkedin.com/in/nikolaj-kuntner-0138aa104","github":"https://github.com/Nikolaj-K"},{"name":"Alexandra Bergmayr","role":"Research Contributor","image":"static/team-alexandra.png","experience":["B.Sc. in Technical Mathematics","B.Sc. in Financial and Actuarial Mathematics"],"linkedin":"https://www.linkedin.com/in/alexandra-b-639773173/"},{"name":"Nick Nikijuluw","role":"Enterprise Solutions Advisor","image":"static/team-nick.png","experience":["Managing Director at Data Access Europe"],"linkedin":"https://www.linkedin.com/in/nick-nikijuluw-240956"},{"name":"Roger Lim","role":"Advisor","image":"static/team-roger.png","experience":["Neo Global Capital Founding Partner","Advisor to Bluzelle, QLink, Tomocoin, 0Chain, Open Platform."],"linkedin":"https://linkedin.com/in/limroger"}];
+module.exports = [{"name":"Dean van Dugteren","role":"Founder & CEO","image":"static/team-dean.png","experience":["Developer at City of Zion","Founder VDT.Network","Founder Click.DJ"],"linkedin":"https://linkedin.com/in/Deanpress","twitter":"https://twitter.com/Deanpress","github":"https://github.com/deanpress"},{"name":"Jeroen Peeters","role":"Developer / Project Manager","image":"static/team-jeoren.png","experience":["Front-end Consultant at Evance","Contributor at City of Zion","Creator of Neoblog"],"linkedin":"https://linkedin.com/in/jeroenptrs","twitter":"https://twitter.com/_jptrs","github":"https://github.com/jeroenptrs"},{"name":"Maurice Dalderup","role":"Full-stack Developer","image":"static/team-maurice.png","experience":["Blockchain Consultant at Trase","Contributor at City of Zion","Creator of Neoblog"],"linkedin":"https://linkedin.com/in/mauricedalderup","twitter":"https://twitter.com/mauricedalderup","github":"https://github.com/dalderupmaurice"},{"name":"Fabricio Rosa Marques","role":"Design Contributor","image":"static/team-fab.png","experience":["Lead Designer at Pitch","Product Designer at Pie","Designer at fournova (Tower)"],"linkedin":"https://linkedin.com/in/fabriciorm","dribbble":"https://dribbble.com/fabric8"},{"name":"Nikolaj Kuntner","role":"Research Contributor","image":"static/team-nikolaj.png","experience":["Developer at City of Zion","Laboratory Technician at Institute of Science and Technology Austria","Software Engineer at DAQRI"],"linkedin":"https://www.linkedin.com/in/nikolaj-kuntner-0138aa104","github":"https://github.com/Nikolaj-K"},{"name":"Alexandra Bergmayr","role":"Research Contributor","image":"static/team-alexandra.png","experience":["B.Sc. in Technical Mathematics","B.Sc. in Financial and Actuarial Mathematics"],"linkedin":"https://www.linkedin.com/in/alexandra-b-639773173/"},{"name":"Matt Huggins","role":"Code Contributor","image":"static/team-matt.png","experience":["Developer at City of Zion","Former maintainer of Neon Wallet"],"linkedin":"https://linkedin.com/in/huggie","twitter":"https://twitter.com/mhuggins","github":"https://github.com/mhuggins"},{"name":"Nick Nikijuluw","role":"Enterprise Solutions Advisor","image":"static/team-nick.png","experience":["Managing Director at Data Access Europe"],"linkedin":"https://www.linkedin.com/in/nick-nikijuluw-240956"},{"name":"Roger Lim","role":"Advisor","image":"static/team-roger.png","experience":["Neo Global Capital Founding Partner","Advisor to Bluzelle, QLink, Tomocoin, 0Chain, Open Platform."],"linkedin":"https://linkedin.com/in/limroger"}];
 
 /***/ }),
 
@@ -4474,10 +4454,10 @@ module.exports = [{"name":"Dean van Dugteren","role":"Founder & CEO","image":"st
 /*!*************************!*\
   !*** ./data/token.json ***!
   \*************************/
-/*! exports provided: 0, 1, 2, 3, 4, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = [{"title":"Domain Names","image":"static/token-domain-names.svg"},{"title":"Transaction Fees","image":"static/token-transaction-fees.svg"},{"title":"Application Use","image":"static/token-app-use.svg"},{"title":"Token Conversion","image":"static/token-conversion.svg"},{"title":"App Voting","image":"static/token-app-voting.svg"}];
+module.exports = [{"title":"Stake","image":"static/token-staking.svg"},{"title":"Transfer","image":"static/token-transaction-fees.svg"},{"title":"Vote","image":"static/token-app-voting.svg"},{"title":"Reward","image":"static/token-reward-sharing.svg"},{"title":"Use Apps","image":"static/token-app-use.svg"},{"title":"Deploy Apps","image":"static/token-domain-names.svg"}];
 
 /***/ }),
 
@@ -28781,12 +28761,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/link */ "./node_modules/next
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -29394,23 +29374,23 @@ if (true) {
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -30598,23 +30578,23 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -32172,12 +32152,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_8127e4a26b28a85e2cfb ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_aea5a84f9025b36d9dbf ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_8127e4a26b28a85e2cfb */ "dll-reference dll_8127e4a26b28a85e2cfb"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_aea5a84f9025b36d9dbf */ "dll-reference dll_aea5a84f9025b36d9dbf"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -32804,18 +32784,6 @@ var Index = function Index() {
       lineNumber: 18
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Showcase__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Diagram__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Team__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
@@ -32862,14 +32830,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_8127e4a26b28a85e2cfb":
+/***/ "dll-reference dll_aea5a84f9025b36d9dbf":
 /*!*******************************************!*\
-  !*** external "dll_8127e4a26b28a85e2cfb" ***!
+  !*** external "dll_aea5a84f9025b36d9dbf" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_8127e4a26b28a85e2cfb;
+module.exports = dll_aea5a84f9025b36d9dbf;
 
 /***/ })
 

@@ -8,8 +8,8 @@
 <path d="M30.0112 31.0493C20.2685 40.7921 14.3358 50.805 16.2856 54.0151" stroke="url(#paint4_linear)" stroke-opacity="0.7" stroke-width="2" stroke-linejoin="bevel"/>
 <defs>
 <linearGradient id="paint0_linear" x1="-3.28907e-05" y1="70" x2="70" y2="70" gradientUnits="userSpaceOnUse">
-<stop stop-color="#B9D532"/>
-<stop offset="1" stop-color="#5BBA47"/>
+<stop stop-color="#A5AFFB"/>
+<stop offset="1" stop-color="#6979F8"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="44.625" y1="14.8333" x2="20.3333" y2="54.25" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
