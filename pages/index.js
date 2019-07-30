@@ -16,8 +16,8 @@ const Index = () => (
         <Features/>
         <Token/>
         <Newsletter/>
-        <Showcase/>
-        <Diagram/>
+        {/*<Showcase/>*/}
+        {/*<Diagram/>*/}
         <Team/>
         {/* <Demo /> */}
     </Layout>

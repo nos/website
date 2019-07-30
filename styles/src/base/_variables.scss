@@ -23,6 +23,9 @@ $base-z-index: 0;
 $green: #5BBA47;
 $green-light: #B9D532;
 
+$violet: #6979F8;
+$violet-light: #A5AFFB;
+
 $dark-gray: #443562;
 $medium-gray: #8F84A6;
 $light-gray: #E9E6EF;
@@ -32,13 +35,17 @@ $green-gradient-vertical:  linear-gradient(180deg, $green-light 0%, $green 100%)
 $green-gradient-vertical-hover: linear-gradient(180deg, $green-light -75%, $green 100%);
 $green-gradient-diagonal: linear-gradient(90deg, $green-light 0%, $green 100%);
 
+$primary-gradient-vertical:  linear-gradient(180deg, $violet-light 0%, $violet 100%);
+$primary-gradient-vertical-hover: linear-gradient(180deg, $violet-light -75%, $violet 100%);
+$primary-gradient-diagonal: linear-gradient(90deg, $violet-light 0%, $violet 100%);
+
 
 $blue-gradient: linear-gradient(180deg, #6762F4 0%, #60BFFB 100%);
 $red-gradient: linear-gradient(180deg, #F1408C 0%, #FF8A8D 100%);
 
 // Font Colors
 $base-font-color: $dark-gray;
-$action-color: $green;
+$action-color: $violet;
 
 // Border
 $base-border-color: $light-gray;

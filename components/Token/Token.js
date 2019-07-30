@@ -10,11 +10,11 @@ const Token = () => (
   <Section className={styles.token}>
     <a name="token" />
     <Intro>
-      <h3 className={styles.subtitle}>Token Utility</h3>
-      <h2>NOS Token</h2>
+      <h3 className={styles.subtitle}>Network Coin</h3>
+      <h2>NOS</h2>
       <p className={styles.large}>
-        NOS is the backbone of the nOS Virtual Operating System. 
-        <span className={styles.small}>Please note that we are still adding new utilities. Not all listed features are live yet.</span>
+          { /* NOS is the backbone of the nOS Ecosystem. */ }
+          {/* <span className={styles.small}>Not all listed features are live yet.</span> */ }
           {/*{' '}*/}
       </p>
     </Intro>
@@ -24,7 +24,7 @@ const Token = () => (
       ))}
     </div>
     <Container>
-      <h3 className={styles.subtitle}>Get NOS token</h3>
+      <h3 className={styles.subtitle}>Get NOS</h3>
       <div className={styles.exchanges}>
         {exchanges.map((exchange, i) => (
           <a key={`anchorelement-${i}`} href={exchange.url}><img key={exchange.name} src={exchange.image} alt={exchange.name} width={exchange.width} /></a>

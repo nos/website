@@ -35,8 +35,8 @@ export default class Features extends React.Component {
         </React.Fragment>
       )}>
         <img src="static/icon-feature-browser.svg" />
-        <h2>Open Internet Browser</h2>
-          <p>Use nOS Client and experience the open, decentralized internet. Access applications (dApps) that use the nos:// protocol, interact with crypto-currencies, and own your data.</p>
+        <h2>Browser</h2>
+          <p>Easily use apps that integrate with crypto-currencies. Contribute crypto to the apps you care about with Attention-Based Rewards.</p>
       </Feature>
     )
   }
@@ -60,8 +60,8 @@ export default class Features extends React.Component {
         </React.Fragment>
       )}>
         <img src="static/icon-feature-dapps.svg" />
-        <h2>dApp Gateway</h2>
-        <p>Discover decentralized applications in our user-friendly dApp Gateway. Unlike traditional App Stores, nOS applications are ranked in an open and decentralized manner.</p>
+        <h2>App Store</h2>
+        <p>A decentralized portal where apps can be listed and discovered, managed entirely by voter-elected curators. </p>
       </Feature>
     );
   }
@@ -86,7 +86,7 @@ export default class Features extends React.Component {
       )}>
         <img src="static/icon-feature-wallet.svg" />
         <h2>Crypto Wallet</h2>
-        <p>Manage, send, and receive crypto-currencies and digital assets securely in the Wallet tab of nOS Client.</p>
+        <p>Stake, send, and receive digital assets, and vote for delegates and curators on the nOS Network.</p>
       </Feature>
     );
   }
@@ -111,7 +111,7 @@ export default class Features extends React.Component {
       )}>
         <img src="static/icon-feature-exchange.svg" />
         <h2>Exchange</h2>
-        <p>Powered by NEX, nOS lets you easily trade crypto-currencies and other digital assets, directly from nOS Client.</p>
+        <p>nOS lets you easily trade crypto-currencies and other digital assets, directly from nOS Browser.</p>
       </Feature>
     );
   }

@@ -4,11 +4,5 @@
     "image": "static/exchange-switcheo.svg",
     "width": "308",
     "url": "https://switcheo.exchange/markets/NOS_NEO"
-  },
-  {
-    "name": "Bitmart",
-    "image": "static/exchange-bitmart.png",
-    "width": "240",
-    "url": "https://www.bitmart.com/trade?symbol=NOS_BTC"
   }
 ]

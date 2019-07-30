@@ -7,10 +7,10 @@ import styles from './Hero.scss';
 const Hero = () => (
   <Section className={styles.hero}>
     <a name="hero" />
-    <h1>Discover &amp; Build the web of the future</h1>
+    <h1>Access the crypto-powered web.</h1>
 
     <p className={styles.large}>
-      Access the new, decentralized internet. nOS is the virtual operating system for the Smart Economy.
+        Discover or create apps using blockchains and cryptocurrencies.
     </p>
 
     <Decorator

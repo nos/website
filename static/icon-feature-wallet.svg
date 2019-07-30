@@ -7,8 +7,8 @@
 <circle cx="44" cy="38" r="2" fill="url(#paint5_linear)"/>
 <defs>
 <linearGradient id="paint0_linear" x1="-3.28907e-05" y1="70" x2="70" y2="70" gradientUnits="userSpaceOnUse">
-<stop stop-color="#B9D532"/>
-<stop offset="1" stop-color="#5BBA47"/>
+<stop stop-color="#A5AFFB"/>
+<stop offset="1" stop-color="#6979F8"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="47" y1="19" x2="42.7465" y2="8.53515" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>

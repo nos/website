@@ -13,7 +13,7 @@ const Diagram = () => (
     <Container className={styles.content}>
       <div className={classNames(styles.section, styles.client)}>
         <span className={styles.label}>
-          <span className={classNames(styles.connectorNode, styles.incoming)}></span>nOS client
+          <span className={classNames(styles.connectorNode, styles.incoming)}></span>nOS Browser
         </span>
         <div className={styles.item}>
           <img src="static/feature-browser.svg" />

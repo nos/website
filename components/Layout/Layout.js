@@ -18,7 +18,7 @@ export default class Layout extends React.Component {
   }
 
   static defaultProps = {
-    title: 'nOS - Operating System for the Decentralized Internet',
+    title: 'nOS - Access the crypto-powered web',
     fixed: false
   }
 
@@ -60,7 +60,7 @@ export default class Layout extends React.Component {
           <Head>
             <meta charSet="utf-8" />
             <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-            <meta name="description" content="nOS is the Virtual Operating for the Decentralized Internet. Build, discover, and use Decentralized Applications" />
+            <meta name="description" content="nOS is an all-in-one platform that introduces new implementable business models powered by blockchain technologies. Any application can leverage nOS to extend its revenue generating strategies without surrendering user privacy." />
             <meta name="og:image" content="static/dapps-snapshot.png" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <link rel="shortcut icon" href="static/logo-nos.png" type="image/x-icon" />

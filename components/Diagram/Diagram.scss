@@ -98,7 +98,7 @@
         position: absolute;
         height: calc(100% + 348px);
         width: 4px;
-        background: $green-gradient-vertical;
+        background: $primary-gradient-vertical;
         left: -42px;
         top: -80px;
         z-index: 3;
@@ -143,7 +143,7 @@
     height: 112px;
     color: white;
     border-radius: $base-border-radius;
-    background: url("/static/authority-people.svg") bottom center no-repeat, $green-gradient-vertical;
+    background: url("/static/authority-people.svg") bottom center no-repeat, $primary-gradient-vertical;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@
       position: absolute;
       height: 264px;
       width: 4px;
-      background: $green-gradient-vertical;
+      background: $primary-gradient-vertical;
       left: 16px;
       top: -80px;
       z-index: 3;
@@ -221,7 +221,7 @@
       position: absolute;
       height: 4px;
       width: 68px;
-      background: $green-gradient-vertical;
+      background: $primary-gradient-vertical;
       left: -58px;
       top: 174px;
       z-index: 3;
@@ -240,7 +240,7 @@
       position: absolute;
       height: 120px;
       width: 4px;
-      background: $green-gradient-vertical;
+      background: $primary-gradient-vertical;
       left: 16px;
       top: 174px;
       z-index: 3;

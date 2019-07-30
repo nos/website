@@ -8,7 +8,7 @@ const Footer = () => (
   <footer>
     <div className={styles.left}>
       <img src="static/nos-logo-positive.svg" />
-      <p>© Copyright 2018 nOS - All Rights Reserved</p>
+      <p>© Copyright 2018-2019 nOS - All Rights Reserved</p>
       <p><Link href="/privacy"><a>Privacy Policy</a></Link></p>
     </div>
     <div className={styles.center}>

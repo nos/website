@@ -3,7 +3,7 @@ $_button-background-color-hover: shade($action-color, 20%);
 
 #{$all-buttons} {
   appearance: none;
-  background-image: $green-gradient-vertical;
+  background-image: $primary-gradient-vertical;
   background-color: $_button-background-color;
   border: 0 transparent;
   border-radius: 999px;

@@ -19,9 +19,9 @@ const Navigation = props => (
       <Link href="/#token">
         <a>Token</a>
       </Link>
-      <Link href="/#showcases">
+      { /* <Link href="/#showcases">
         <a>Showcases</a>
-      </Link>
+      </Link> */ }
       {/* <Link href="/#demo"><a>Create</a></Link> */}
       <Link href="/#team">
         <a>Team</a>
