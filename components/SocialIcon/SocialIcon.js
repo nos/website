@@ -7,6 +7,7 @@ const CLASSES = {
   discord: styles.discord,
   medium: styles.medium,
   reddit: styles.reddit,
+  noschat: styles.noschat,
   telegram: styles.telegram,
   twitter: styles.twitter
 };

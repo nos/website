@@ -18,7 +18,7 @@ const Footer = () => (
       <p>Follow or <a className={styles.email} href="mailto:contact@nos.io">write us</a></p>
       <SocialIcon name="twitter" href="https://twitter.com/nOSplatform" />
       <SocialIcon name="reddit" href="https://www.reddit.com/r/nOSplatform" />
-      <SocialIcon name="discord" href="https://discord.nos.io/" />
+      <SocialIcon name="noschat" href="https://nos.chat/" />
       <SocialIcon name="telegram" href="https://t.me/nOSchat" />
       <SocialIcon name="medium" href="https://medium.com/nos-io" />
     </div>
