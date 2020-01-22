@@ -1,21 +1,12 @@
 [
   {
     "name": "Dean van Dugteren",
-    "role": "Founder & CEO",
+    "role": "Founder & Blockchain Developer",
     "image": "static/team-dean.png",
-    "experience": ["Developer at City of Zion", "Founder VDT.Network", "Founder Click.DJ"],
+    "experience": ["Founder Click.DJ", "Founder VDT.Network", "Developer at City of Zion"],
     "linkedin": "https://linkedin.com/in/Deanpress",
     "twitter": "https://twitter.com/Deanpress",
     "github": "https://github.com/deanpress"
-  },
-  {
-    "name": "Jeroen Peeters",
-    "role": "Developer / Project Manager",
-    "image": "static/team-jeoren.png",
-    "experience": ["Front-end Developer at Unified Post", "Contributor at City of Zion", "Creator of Neoblog"],
-    "linkedin": "https://linkedin.com/in/jeroenptrs",
-    "twitter": "https://twitter.com/_jptrs",
-    "github": "https://github.com/jeroenptrs"
   },
   {
     "name": "Maurice Dalderup",
